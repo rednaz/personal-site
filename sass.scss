@@ -1,0 +1,248 @@
+/* CSS Document */
+
+$silver-blue:		#D9D9FF;
+$deep-silver-blue:	#E9E9FF;
+
+$navigation-color:	$silver-blue;
+$bg-color:			$deep-silver-blue;
+
+@mixin shadow-box(	$hor1, $ver1, $blur1, $rad1, $red1, $green1, $blue1, $alpha1, 
+					$hor2, $ver2, $blur2, $rad2, $red2, $green2, $blue2, $alpha2) {
+
+	-webkit-box-shadow:
+				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),
+				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);
+
+	   -moz-box-shadow:
+				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),
+				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);
+
+			box-shadow:
+				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),
+				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);
+
+}
+
+@mixin leftmax() {
+	float: left;
+	width: 100%;
+}
+
+.button {
+
+	height: 25px;
+	cursor: pointer;
+	margin-right: 10px;
+	padding-right: 10px;
+
+	a {
+		text-decoration: none;
+		text-shadow: 0 1px 1px #fff;
+		display: block;
+		line-height: 14px;
+		padding: 5px 0 5px 10px;
+		margin-right: 5px;
+		color: #000;
+	}
+
+	:hover {
+		@include shadow-box(-3px,  3px,  2px,  0px, 255, 255, 255, 0.7, 
+							 2px, -2px,  2px,  0px,  50,  50,  50, 0.7);
+
+		border-radius: 2px;
+	}
+
+	:hover a {
+		padding: 4px 0 6px 10px;
+	}
+
+	:active {
+		@include shadow-box(-2px,  2px,  2px, 0,  50,  50,  50, 0.7, 
+							 2px, -2px,  2px, 0, 255, 255, 255, 0.7);
+	}
+
+	:active a {
+		padding: 6px 0 4px 10px;
+	}
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	background-color: $deep-silver-blue;
+}
+
+.head,
+.foot {
+	background-color: #0F0;
+}
+	
+.nav {
+	background-color: $silver-blue;
+}
+
+.panel {
+	background-color: #C00;
+}
+.content {
+	background-color: #FFF;
+}
+.main {
+	background-color: #000;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+@media only screen and (min-width: 480px)
+{/*
+	.headfoot {
+		height: 100px;
+		width: 100%;
+	}
+	
+	.nav {
+		width: 0;
+	}
+	
+	.panel {
+		width: 100%;
+	}
+	
+	.content {
+		height: 200px;
+		width: 90%;
+		margin: 10px auto;
+		display: block;
+	}*/
+}
+
+@media only screen and (min-width: 600px)
+{/*
+	.headfoot {
+		height: 100px;
+		width: 100%;
+	}
+	
+	.nav {
+		width: 0;
+	}
+	
+	.panel {
+		width: 50%;
+	}
+	
+	.content {
+		height: 200px;
+		width: 90%;
+		margin: 10px auto;
+		display: block;
+	}*/
+}
+
+@media only screen and (min-width: 768px)
+{
+	.head,
+	.foot {
+		float: left;
+		height: 100px;
+		width: 100%;
+	}
+	
+	.head img,
+	.foot img {
+		display: none;
+	}
+	
+	.nav {
+		float: left;
+		height: 200px;
+		width: 176px;
+	}
+	
+	.panel {
+		@include leftmax();
+		width: 50%;
+	}
+	
+	.main {
+		margin-left: 13em;
+	}
+	
+	.container {
+		float: left;
+		width: 100%;
+	}
+	
+	.content {
+		height: 200px;
+		width: 90%;
+		margin: 10px auto;
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1024px)
+{
+	.head,
+	.foot { 
+		float: left;
+		height: auto;
+		width: 100%;
+	}
+	
+	.head img,
+	.foot img {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.panel {
+		width: 33.3333%;
+	}
+
+	.main {
+		max-width: 1400px;
+	}
+}
+
+/*
+@media only screen and (min-width: 768px)
+{
+	.headfoot {
+		height: 100px;
+		width: 100%;
+	}
+	
+	.nav {
+		-webkit-flex: none;
+          		flex: none;
+		height: 800px;
+		width: 176px;
+	}
+	
+	.panel {
+		float: left;
+		width: 33.3333%;
+	}
+	
+	.main {
+		-webkit-flex: 1;
+          		flex: 1;
+	}
+	
+	.container {
+		display: -webkit flex;
+		display: 		 flex;
+	}
+	
+	.content {
+		height: 200px;
+		width: 90%;
+		margin: 10px auto;
+		display: block;
+	}
+}*/

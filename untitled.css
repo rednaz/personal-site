@@ -1,0 +1,176 @@
+ /* CSS Document */
+
+body {
+	margin:0;
+}
+
+.head,
+.foot {
+	background-color:#0F0;
+}
+	
+.nav {
+	background-color:#F6C;
+}
+
+.panel {
+	background-color:#C00;
+}
+.content {
+	background-color:#FFF;
+}
+.main {
+	background-color:#000;
+}
+
+.clearfix {
+	overflow:auto;
+}
+
+@media only screen and (min-width: 480px)
+{/*
+	.headfoot {
+		height:100px;
+		width:100%;
+	}
+	
+	.nav {
+		width:0;
+	}
+	
+	.panel {
+		width:100%;
+	}
+	
+	.content {
+		height:200px;
+		width:90%;
+		margin:10px auto;
+		display:block;
+	}*/
+}
+
+@media only screen and (min-width: 600px)
+{/*
+	.headfoot {
+		height:100px;
+		width:100%;
+	}
+	
+	.nav {
+		width:0;
+	}
+	
+	.panel {
+		width:50%;
+	}
+	
+	.content {
+		height:200px;
+		width:90%;
+		margin:10px auto;
+		display:block;
+	}*/
+}
+
+@media only screen and (min-width: 768px)
+{
+	.head,
+	.foot {
+		float:left;
+		height:100px;
+		width:100%;
+	}
+	
+	.head img,
+	.foot img {
+		display:none;
+	}
+	
+	.nav {
+		float:left;
+		height:100%;
+		width:176px;
+	}
+	
+	.panel {
+		float:left;
+		width:50%;
+	}
+	
+	.main {
+		margin-left:176px;
+	}
+	
+	.container {
+		float:left;
+		width:100%;
+		background-color:#F6C;
+	}
+	
+	.content {
+		height:200px;
+		width:90%;
+		margin:10px auto;
+		display:block;
+	}
+}
+
+@media only screen and (min-width: 1024px)
+{
+	.head,
+	.foot { 
+		float:left;
+		height:auto;
+		width:100%;
+	}
+	
+	.head img,
+	.foot img {
+		display:block;
+		margin:0 auto;
+	}
+	
+	.panel {
+		float:left;
+		width:33.3333%;
+	}
+}
+
+/*
+@media only screen and (min-width: 768px)
+{
+	.headfoot {
+		height:100px;
+		width:100%;
+	}
+	
+	.nav {
+		-webkit-flex: none;
+          		flex: none;
+		height:800px;
+		width:176px;
+	}
+	
+	.panel {
+		float:left;
+		width:33.3333%;
+	}
+	
+	.main {
+		-webkit-flex: 1;
+          		flex: 1;
+	}
+	
+	.container {
+		display: -webkit flex;
+		display: 		 flex;
+	}
+	
+	.content {
+		height:200px;
+		width:90%;
+		margin:10px auto;
+		display:block;
+	}
+}*/
