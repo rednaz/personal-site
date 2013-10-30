@@ -10,12 +10,18 @@
 
  ****************************************/
 
-$silver-blue:		#D9D9FF;
-$deep-silver-blue:	#E9E9FF;
 
-$navigation-color:	$silver-blue;
-$bg-color:			$deep-silver-blue;
+@import "colors";
+@import "mixin";
 
+
+/****************************************
+
+	creates an effect that makes it seem 
+	that the box is popping in/out of 
+	the page
+
+ ****************************************/
 @mixin shadow-box(	$hor1, $ver1, $blur1, $rad1, $red1, $green1, $blue1, $alpha1, 
 					$hor2, $ver2, $blur2, $rad2, $red2, $green2, $blue2, $alpha2) {
 
@@ -33,15 +39,23 @@ $bg-color:			$deep-silver-blue;
 
 }
 
+
+/****************************************
+
+	parent classes
+
+ ****************************************/
 .left 				{ float: left; }
 .width-100-pct		{ width: 100%; }
+
+
 
 .head,
 .foot,
 .container,
 .panel {
 	@extend .left;
-	@extend .width-pct;
+	@extend .width-100-pct;
 }
 
 .nav {
@@ -88,6 +102,7 @@ $bg-color:			$deep-silver-blue;
 
 body {
 	margin: 0;
+	background-color: $bg-color;
 }
 
 .container {
@@ -110,7 +125,7 @@ body {
 	background-color: #FFF;
 }
 .main {
-	background-color: #000;
+	background-color: $bg-color;
 }
 
 .clearfix {
@@ -190,7 +205,7 @@ body {
 	}
 	
 	.container {
-		width: 100%;
+		
 	}
 	
 	.content {

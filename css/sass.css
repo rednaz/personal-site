@@ -9,13 +9,45 @@
 	zandernelsoninc
 
  ****************************************/
+/****************************************
+
+	colors
+
+ ****************************************/
+/****************************************
+
+	@mix-ins
+
+ ****************************************/
+/****************************************
+
+	creates an effect that makes it seem 
+	that the box is popping in/out of 
+	the page
+
+ ****************************************/
+/****************************************
+
+	creates an effect that makes it seem 
+	that the box is popping in/out of 
+	the page
+
+ ****************************************/
+/****************************************
+
+	parent classes
+
+ ****************************************/
 .left, .head,
 .foot,
 .container,
 .panel, .nav {
   float: left; }
 
-.width-100-pct {
+.width-100-pct, .head,
+.foot,
+.container,
+.panel {
   width: 100%; }
 
 .button {
@@ -46,7 +78,8 @@
     padding: 6px 0 4px 10px; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  background-color: #e9e9ff; }
 
 .container {
   background-color: #e9e9ff; }
@@ -65,7 +98,7 @@ body {
   background-color: #FFF; }
 
 .main {
-  background-color: #000; }
+  background-color: #e9e9ff; }
 
 .clearfix {
   overflow: auto; }
@@ -130,9 +163,6 @@ body {
 
   .main {
     margin-left: 13em; }
-
-  .container {
-    width: 100%; }
 
   .content {
     height: 200px;

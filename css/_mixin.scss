@@ -1,0 +1,30 @@
+/****************************************
+
+	@mix-ins
+
+ ****************************************/
+
+
+/****************************************
+
+	creates an effect that makes it seem 
+	that the box is popping in/out of 
+	the page
+
+ ****************************************/
+@mixin shadow-box(	$hor1, $ver1, $blur1, $rad1, $red1, $green1, $blue1, $alpha1, 
+					$hor2, $ver2, $blur2, $rad2, $red2, $green2, $blue2, $alpha2) {
+
+	-webkit-box-shadow:
+				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),
+				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);
+
+	   -moz-box-shadow:
+				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),
+				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);
+
+			box-shadow:
+				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),
+				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);
+
+}
