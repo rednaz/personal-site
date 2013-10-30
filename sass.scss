@@ -5,7 +5,7 @@
 	created by: Eric 'Zander' Nelson
 	created on:	October 30, 2013 
 	version ##:	beta
-	
+
 	zandernelsoninc
 
  ****************************************/
@@ -33,9 +33,19 @@ $bg-color:			$deep-silver-blue;
 
 }
 
-@mixin leftmax() {
-	float: left;
-	width: 100%;
+.left 				{ float: left; }
+.width-100-pct		{ width: 100%; }
+
+.head,
+.foot,
+.container,
+.panel {
+	@extend .left;
+	@extend .width-pct;
+}
+
+.nav {
+	@extend .left;
 }
 
 .button {
@@ -55,23 +65,23 @@ $bg-color:			$deep-silver-blue;
 		color: #000;
 	}
 
-	:hover {
+	&:hover {
 		@include shadow-box(-3px,  3px,  2px,  0px, 255, 255, 255, 0.7, 
 							 2px, -2px,  2px,  0px,  50,  50,  50, 0.7);
 
 		border-radius: 2px;
 	}
 
-	:hover a {
+	&:hover a {
 		padding: 4px 0 6px 10px;
 	}
 
-	:active {
+	&:active {
 		@include shadow-box(-2px,  2px,  2px, 0,  50,  50,  50, 0.7, 
 							 2px, -2px,  2px, 0, 255, 255, 255, 0.7);
 	}
 
-	:active a {
+	&:active a {
 		padding: 6px 0 4px 10px;
 	}
 }
@@ -155,11 +165,10 @@ body {
 
 @media only screen and (min-width: 768px)
 {
+
 	.head,
 	.foot {
-		float: left;
 		height: 100px;
-		width: 100%;
 	}
 	
 	.head img,
@@ -168,13 +177,11 @@ body {
 	}
 	
 	.nav {
-		float: left;
 		height: 200px;
 		width: 176px;
 	}
 	
 	.panel {
-		@include leftmax();
 		width: 50%;
 	}
 	
@@ -183,7 +190,6 @@ body {
 	}
 	
 	.container {
-		float: left;
 		width: 100%;
 	}
 	
@@ -199,9 +205,7 @@ body {
 {
 	.head,
 	.foot { 
-		float: left;
 		height: auto;
-		width: 100%;
 	}
 	
 	.head img,
