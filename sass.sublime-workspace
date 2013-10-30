@@ -1,0 +1,564 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"this",
+				"thisMonth"
+			],
+			[
+				"next",
+				"nextWeek"
+			],
+			[
+				"prev",
+				"prevMonth"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"week",
+				"weeklyHours"
+			],
+			[
+				"sel",
+				"selectMonth"
+			],
+			[
+				"select",
+				"selectYear"
+			],
+			[
+				"cur",
+				"currYear"
+			],
+			[
+				"curr",
+				"currMonth"
+			],
+			[
+				"month",
+				"monthStart"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/****************************************\n\n	css document\n\n	created by: Eric 'Zander' Nelson\n	created on:	October 30, 2013 \n	version ##:	beta\n\n	zandernelsoninc\n\n ****************************************/\n\n\n/****************************************\n\n	scss partial imports\n\n ****************************************/\n@import \"colors\";\n@import \"mixin\";\n\n\n/****************************************\n\n	creates an effect that makes it seem \n	that the box is popping in/out of \n	the page\n\n ****************************************/\n@mixin shadow-box(	$hor1, $ver1, $blur1, $rad1, $red1, $green1, $blue1, $alpha1, \n					$hor2, $ver2, $blur2, $rad2, $red2, $green2, $blue2, $alpha2) {\n\n	-webkit-box-shadow:\n				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),\n				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);\n\n	   -moz-box-shadow:\n				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),\n				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);\n\n			box-shadow:\n				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),\n				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);\n\n}\n\n\n/****************************************\n\n	parent classes\n\n ****************************************/\n.left 				{ float: left; }\n.width-100-pct		{ width: 100%; }\n\n\n\n.head,\n.foot,\n.container,\n.panel {\n	@extend .left;\n	@extend .width-100-pct;\n}\n\n.nav {\n	@extend .left;\n}\n\n.button {\n\n	height: 25px;\n	cursor: pointer;\n	margin-right: 10px;\n	padding-right: 10px;\n\n	a {\n		text-decoration: none;\n		text-shadow: 0 1px 1px #fff;\n		display: block;\n		line-height: 14px;\n		padding: 5px 0 5px 10px;\n		margin-right: 5px;\n		color: #000;\n	}\n\n	&:hover {\n		@include shadow-box(-3px,  3px,  2px,  0px, 255, 255, 255, 0.7, \n							 2px, -2px,  2px,  0px,  50,  50,  50, 0.7);\n\n		border-radius: 2px;\n	}\n\n	&:hover a {\n		padding: 4px 0 6px 10px;\n	}\n\n	&:active {\n		@include shadow-box(-2px,  2px,  2px, 0,  50,  50,  50, 0.7, \n							 2px, -2px,  2px, 0, 255, 255, 255, 0.7);\n	}\n\n	&:active a {\n		padding: 6px 0 4px 10px;\n	}\n}\n\nbody {\n	margin: 0;\n	background-color: $bg-color;\n}\n\n.container {\n	background-color: $deep-silver-blue;\n}\n\n.head,\n.foot {\n	background-color: #0F0;\n}\n	\n.nav {\n	background-color: $silver-blue;\n}\n\n.panel {\n	background-color: #C00;\n}\n.content {\n	background-color: #FFF;\n}\n.main {\n	background-color: $bg-color;\n}\n\n.clearfix {\n	overflow: auto;\n}\n\n@media only screen and (min-width: 480px)\n{/*\n	.headfoot {\n		height: 100px;\n		width: 100%;\n	}\n	\n	.nav {\n		width: 0;\n	}\n	\n	.panel {\n		width: 100%;\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}*/\n}\n\n@media only screen and (min-width: 600px)\n{/*\n	.headfoot {\n		height: 100px;\n		width: 100%;\n	}\n	\n	.nav {\n		width: 0;\n	}\n	\n	.panel {\n		width: 50%;\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}*/\n}\n\n@media only screen and (min-width: 768px)\n{\n\n	.head,\n	.foot {\n		height: 100px;\n	}\n	\n	.head img,\n	.foot img {\n		display: none;\n	}\n	\n	.nav {\n		height: 200px;\n		width: 176px;\n	}\n	\n	.panel {\n		width: 50%;\n	}\n	\n	.main {\n		margin-left: 13em;\n	}\n	\n	.container {\n		\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}\n}\n\n@media only screen and (min-width: 1024px)\n{\n	.head,\n	.foot { \n		height: auto;\n	}\n	\n	.head img,\n	.foot img {\n		display: block;\n		margin: 0 auto;\n	}\n	\n	.panel {\n		width: 33.3333%;\n	}\n\n	.main {\n		max-width: 1400px;\n	}\n}\n\n/*\n@media only screen and (min-width: 768px)\n{\n	.headfoot {\n		height: 100px;\n		width: 100%;\n	}\n	\n	.nav {\n		-webkit-flex: none;\n          		flex: none;\n		height: 800px;\n		width: 176px;\n	}\n	\n	.panel {\n		float: left;\n		width: 33.3333%;\n	}\n	\n	.main {\n		-webkit-flex: 1;\n          		flex: 1;\n	}\n	\n	.container {\n		display: -webkit flex;\n		display: 		 flex;\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}\n}*/",
+			"file": "sass.scss",
+			"file_size": 4091,
+			"file_write_time": 130276499492459709,
+			"settings":
+			{
+				"buffer_size": 3924,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_colors.scss",
+			"settings":
+			{
+				"buffer_size": 212,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_mixin.scss",
+			"settings":
+			{
+				"buffer_size": 931,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/branchtest/test.txt",
+		"/C/Users/eric.nelson946/Documents/z-test/fluid-test/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/student-voucher/.gitignore",
+		"/C/Users/eric.nelson946/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/eric.nelson946/Documents/aotd.css",
+		"/C/Users/eric.nelson946/Documents/tutor.htm",
+		"/C/Users/eric.nelson946/Documents/zandernelson/studentvoucher/student-voucher.php",
+		"/C/Users/eric.nelson946/Downloads/student.js",
+		"/E/goodwill.c",
+		"/C/Users/eric.nelson946/Documents/zandernelson/awesome quote css",
+		"/C/Users/eric.nelson946/Desktop/opc/campus-wide-waste-diversion.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width: 100%",
+			"float",
+			"float:",
+			"max-width",
+			"	:",
+			".yearandtype",
+			"td",
+			"atod-text-center",
+			":([a-z|0-9|#|$])",
+			"0",
+			"(\\$[a-z]*[0-9])",
+			"[0-9]\\. ",
+			"&nbsp;",
+			"<span>|</span>",
+			"/finance/",
+			"/documents/([^0-9])",
+			"/financial-services/",
+			"/financial-services([^/])",
+			"/documents/",
+			"/finance/",
+			"o	",
+			"•	",
+			"ctrl\\+shift",
+			"\\+u",
+			"while",
+			"for ",
+			"for",
+			"getWeeks",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"/financial-services/avp-financial-services/",
+			"/budget/",
+			"nextWeek",
+			"false",
+			"true",
+			"'false'",
+			"'true'",
+			"/finance/",
+			"/financial-services/([^d])",
+			"/finance/",
+			"/financial-services/",
+			"http://www.csuci.edu/finance/",
+			"this",
+			"$this",
+			"$this->",
+			"public function",
+			"createUser",
+			"createTable",
+			"test_input",
+			"\\$c->",
+			"$c->",
+			"Calendar\\.",
+			"function",
+			"td",
+			"$year",
+			" ",
+			"'",
+			" </a>",
+			"http://www.csuci.edu/finance",
+			"&nbsp;",
+			"finance",
+			"<[^>]*>&nbsp;<[^>]*>|&nbsp;",
+			"/avp",
+			"(<div class=\")align-left(\">)",
+			"<div class=\"align-left\">",
+			"<img",
+			"&nbsp;",
+			" >",
+			"  ",
+			"style=\"[^\"]+\"",
+			"<div[^>]*>&nbsp;</div>",
+			"&nbsp;",
+			"ctrl\\+shift",
+			"<strong>|</strong>",
+			"&nbsp;",
+			"<br />• ",
+			"<p>• ",
+			"rss",
+			"asi",
+			"http://www.csuci.edu",
+			"<span[^>]+>|</span>",
+			"<u>([^<]+)</u>",
+			"<u> </u>",
+			"href=\"http://www.csuci.edu/studenthealth/health-services.htm#([^\"]+)",
+			"href=\"http://www.csuci.edu/studenthealth/healthylifestyles/",
+			"href=\"[^/]*//([^/\"]+/)+",
+			"href=\"http://www.csuci.edu/studenthealth/healthylifestyles/",
+			"href=\"[^/]*//([^/\"]+/)+",
+			"healthy\\-lifestyles.htm#([^\"]+)",
+			"healthy-lifestyles.htm#nutrition",
+			"healthy\\-lifestyles.htm#([^\"]+)",
+			"healthy-lifestyles.htm#nutrition",
+			"healthy\\-lifestyles.htm#([^\"]+)",
+			"alt+shift",
+			"alt+shift+",
+			"alt+shift",
+			"<h2>",
+			"(<img[^>]+>)",
+			"<div><h2>([^<]+)</h2></div>\\n<div>",
+			"<br /",
+			"</h2></div>\n<div><p>",
+			"((<p>[^<]+</p>\\n)+)",
+			"(<p>[^<]</p>\\n)",
+			"(<p>[^<]+</p>\\n)+",
+			"((<p>[^<]+</p>\\n)+)",
+			"(<p>[^<]+</p>\\n)+",
+			"(<p>[^<]*</p>\\n)*",
+			"(<p>[^<]*</p>\\n)",
+			"((<p>[^<]*</p>\\n)*)",
+			"((<p>[^>]*</p>\\n)*)",
+			"(<p>[^>]*</p>\\n)*",
+			"((<p>[^<]*</p>\\n)*)",
+			"(<h2>[^>]*</h2>)",
+			"(<img)",
+			"<div[^>]*>|</div>",
+			"&rsquo;",
+			"&quot;",
+			"&rsquo;",
+			"&rdquo;",
+			"&rsquo;",
+			"&quot;",
+			"&rsquo;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"	&:",
+			"center",
+			": $1",
+			"$1,",
+			"",
+			"/financial-services/avp-financial-services/financial-reporting/",
+			"/documents/2013/$1",
+			"/financial-services/avp-financial-services/financial-reporting/documents/",
+			"/financial-services/$1",
+			"",
+			"/financial-services/",
+			"",
+			" ",
+			"",
+			"/financial-services/avp-financial-services/financial-reporting/",
+			"/financial-services/avp-financial-services/",
+			"0",
+			"1",
+			"false",
+			"true",
+			"/financial-services/",
+			"/financial-services/documents/$1",
+			"/financial-services/",
+			"/financial-services/documents/",
+			"/financial-services/",
+			"public static function",
+			"Calendar::",
+			"c->",
+			"public function",
+			"",
+			"\"",
+			"</a> ",
+			"</a>",
+			"/financial-services",
+			" ",
+			"financial-services",
+			"",
+			"/financial-services/avp",
+			"$1tutor-content$2",
+			"<div>",
+			"<img class=\"frame align-left\"",
+			"",
+			">",
+			" ",
+			"",
+			"</li><li>",
+			"<ul><li>",
+			"rss",
+			"",
+			"<a href=\"/studenthealth/services/.htm\">$1</a>",
+			"",
+			"href=\"/studenthealth/services/$1.htm",
+			"href=\"/studenthealth/services/$1",
+			"href=\"/studenthealth/healthylifestyles/",
+			"href=\"/",
+			"href=\"/healthylifestyles/",
+			"href=\"/studenthealth/healthylifestyles/",
+			"healthylifestyles/$1.htm",
+			"$1.htm",
+			"$1",
+			"<div><h2>",
+			"<div>$1</div>",
+			"<h2>$1</h2>\\n",
+			" ",
+			"<div>$1</div>",
+			"<div class=\"group\">$1",
+			"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			" ",
+			"faq/$1.htm",
+			"",
+			" - ",
+			"",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"<a href=\"#\">$1</a>",
+			"",
+			"<ul>",
+			"</ul>",
+			"<a href=\"#\">$1</a>",
+			"",
+			"<a href=\"#\">$1</a>",
+			" - ",
+			"</ul>",
+			"<ul>",
+			"<a href=\"#\">$1</a>",
+			"",
+			"<a href=\"#\">$1</a>",
+			"</ul>",
+			"<ul>",
+			"<a href=\"#\">$1</a>",
+			" - ",
+			"",
+			"<a href=\"#\">$1</a>",
+			"</ul>",
+			"<ul>",
+			" - ",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			" - ",
+			"'",
+			"$1",
+			"<li>$1</li>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			" ",
+			"</h3>",
+			"<h3>",
+			"<a href=\"#\">$1</a>",
+			"</h3>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass.scss",
+					"settings":
+					{
+						"buffer_size": 3924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2211,
+								2211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_colors.scss",
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_mixin.scss",
+					"settings":
+					{
+						"buffer_size": 931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

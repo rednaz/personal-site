@@ -11,6 +11,11 @@
  ****************************************/
 
 
+/****************************************
+
+	scss base partial imports
+
+ ****************************************/
 @import "colors";
 @import "mixin";
 
@@ -115,7 +120,7 @@ body {
 }
 	
 .nav {
-	background-color: $silver-blue;
+	background-color: $nav-color;
 }
 
 .panel {
@@ -132,6 +137,17 @@ body {
 	overflow: auto;
 }
 
+
+
+/****************************************
+
+	scss @media partial imports
+
+ ****************************************/
+/*@import "media480";
+@import "media480";
+@import "media768";
+@import "media1024";*/
 @media only screen and (min-width: 480px)
 {/*
 	.headfoot {
