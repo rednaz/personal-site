@@ -1,0 +1,43 @@
+/****************************************
+
+	@media 768px partial
+
+ ****************************************/
+
+@media only screen and (min-width: 768px)
+{
+
+	.head,
+	.foot {
+		height: 100px;
+	}
+	
+	.head img,
+	.foot img {
+		display: none;
+	}
+	
+	.nav {
+		height: 200px;
+		width: 176px;
+	}
+	
+	.panel {
+		width: 50%;
+	}
+	
+	.main {
+		margin-left: 13em;
+	}
+	
+	.container {
+		
+	}
+	
+	.content {
+		height: 200px;
+		width: 90%;
+		margin: 10px auto;
+		display: block;
+	}
+}

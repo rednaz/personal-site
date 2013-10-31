@@ -52,29 +52,18 @@
 	"buffers":
 	[
 		{
-			"contents": "/****************************************\n\n	css document\n\n	created by: Eric 'Zander' Nelson\n	created on:	October 30, 2013 \n	version ##:	beta\n\n	zandernelsoninc\n\n ****************************************/\n\n\n/****************************************\n\n	scss partial imports\n\n ****************************************/\n@import \"colors\";\n@import \"mixin\";\n\n\n/****************************************\n\n	creates an effect that makes it seem \n	that the box is popping in/out of \n	the page\n\n ****************************************/\n@mixin shadow-box(	$hor1, $ver1, $blur1, $rad1, $red1, $green1, $blue1, $alpha1, \n					$hor2, $ver2, $blur2, $rad2, $red2, $green2, $blue2, $alpha2) {\n\n	-webkit-box-shadow:\n				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),\n				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);\n\n	   -moz-box-shadow:\n				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),\n				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);\n\n			box-shadow:\n				inset 	$hor1 $ver1 $blur1 $rad1	rgba($red1, $green1, $blue1, $alpha1),\n				inset	$hor2 $ver2 $blur2 $rad2	rgba($red2, $green2, $blue2, $alpha2);\n\n}\n\n\n/****************************************\n\n	parent classes\n\n ****************************************/\n.left 				{ float: left; }\n.width-100-pct		{ width: 100%; }\n\n\n\n.head,\n.foot,\n.container,\n.panel {\n	@extend .left;\n	@extend .width-100-pct;\n}\n\n.nav {\n	@extend .left;\n}\n\n.button {\n\n	height: 25px;\n	cursor: pointer;\n	margin-right: 10px;\n	padding-right: 10px;\n\n	a {\n		text-decoration: none;\n		text-shadow: 0 1px 1px #fff;\n		display: block;\n		line-height: 14px;\n		padding: 5px 0 5px 10px;\n		margin-right: 5px;\n		color: #000;\n	}\n\n	&:hover {\n		@include shadow-box(-3px,  3px,  2px,  0px, 255, 255, 255, 0.7, \n							 2px, -2px,  2px,  0px,  50,  50,  50, 0.7);\n\n		border-radius: 2px;\n	}\n\n	&:hover a {\n		padding: 4px 0 6px 10px;\n	}\n\n	&:active {\n		@include shadow-box(-2px,  2px,  2px, 0,  50,  50,  50, 0.7, \n							 2px, -2px,  2px, 0, 255, 255, 255, 0.7);\n	}\n\n	&:active a {\n		padding: 6px 0 4px 10px;\n	}\n}\n\nbody {\n	margin: 0;\n	background-color: $bg-color;\n}\n\n.container {\n	background-color: $deep-silver-blue;\n}\n\n.head,\n.foot {\n	background-color: #0F0;\n}\n	\n.nav {\n	background-color: $silver-blue;\n}\n\n.panel {\n	background-color: #C00;\n}\n.content {\n	background-color: #FFF;\n}\n.main {\n	background-color: $bg-color;\n}\n\n.clearfix {\n	overflow: auto;\n}\n\n@media only screen and (min-width: 480px)\n{/*\n	.headfoot {\n		height: 100px;\n		width: 100%;\n	}\n	\n	.nav {\n		width: 0;\n	}\n	\n	.panel {\n		width: 100%;\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}*/\n}\n\n@media only screen and (min-width: 600px)\n{/*\n	.headfoot {\n		height: 100px;\n		width: 100%;\n	}\n	\n	.nav {\n		width: 0;\n	}\n	\n	.panel {\n		width: 50%;\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}*/\n}\n\n@media only screen and (min-width: 768px)\n{\n\n	.head,\n	.foot {\n		height: 100px;\n	}\n	\n	.head img,\n	.foot img {\n		display: none;\n	}\n	\n	.nav {\n		height: 200px;\n		width: 176px;\n	}\n	\n	.panel {\n		width: 50%;\n	}\n	\n	.main {\n		margin-left: 13em;\n	}\n	\n	.container {\n		\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}\n}\n\n@media only screen and (min-width: 1024px)\n{\n	.head,\n	.foot { \n		height: auto;\n	}\n	\n	.head img,\n	.foot img {\n		display: block;\n		margin: 0 auto;\n	}\n	\n	.panel {\n		width: 33.3333%;\n	}\n\n	.main {\n		max-width: 1400px;\n	}\n}\n\n/*\n@media only screen and (min-width: 768px)\n{\n	.headfoot {\n		height: 100px;\n		width: 100%;\n	}\n	\n	.nav {\n		-webkit-flex: none;\n          		flex: none;\n		height: 800px;\n		width: 176px;\n	}\n	\n	.panel {\n		float: left;\n		width: 33.3333%;\n	}\n	\n	.main {\n		-webkit-flex: 1;\n          		flex: 1;\n	}\n	\n	.container {\n		display: -webkit flex;\n		display: 		 flex;\n	}\n	\n	.content {\n		height: 200px;\n		width: 90%;\n		margin: 10px auto;\n		display: block;\n	}\n}*/",
-			"file": "sass.scss",
-			"file_size": 4091,
-			"file_write_time": 130276499492459709,
+			"file": "css/sass.scss",
 			"settings":
 			{
-				"buffer_size": 3924,
+				"buffer_size": 4130,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_colors.scss",
+			"file": "css/_colors.scss",
 			"settings":
 			{
-				"buffer_size": 212,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_mixin.scss",
-			"settings":
-			{
-				"buffer_size": 931,
+				"buffer_size": 207,
 				"line_ending": "Windows"
 			}
 		}
@@ -112,9 +101,11 @@
 	"file_history":
 	[
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/branchtest/test.txt",
 		"/C/Users/eric.nelson946/Documents/z-test/fluid-test/sass.scss",
@@ -422,18 +413,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sass.scss",
+					"file": "css/sass.scss",
 					"settings":
 					{
-						"buffer_size": 3924,
+						"buffer_size": 4130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2211,
-								2211
+								1458,
+								1458
 							]
 						],
 						"settings":
@@ -442,57 +433,30 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1440.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_colors.scss",
+					"file": "css/_colors.scss",
 					"settings":
 					{
-						"buffer_size": 212,
+						"buffer_size": 207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								161,
+								161
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_mixin.scss",
-					"settings":
-					{
-						"buffer_size": 931,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
