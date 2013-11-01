@@ -46,8 +46,7 @@ body {
 
  ****************************************/
 .left, .head,
-.foot,
-.container,
+.foot, .container,
 .panel,
 .panel1,
 .panel2,
@@ -55,13 +54,15 @@ body {
   float: left; }
 
 .width-100-pct, .head,
-.foot,
-.container,
+.foot, .container,
 .panel,
 .panel1,
 .panel2,
 .panel3 {
   width: 100%; }
+
+.width-90-pct {
+  width: 90%; }
 
 .width-50-pct {
   width: 50%; }
@@ -71,6 +72,12 @@ body {
 
 .width-66-pct {
   width: 66.666666%; }
+
+.center, .head,
+.foot {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
 
 /****************************************
 

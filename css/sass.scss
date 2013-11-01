@@ -28,9 +28,16 @@
  ****************************************/
 .left 				{ float: left; }
 .width-100-pct		{ width: 100%; }
+.width-90-pct		{ width: 90%; }
 .width-50-pct		{ width: 50%; }
 .width-33-pct		{ width: 33.333333%; }
 .width-66-pct		{ width: 66.666666%; }
+
+.center {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
 
 
 /****************************************
@@ -81,7 +88,13 @@
 }
 
 .head,
-.foot,
+.foot {
+	@extend .center;
+	@extend .left;
+	@extend .width-100-pct;
+}
+
+
 .container,
 .panel {
 	@extend .left;
