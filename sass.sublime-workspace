@@ -55,15 +55,23 @@
 			"file": "css/sass.scss",
 			"settings":
 			{
-				"buffer_size": 4130,
+				"buffer_size": 1994,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/_colors.scss",
+			"file": "css/_selectors.scss",
 			"settings":
 			{
-				"buffer_size": 207,
+				"buffer_size": 155,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_panels.scss",
+			"settings":
+			{
+				"buffer_size": 379,
 				"line_ending": "Windows"
 			}
 		}
@@ -100,6 +108,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media1024.scss",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/untitled.html",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media768.scss",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
@@ -135,6 +147,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"panel1",
+			"panel",
 			"width: 100%",
 			"float",
 			"float:",
@@ -260,8 +274,6 @@
 			"&quot;",
 			"&rsquo;",
 			"&rdquo;",
-			"&rsquo;",
-			"&quot;",
 			"&rsquo;"
 		],
 		"highlight": true,
@@ -270,6 +282,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"panel1",
 			"	&:",
 			"center",
 			": $1",
@@ -396,8 +409,7 @@
 			" ",
 			"</h3>",
 			"<h3>",
-			"<a href=\"#\">$1</a>",
-			"</h3>"
+			"<a href=\"#\">$1</a>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -416,15 +428,15 @@
 					"file": "css/sass.scss",
 					"settings":
 					{
-						"buffer_size": 4130,
+						"buffer_size": 1994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1458,
-								1458
+								1414,
+								1414
 							]
 						],
 						"settings":
@@ -433,30 +445,57 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1440.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/_colors.scss",
+					"file": "css/_selectors.scss",
 					"settings":
 					{
-						"buffer_size": 207,
+						"buffer_size": 155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								58,
+								58
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_panels.scss",
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -473,7 +512,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

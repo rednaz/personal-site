@@ -18,7 +18,7 @@
  ****************************************/
 @import "colors";
 @import "mixin";
-
+@import "selectors";
 
 
 
@@ -36,19 +36,11 @@
 .width-66-pct		{ width: 66.666666%; }
 
 
+/****************************************
 
-.head,
-.foot,
-.container,
-.panel {
-	@extend .left;
-	@extend .width-100-pct;
-}
+	site button
 
-.nav {
-	@extend .left;
-}
-
+ ****************************************/
 .button {
 
 	height: 25px;
@@ -87,9 +79,21 @@
 	}
 }
 
-body {
-	margin: 0;
-	background-color: $bg-color;
+.clearfix {
+	overflow: auto;
+}
+
+
+.head,
+.foot,
+.container,
+.panel {
+	@extend .left;
+	@extend .width-100-pct;
+}
+
+.nav {
+	@extend .left;
 }
 
 .container {
@@ -115,12 +119,6 @@ body {
 	background-color: $bg-color;
 }
 
-.clearfix {
-	overflow: auto;
-}
-
-@import "panels";
-
 
 /****************************************
 
@@ -131,3 +129,7 @@ body {
 @import "media600";
 @import "media768";
 @import "media1024";
+
+
+
+@import "panels";

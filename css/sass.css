@@ -33,6 +33,15 @@
  ****************************************/
 /****************************************
 
+	base selectors
+
+ ****************************************/
+body {
+  margin: 0;
+  background-color: #e9e9ff; }
+
+/****************************************
+
 	parent classes
 
  ****************************************/
@@ -63,6 +72,11 @@
 .width-66-pct {
   width: 66.666666%; }
 
+/****************************************
+
+	site button
+
+ ****************************************/
 .button {
   height: 25px;
   cursor: pointer;
@@ -90,9 +104,8 @@
   .button:active a {
     padding: 6px 0 4px 10px; }
 
-body {
-  margin: 0;
-  background-color: #e9e9ff; }
+.clearfix {
+  overflow: auto; }
 
 .container {
   background-color: #e9e9ff; }
@@ -114,25 +127,6 @@ body {
 
 .main {
   background-color: #e9e9ff; }
-
-.clearfix {
-  overflow: auto; }
-
-/****************************************
-
-	panels partial
-
- ****************************************/
-@media only screen and (min-width: 1024px) {
-  .panel2 {
-    width: 66.666666%; } }
-
-@media only screen and (min-width: 768px) {
-  .panel1 {
-    width: 50%; } }
-@media only screen and (min-width: 1024px) {
-  .panel1 {
-    width: 33.333333%; } }
 
 /****************************************
 
@@ -199,11 +193,6 @@ body {
     height: 200px;
     width: 176px; }
 
-  .panel, .panel1,
-  .panel2,
-  .panel3 {
-    width: 50%; }
-
   .main {
     margin-left: 13em; }
 
@@ -220,17 +209,28 @@ body {
 @media only screen and (min-width: 1024px) {
   .head,
   .foot {
-    height: auto; }
+    height: auto;
+    max-width: 1400px; }
 
   .head img,
   .foot img {
     display: block;
     margin: 0 auto; }
 
-  .panel, .panel1,
-  .panel2,
-  .panel3 {
-    width: 33.3333%; }
-
-  .main {
+  .container {
     max-width: 1400px; } }
+/****************************************
+
+	panels partial
+
+ ****************************************/
+@media only screen and (min-width: 1024px) {
+  .panel2 {
+    width: 66.666666%; } }
+
+@media only screen and (min-width: 768px) {
+  .panel1 {
+    width: 50%; } }
+@media only screen and (min-width: 1024px) {
+  .panel1 {
+    width: 33.333333%; } }
