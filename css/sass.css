@@ -42,26 +42,32 @@ body {
 
 /****************************************
 
+	navigation partial
+
+ ****************************************/
+@media only screen and (min-width: 1024px) {
+  .nav {
+    height: auto;
+    width: 176px; } }
+
+/****************************************
+
 	parent classes
 
  ****************************************/
-.left, .head,
-.foot, .container,
-.panel,
-.panel1,
+.left, .nav, .head,
+.foot, .container, .panel, .panel1,
 .panel2,
-.panel3, .nav {
+.panel3 {
   float: left; }
 
 .width-100-pct, .head,
-.foot, .container,
-.panel,
-.panel1,
+.foot, .container, .panel, .panel1,
 .panel2,
 .panel3 {
   width: 100%; }
 
-.width-90-pct {
+.width-90-pct, .content, .content-cell, .content-cell-dbl {
   width: 90%; }
 
 .width-50-pct {
@@ -87,7 +93,7 @@ body {
 .button {
   height: 25px;
   cursor: pointer;
-  margin-right: 10px;
+  margin: 0 10px;
   padding-right: 10px; }
   .button a {
     text-decoration: none;
@@ -115,21 +121,13 @@ body {
   overflow: auto; }
 
 .container {
-  background-color: #e9e9ff; }
+  background-color: #d9d9ff; }
 
 .head,
 .foot {
   background-color: #0F0; }
 
-.nav {
-  background-color: #d9d9ff; }
-
-.panel, .panel1,
-.panel2,
-.panel3 {
-  background-color: #C00; }
-
-.content {
+.content, .content-cell, .content-cell-dbl {
   background-color: #FFF; }
 
 .main {
@@ -196,14 +194,10 @@ body {
   .foot img {
     display: none; }
 
-  .nav {
-    height: 200px;
-    width: 176px; }
-
   .main {
-    margin-left: 13em; }
+    margin-left: 11em; }
 
-  .content {
+  .content, .content-cell, .content-cell-dbl {
     height: 200px;
     width: 90%;
     margin: 10px auto;
@@ -241,3 +235,18 @@ body {
 @media only screen and (min-width: 1024px) {
   .panel1 {
     width: 33.333333%; } }
+
+/****************************************
+
+	content
+
+ ****************************************/
+.content, .content-cell, .content-cell-dbl {
+  margin: 10px auto;
+  display: block; }
+
+.content-cell {
+  height: 300px; }
+
+.content-cell-dbl {
+  height: 600px; }

@@ -19,6 +19,7 @@
 @import "colors";
 @import "mixin";
 @import "selectors";
+@import "navigation";
 
 
 /****************************************
@@ -49,7 +50,7 @@
 
 	height: 25px;
 	cursor: pointer;
-	margin-right: 10px;
+	margin: 0 10px;
 	padding-right: 10px;
 
 	a {
@@ -95,37 +96,25 @@
 }
 
 
-.container,
-.panel {
+.container {
 	@extend .left;
 	@extend .width-100-pct;
 }
 
-.nav {
-	@extend .left;
-}
-
 .container {
-	background-color: $deep-silver-blue;
+	background-color: $silver-blue;
 }
 
 .head,
 .foot {
 	background-color: #0F0;
 }
-	
-.nav {
-	background-color: $nav-color;
-}
 
-.panel {
-	background-color: #C00;
-}
 .content {
 	background-color: #FFF;
 }
 .main {
-	background-color: $bg-color;
+	background-color: $deep-silver-blue;
 }
 
 
@@ -142,3 +131,4 @@
 
 
 @import "panels";
+@import "content";

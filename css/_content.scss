@@ -1,0 +1,22 @@
+/****************************************
+
+	content
+
+ ****************************************/
+
+
+
+ .content {
+ 	@extend .width-90-pct;
+	margin: 10px auto;
+	display: block;
+ }
+
+ .content-cell { 
+ 	@extend .content;
+ 	height: 300px; 
+ }
+ .content-cell-dbl	{ 
+ 	@extend .content;
+ 	height: 600px; 
+ }
