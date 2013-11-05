@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"width-",
+				"width-66-pct"
+			],
+			[
 				"backgr",
 				"background-color"
 			],
@@ -52,18 +60,26 @@
 	"buffers":
 	[
 		{
-			"file": "css/sass.scss",
+			"file": "untitled.html",
 			"settings":
 			{
-				"buffer_size": 1994,
+				"buffer_size": 8364,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/_selectors.scss",
+			"file": "css/sass.scss",
 			"settings":
 			{
-				"buffer_size": 155,
+				"buffer_size": 2105,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_content.scss",
+			"settings":
+			{
+				"buffer_size": 429,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +87,34 @@
 			"file": "css/_panels.scss",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 461,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_mixin.scss",
+			"settings":
+			{
+				"buffer_size": 1205,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_selectors.scss",
+			"settings":
+			{
+				"buffer_size": 441,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/****************************************\n\n	fonts\n\n ****************************************/\n\n\n\n@font-face\n{\n	font-family: OratorStd;\n	src:url(../personal-site/font/OratorStd.otf);\n}",
+			"file": "css/_fonts.scss",
+			"file_size": 234,
+			"file_write_time": 130280864728069917,
+			"settings":
+			{
+				"buffer_size": 183,
 				"line_ending": "Windows"
 			}
 		}
@@ -108,13 +151,19 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media1024.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/untitled.html",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media768.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_selectors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media600.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media480.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
@@ -147,8 +196,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"panel1",
+			".h-font",
+			"content",
+			"\\$bg-color",
+			"\\$nav-color",
 			"panel",
+			"90%",
+			"panel1",
+			";\n",
+			".panel1",
 			"width: 100%",
 			"float",
 			"float:",
@@ -267,14 +323,7 @@
 			"((<p>[^>]*</p>\\n)*)",
 			"(<p>[^>]*</p>\\n)*",
 			"((<p>[^<]*</p>\\n)*)",
-			"(<h2>[^>]*</h2>)",
-			"(<img)",
-			"<div[^>]*>|</div>",
-			"&rsquo;",
-			"&quot;",
-			"&rsquo;",
-			"&rdquo;",
-			"&rsquo;"
+			"(<h2>[^>]*</h2>)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -282,7 +331,10 @@
 		"regex": true,
 		"replace_history":
 		[
-			"panel1",
+			".header-styles",
+			"content-cell",
+			"$deep-silver-blue",
+			"$silver-blue",
 			"	&:",
 			"center",
 			": $1",
@@ -406,10 +458,7 @@
 			"<ul>",
 			"</ul>",
 			"<ul>",
-			" ",
-			"</h3>",
-			"<h3>",
-			"<a href=\"#\">$1</a>"
+			" "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -420,23 +469,51 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/sass.scss",
+					"file": "untitled.html",
 					"settings":
 					{
-						"buffer_size": 1994,
+						"buffer_size": 8364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1414,
-								1414
+								1143,
+								1143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sass.scss",
+					"settings":
+					{
+						"buffer_size": 2105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
 							]
 						],
 						"settings":
@@ -445,25 +522,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "css/_selectors.scss",
+					"buffer": 2,
+					"file": "css/_content.scss",
 					"settings":
 					{
-						"buffer_size": 155,
+						"buffer_size": 429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
+								429,
+								429
 							]
 						],
 						"settings":
@@ -477,25 +554,104 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "css/_panels.scss",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 461,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								379,
-								379
+								159,
+								159
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/_mixin.scss",
+					"settings":
+					{
+						"buffer_size": 1205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/_selectors.scss",
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/_fonts.scss",
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -512,7 +668,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 0.0
 	},
 	"layout":
 	{
