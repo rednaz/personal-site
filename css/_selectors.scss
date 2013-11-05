@@ -5,14 +5,27 @@
  ****************************************/
 
 
+
+.header-styles { 
+	font-family: OratorStd; 
+	font-weight: normal;
+}
+
 h1 {
+	@extend .header-styles; 
 	font-size: 2.5em;
 }
 h2 {
+	@extend .header-styles; 
 	font-size: 2em;
 }
 h3 {
+	@extend .header-styles; 
 	font-size: 1.5em;
+}
+h4 {
+	@extend .header-styles; 
+	font-size: 1.25em;
 }
 
 body {
