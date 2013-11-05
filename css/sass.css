@@ -100,7 +100,7 @@ p {
 .panel3 {
   width: 100%; }
 
-.width-90-pct, .content, .content-cell, .content-cell-dbl {
+.width-90-pct {
   width: 90%; }
 
 .width-50-pct {
@@ -271,7 +271,7 @@ p {
 
  ****************************************/
 .content, .content-cell, .content-cell-dbl {
-  margin: 10px auto;
+  margin: 10px;
   display: block;
   overflow: hidden; }
 
