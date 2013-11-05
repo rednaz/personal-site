@@ -52,6 +52,7 @@
 	cursor: pointer;
 	margin: 0 10px;
 	padding-right: 10px;
+ 	@include transitions(all, 0.1s, ease-out);
 
 	a {
 		text-decoration: none;
@@ -110,9 +111,6 @@
 	background-color: #0F0;
 }
 
-.content {
-	background-color: #FFF;
-}
 .main {
 	background-color: $deep-silver-blue;
 }
