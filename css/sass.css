@@ -245,8 +245,17 @@ body {
   margin: 10px auto;
   display: block; }
 
-.content-cell {
-  height: 250px; }
+.content-cell, .content-cell-dbl {
+  height: 250px;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out; }
+  .content-cell:hover, .content-cell-dbl:hover {
+    -webkit-box-shadow: inset -3px 3px 2px 0px rgba(255, 255, 255, 0.7), inset 2px -2px 2px 0px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow: inset -3px 3px 2px 0px rgba(255, 255, 255, 0.7), inset 2px -2px 2px 0px rgba(50, 50, 50, 0.7);
+    box-shadow: inset -3px 3px 2px 0px rgba(255, 255, 255, 0.7), inset 2px -2px 2px 0px rgba(50, 50, 50, 0.7);
+    background-color: #e9e9ff; }
 
 .content-cell-dbl {
   height: 500px; }

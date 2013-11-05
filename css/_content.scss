@@ -15,8 +15,15 @@
  .content-cell { 
  	@extend .content;
  	height: 250px; 
+ 	@include transitions(all, 0.1s, ease-out);
+
+ 	&:hover {
+ 		@include shadow-box(-3px,  3px,  2px,  0px, 255, 255, 255, 0.7, 
+							 2px, -2px,  2px,  0px,  50,  50,  50, 0.7);
+ 		background-color: $deep-silver-blue;
+ 	} 
  }
  .content-cell-dbl	{ 
- 	@extend .content;
+ 	@extend .content-cell;
  	height: 500px; 
  }
