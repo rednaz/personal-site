@@ -254,6 +254,18 @@ p {
 	panels partial
 
  ****************************************/
+.panel1,
+.panel2,
+.panel3 {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+  .panel1:hover,
+  .panel2:hover,
+  .panel3:hover {
+    background-color: #c9c9ff; }
+
 @media only screen and (min-width: 1024px) {
   .panel2 {
     width: 66.666666%; } }
@@ -276,13 +288,7 @@ p {
   overflow: hidden; }
 
 .content-cell, .content-cell-dbl {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
   height: 250px; }
-  .content-cell:hover, .content-cell-dbl:hover {
-    background-color: #c9c9ff; }
 
 .content-cell-dbl {
   height: 500px; }

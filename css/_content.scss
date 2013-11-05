@@ -13,14 +13,8 @@
  }
 
  .content-cell { 
- 	@extend .content;
- 	@include transitions(all, 0.5s, ease-out);
- 	
+ 	@extend .content; 	
  	height: 250px; 
-
- 	&:hover {
- 		background-color: $dark-silver-blue;
- 	} 
  }
  .content-cell-dbl	{ 
  	@extend .content-cell;
