@@ -253,6 +253,14 @@ p {
 	panels partial
 
  ****************************************/
+.panel1,
+.panel2,
+.panel3 {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+
 @media only screen and (min-width: 1024px) {
   .panel2 {
     width: 66.666666%; } }
@@ -278,10 +286,6 @@ p {
   background-color: #e9e9ff;
   height: 250px;
   padding: 15px;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
   -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
   -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
   box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8); }
@@ -292,4 +296,4 @@ p {
     box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8); }
 
 .content-cell-dbl {
-  height: 500px; }
+  height: 550px; }

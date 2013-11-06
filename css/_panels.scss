@@ -9,13 +9,13 @@
 .panel {
 	@extend .left;
 	@extend .width-100-pct;
-	//background-color: #C00;
 }
 
 .panel1,
 .panel2,
 .panel3 {
 	@extend .panel;
+ 	@include transitions(all, 0.5s, ease-out);
 }
 
 .panel2 {
