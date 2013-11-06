@@ -4,7 +4,7 @@
 
 	created by: Eric 'Zander' Nelson
 	created on:	October 30, 2013 
-	version ##:	beta.1
+	version ##:	beta.2
 
 	zandernelsoninc
 
@@ -253,14 +253,6 @@ p {
 	panels partial
 
  ****************************************/
-.panel1,
-.panel2,
-.panel3 {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out; }
-
 @media only screen and (min-width: 1024px) {
   .panel2 {
     width: 66.666666%; } }
@@ -283,6 +275,10 @@ p {
   overflow: hidden; }
 
 .content-cell, .content-cell-dbl {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   background-color: #e9e9ff;
   height: 250px;
   padding: 15px;

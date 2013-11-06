@@ -14,6 +14,7 @@
 
  .content-cell { 
  	@extend .content; 	
+ 	@include transitions(all, 0.5s, ease-out);
 	background-color: $deep-silver-blue;
  	height: 250px; 
  	padding: 15px;
