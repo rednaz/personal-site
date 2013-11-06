@@ -1,0 +1,133 @@
+/****************************************
+
+	css document
+
+	created by: Eric 'Zander' Nelson
+	created on:	October 30, 2013 
+	version ##:	beta.1
+
+	zandernelsoninc
+
+ ****************************************/
+
+
+/****************************************
+
+	scss base partial imports
+
+ ****************************************/
+@import "colors";
+@import "fonts";
+@import "mixin";
+@import "selectors";
+@import "navigation";
+
+
+/****************************************
+
+	parent classes
+
+ ****************************************/
+.left 				{ float: left; }
+.width-100-pct		{ width: 100%; }
+.width-90-pct		{ width: 90%; }
+.width-50-pct		{ width: 50%; }
+.width-33-pct		{ width: 33.333333%; }
+.width-66-pct		{ width: 66.666666%; }
+
+.center {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/****************************************
+
+	site button
+
+ ****************************************/
+.button {
+
+	height: 25px;
+	cursor: pointer;
+	margin: 0 10px;
+	padding-right: 10px;
+ 	@include transitions(all, 0.1s, ease-out);
+
+	a {
+		text-decoration: none;
+		text-shadow: 0 1px 1px #fff;
+		display: block;
+		line-height: 14px;
+		padding: 5px 0 5px 10px;
+		margin-right: 5px;
+		color: #000;
+	}
+
+	&:hover {
+		@include shadow-box(-3px,  3px,  2px,  0px, 255, 255, 255, 0.7, 
+							 2px, -2px,  2px,  0px,  50,  50,  50, 0.7);
+
+		border-radius: 2px;
+	}
+
+	&:hover a {
+		padding: 4px 0 6px 10px;
+	}
+
+	&:active {
+		@include shadow-box(-2px,  2px,  2px, 0,  50,  50,  50, 0.7, 
+							 2px, -2px,  2px, 0, 255, 255, 255, 0.7);
+	}
+
+	&:active a {
+		padding: 6px 0 4px 10px;
+	}
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.head,
+.foot {
+	@extend .center;
+	@extend .left;
+	@extend .width-100-pct;
+}
+
+
+.container {
+	@extend .left;
+	@extend .width-100-pct;
+}
+
+.container {
+	background-color: $silver-blue;
+}
+
+.head,
+.foot {
+	background-color: #0F0;
+}
+
+.main {
+	background-color: $light-silver-blue;
+}
+
+
+/****************************************
+
+	scss @media partial imports
+
+ ****************************************/
+@import "media480";
+@import "media600";
+@import "media768";
+@import "media1024";
+
+
+
+@import "panels";
+@import "content";

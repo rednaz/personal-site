@@ -1,0 +1,28 @@
+/****************************************
+
+	@media 768px partial
+
+ ****************************************/
+
+@media only screen and (min-width: 768px)
+{
+
+	.head,
+	.foot {
+		height: 100px;
+	}
+	
+	.head img,
+	.foot img {
+		display: none;
+	}
+	
+	.main {
+		margin-left: 11em;
+		padding-left: 1em;
+	}
+	
+	.container {
+		
+	}
+}
