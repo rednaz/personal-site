@@ -14,7 +14,7 @@
 }
 
 body {
-	@extend .resets;
+	@extend .reset;
 	background-color: $deep-silver-blue;
 }
 
@@ -37,7 +37,7 @@ h4 {
 }
 
 p {
-	@extend .resets;
+	@extend .reset;
 	font-family: Georgia, serif;
 	font-size: 1.0em;
 }

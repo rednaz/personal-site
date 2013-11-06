@@ -14,7 +14,18 @@
 
  .content-cell { 
  	@extend .content; 	
+	background-color: $deep-silver-blue;
  	height: 250px; 
+ 	padding: 15px;
+ 	@include transitions(all, 0.5s, ease-out);
+	@include shadow-box(-1px,  1px,  2px,  0px, 185, 185, 255, 0.8, 
+						 1px, -1px,  2px,  0px, 185, 185, 255, 0.8);
+
+ 	&:hover {
+ 		background-color: $dark-silver-blue;
+		@include shadow-box(-1px,  1px,  2px,  0px, 169, 169, 255, 0.8, 
+							 1px, -1px,  2px,  0px, 169, 169, 255, 0.8);
+ 	} 
  }
  .content-cell-dbl	{ 
  	@extend .content-cell;
