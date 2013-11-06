@@ -6,13 +6,15 @@
 
 
 
+.reset			{ margin: 0; }
+
 .header-styles { 
 	font-family: OratorStd; 
 	font-weight: normal;
 }
 
 body {
-	margin: 0;
+	@extend .resets;
 	background-color: $deep-silver-blue;
 }
 
@@ -35,6 +37,7 @@ h4 {
 }
 
 p {
+	@extend .resets;
 	font-family: Georgia, serif;
 	font-size: 1.0em;
 }

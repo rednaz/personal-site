@@ -48,12 +48,14 @@
 	base selectors
 
  ****************************************/
+.reset {
+  margin: 0; }
+
 .header-styles, h1, h2, h3, h4 {
   font-family: OratorStd;
   font-weight: normal; }
 
 body {
-  margin: 0;
   background-color: #e9e9ff; }
 
 h1 {
