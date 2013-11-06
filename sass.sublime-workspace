@@ -1,0 +1,723 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"width-",
+				"width-66-pct"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"this",
+				"thisMonth"
+			],
+			[
+				"next",
+				"nextWeek"
+			],
+			[
+				"prev",
+				"prevMonth"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"week",
+				"weeklyHours"
+			],
+			[
+				"sel",
+				"selectMonth"
+			],
+			[
+				"select",
+				"selectYear"
+			],
+			[
+				"cur",
+				"currYear"
+			],
+			[
+				"curr",
+				"currMonth"
+			],
+			[
+				"month",
+				"monthStart"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "untitled.html",
+			"settings":
+			{
+				"buffer_size": 8364,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass.scss",
+			"settings":
+			{
+				"buffer_size": 2105,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_content.scss",
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_panels.scss",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_mixin.scss",
+			"settings":
+			{
+				"buffer_size": 1205,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_selectors.scss",
+			"settings":
+			{
+				"buffer_size": 441,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/****************************************\n\n	fonts\n\n ****************************************/\n\n\n\n@font-face\n{\n	font-family: OratorStd;\n	src:url(../personal-site/font/OratorStd.otf);\n}",
+			"file": "css/_fonts.scss",
+			"file_size": 234,
+			"file_write_time": 130280864728069917,
+			"settings":
+			{
+				"buffer_size": 183,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_selectors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media600.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media480.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/branchtest/test.txt",
+		"/C/Users/eric.nelson946/Documents/z-test/fluid-test/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/student-voucher/.gitignore",
+		"/C/Users/eric.nelson946/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/eric.nelson946/Documents/aotd.css",
+		"/C/Users/eric.nelson946/Documents/tutor.htm",
+		"/C/Users/eric.nelson946/Documents/zandernelson/studentvoucher/student-voucher.php",
+		"/C/Users/eric.nelson946/Downloads/student.js",
+		"/E/goodwill.c",
+		"/C/Users/eric.nelson946/Documents/zandernelson/awesome quote css",
+		"/C/Users/eric.nelson946/Desktop/opc/campus-wide-waste-diversion.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".h-font",
+			"content",
+			"\\$bg-color",
+			"\\$nav-color",
+			"panel",
+			"90%",
+			"panel1",
+			";\n",
+			".panel1",
+			"width: 100%",
+			"float",
+			"float:",
+			"max-width",
+			"	:",
+			".yearandtype",
+			"td",
+			"atod-text-center",
+			":([a-z|0-9|#|$])",
+			"0",
+			"(\\$[a-z]*[0-9])",
+			"[0-9]\\. ",
+			"&nbsp;",
+			"<span>|</span>",
+			"/finance/",
+			"/documents/([^0-9])",
+			"/financial-services/",
+			"/financial-services([^/])",
+			"/documents/",
+			"/finance/",
+			"o	",
+			"•	",
+			"ctrl\\+shift",
+			"\\+u",
+			"while",
+			"for ",
+			"for",
+			"getWeeks",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"&nbsp;",
+			"<span[^>]*>|</span>",
+			"/financial-services/avp-financial-services/",
+			"/budget/",
+			"nextWeek",
+			"false",
+			"true",
+			"'false'",
+			"'true'",
+			"/finance/",
+			"/financial-services/([^d])",
+			"/finance/",
+			"/financial-services/",
+			"http://www.csuci.edu/finance/",
+			"this",
+			"$this",
+			"$this->",
+			"public function",
+			"createUser",
+			"createTable",
+			"test_input",
+			"\\$c->",
+			"$c->",
+			"Calendar\\.",
+			"function",
+			"td",
+			"$year",
+			" ",
+			"'",
+			" </a>",
+			"http://www.csuci.edu/finance",
+			"&nbsp;",
+			"finance",
+			"<[^>]*>&nbsp;<[^>]*>|&nbsp;",
+			"/avp",
+			"(<div class=\")align-left(\">)",
+			"<div class=\"align-left\">",
+			"<img",
+			"&nbsp;",
+			" >",
+			"  ",
+			"style=\"[^\"]+\"",
+			"<div[^>]*>&nbsp;</div>",
+			"&nbsp;",
+			"ctrl\\+shift",
+			"<strong>|</strong>",
+			"&nbsp;",
+			"<br />• ",
+			"<p>• ",
+			"rss",
+			"asi",
+			"http://www.csuci.edu",
+			"<span[^>]+>|</span>",
+			"<u>([^<]+)</u>",
+			"<u> </u>",
+			"href=\"http://www.csuci.edu/studenthealth/health-services.htm#([^\"]+)",
+			"href=\"http://www.csuci.edu/studenthealth/healthylifestyles/",
+			"href=\"[^/]*//([^/\"]+/)+",
+			"href=\"http://www.csuci.edu/studenthealth/healthylifestyles/",
+			"href=\"[^/]*//([^/\"]+/)+",
+			"healthy\\-lifestyles.htm#([^\"]+)",
+			"healthy-lifestyles.htm#nutrition",
+			"healthy\\-lifestyles.htm#([^\"]+)",
+			"healthy-lifestyles.htm#nutrition",
+			"healthy\\-lifestyles.htm#([^\"]+)",
+			"alt+shift",
+			"alt+shift+",
+			"alt+shift",
+			"<h2>",
+			"(<img[^>]+>)",
+			"<div><h2>([^<]+)</h2></div>\\n<div>",
+			"<br /",
+			"</h2></div>\n<div><p>",
+			"((<p>[^<]+</p>\\n)+)",
+			"(<p>[^<]</p>\\n)",
+			"(<p>[^<]+</p>\\n)+",
+			"((<p>[^<]+</p>\\n)+)",
+			"(<p>[^<]+</p>\\n)+",
+			"(<p>[^<]*</p>\\n)*",
+			"(<p>[^<]*</p>\\n)",
+			"((<p>[^<]*</p>\\n)*)",
+			"((<p>[^>]*</p>\\n)*)",
+			"(<p>[^>]*</p>\\n)*",
+			"((<p>[^<]*</p>\\n)*)",
+			"(<h2>[^>]*</h2>)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			".header-styles",
+			"content-cell",
+			"$deep-silver-blue",
+			"$silver-blue",
+			"	&:",
+			"center",
+			": $1",
+			"$1,",
+			"",
+			"/financial-services/avp-financial-services/financial-reporting/",
+			"/documents/2013/$1",
+			"/financial-services/avp-financial-services/financial-reporting/documents/",
+			"/financial-services/$1",
+			"",
+			"/financial-services/",
+			"",
+			" ",
+			"",
+			"/financial-services/avp-financial-services/financial-reporting/",
+			"/financial-services/avp-financial-services/",
+			"0",
+			"1",
+			"false",
+			"true",
+			"/financial-services/",
+			"/financial-services/documents/$1",
+			"/financial-services/",
+			"/financial-services/documents/",
+			"/financial-services/",
+			"public static function",
+			"Calendar::",
+			"c->",
+			"public function",
+			"",
+			"\"",
+			"</a> ",
+			"</a>",
+			"/financial-services",
+			" ",
+			"financial-services",
+			"",
+			"/financial-services/avp",
+			"$1tutor-content$2",
+			"<div>",
+			"<img class=\"frame align-left\"",
+			"",
+			">",
+			" ",
+			"",
+			"</li><li>",
+			"<ul><li>",
+			"rss",
+			"",
+			"<a href=\"/studenthealth/services/.htm\">$1</a>",
+			"",
+			"href=\"/studenthealth/services/$1.htm",
+			"href=\"/studenthealth/services/$1",
+			"href=\"/studenthealth/healthylifestyles/",
+			"href=\"/",
+			"href=\"/healthylifestyles/",
+			"href=\"/studenthealth/healthylifestyles/",
+			"healthylifestyles/$1.htm",
+			"$1.htm",
+			"$1",
+			"<div><h2>",
+			"<div>$1</div>",
+			"<h2>$1</h2>\\n",
+			" ",
+			"<div>$1</div>",
+			"<div class=\"group\">$1",
+			"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			" ",
+			"faq/$1.htm",
+			"",
+			" - ",
+			"",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"<a href=\"#\">$1</a>",
+			"",
+			"<ul>",
+			"</ul>",
+			"<a href=\"#\">$1</a>",
+			"",
+			"<a href=\"#\">$1</a>",
+			" - ",
+			"</ul>",
+			"<ul>",
+			"<a href=\"#\">$1</a>",
+			"",
+			"<a href=\"#\">$1</a>",
+			"</ul>",
+			"<ul>",
+			"<a href=\"#\">$1</a>",
+			" - ",
+			"",
+			"<a href=\"#\">$1</a>",
+			"</ul>",
+			"<ul>",
+			" - ",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			" - ",
+			"'",
+			"$1",
+			"<li>$1</li>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "untitled.html",
+					"settings":
+					{
+						"buffer_size": 8364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1143,
+								1143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sass.scss",
+					"settings":
+					{
+						"buffer_size": 2105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_content.scss",
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/_panels.scss",
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/_mixin.scss",
+					"settings":
+					{
+						"buffer_size": 1205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/_selectors.scss",
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/_fonts.scss",
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

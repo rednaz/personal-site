@@ -1,0 +1,34 @@
+/****************************************
+
+	panels partial
+
+ ****************************************/
+
+
+
+.panel {
+	@extend .left;
+	@extend .width-100-pct;
+}
+
+.panel1,
+.panel2,
+.panel3 {
+	@extend .panel;
+}
+
+.panel2 {
+	@media only screen and (min-width: 1024px) {
+		width: 66.666666%;
+	}
+}
+
+.panel1 {
+	@media only screen and (min-width: 768px) {
+		width: 50%;
+	}
+
+	@media only screen and (min-width: 1024px) {
+		width: 33.333333%;
+	}
+}
