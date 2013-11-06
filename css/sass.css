@@ -28,9 +28,6 @@
   font-family: OratorStd;
   src: url(../personal-site/font/OratorStd.otf); }
 
-.h-font {
-  font-family: OratorStd; }
-
 /****************************************
 
 	@mix-ins
@@ -48,7 +45,7 @@
 	base selectors
 
  ****************************************/
-.reset, body, p {
+.reset, body, h1, h2, h3, h4, p {
   margin: 0; }
 
 .header-styles, h1, h2, h3, h4 {
