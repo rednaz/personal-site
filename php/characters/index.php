@@ -1,10 +1,9 @@
-
 <!--
 
-    html test document
+    charcters home
 
     created by: Eric 'Zander' Nelson
-    created on: October 30, 2013 
+    created on: November 6, 2013 
     version ##: beta.1
     
     zandernelsoninc.com
@@ -15,36 +14,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-cell-Type" content-cell="text/html; charset=utf-8" />
-<link type="text/css" rel="stylesheet" href="../personal-site/css/sass.css" />
-<title>test</title>
+<link type="text/css" rel="stylesheet" href="/personal-site/css/sass.css" />
+<title>Characters</title>
 </head>
 
 <body>
 
-<div class="head"><img src="http://dummyimage.com/1000x100/000/fff" /></div>
-
 <div class="container clearfix">
 
-	<div class="nav clearfix">
-        <div class="button">
-            <a href="#">Test1</a>
-        </div>
-        <div class="button">
-            <a href="#">Test2</a>
-        </div>
-        <div class="button">
-            <a href="#">Test3</a>
-        </div>
-        <div class="button">
-            <a href="#">Test4</a>
-        </div>
-    </div>
+	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
 
         <div class="panel">
             <div class="content">
-                <h1>Essance</h1>
+                <h1>Characters</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.
                 
@@ -52,41 +36,64 @@
             </div>
         </div>
 
-        <div class="panel1">
-            <div class="content-cell">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
+        <div class="panel">
+            <div class="content">
+                <h2>Current Party Members</h2>
             </div>
         </div>
+
         <div class="panel1">
-            <div class="content-cell">
+            <a class="content-cell" href="/personal-site/php/characters/bremusa.php">
+                <h3>Bremusa of Stella</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
-            </div>
+            </a>
         </div>
         <div class="panel1">
-            <div class="content-cell">
+            <a class="content-cell" href="/personal-site/php/characters/dotty.php">
+                <h3>Dotty Snow</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
-            </div>
+            </a>
         </div>
         <div class="panel1">
-            <div class="content-cell">
+            <a class="content-cell" href="/personal-site/php/characters/#">
+                <h3></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
-            </div>
+            </a>
         </div>
         <div class="panel1">
-            <div class="content-cell">
+            <a class="content-cell" href="/personal-site/php/characters/#">
+                <h3></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
-            </div>
+            </a>
         </div>
         <div class="panel1">
-            <div class="content-cell">
+            <a class="content-cell" href="/personal-site/php/characters/#">
+                <h3></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
+            </a>
+        </div>
+        <div class="panel1">
+            <a class="content-cell" href="/personal-site/php/characters/#">
+                <h3></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
+            </a>
+        </div>
+
+        <div class="panel">
+            <div class="content">
+                <h2>Former Party Members</h2>
             </div>
+        </div>
+
+        <div class="panel1">
+            <a class="content-cell" href="/personal-site/php/characters/pandamore.php">
+                <h3>Pandamore</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
+            </a>
         </div>
 	</div>
     
 </div>
-
-<div class="foot"><img src="http://dummyimage.com/1000x100/000/fff" /></div>
 
 </body>
 </html>
