@@ -1,6 +1,6 @@
 <!--
 
-    index
+    Bremusa of Stella
 
     created by: Eric 'Zander' Nelson
     created on: November 6, 2013 
@@ -14,8 +14,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-cell-Type" content-cell="text/html; charset=utf-8" />
-<link type="text/css" rel="stylesheet" href="../css/sass.css" />
-<title>Essance</title>
+<link type="text/css" rel="stylesheet" href="/personal-site/css/sass.css" />
+<title>Bremusa</title>
 </head>
 
 <body>
@@ -28,7 +28,9 @@
 
         <div class="panel">
             <div class="content">
-                <h1>Essance</h1>
+                <h1>Characters</h1>
+
+                <h2>Bremusa of Stella</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.
                 

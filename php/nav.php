@@ -8,10 +8,10 @@
 
 <div class="nav clearfix">
     <div class="button">
-        <a href="#">Test1</a>
+        <a href="../php/index.php">Home</a>
     </div>
     <div class="button">
-        <a href="#">Test2</a>
+        <a href="../php/characters/index.php">Characters</a>
     </div>
     <div class="button">
         <a href="#">Test3</a>
