@@ -77,6 +77,8 @@ p {
   font-family: Georgia, serif;
   font-size: 1.0em;
   margin-bottom: 10px; }
+  p:last-child {
+    margin-bottom: 0; }
 
 /****************************************
 
@@ -276,14 +278,16 @@ p {
 	content
 
  ****************************************/
-.content, .content-main, .content-cell, .content-cell-dbl {
+ /****************************************
+
+	note: maybe add border between 
+	sections of content?
+
+ ****************************************/
+.content, .content-cell, .content-cell-dbl {
   margin: 10px;
   display: block;
   overflow: hidden; }
-
-.content-main {
-  border-bottom: 2px solid #d9d9ff;
-  margin-bottom: 0; }
 
 .content-cell, .content-cell-dbl {
   -webkit-transition: all 0.5s ease-out;

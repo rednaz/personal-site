@@ -4,18 +4,20 @@
 
  ****************************************/
 
+ /****************************************
+
+	note: maybe add border between 
+	sections of content?
+
+ ****************************************/
+
+
 
 
 .content {
 	margin: 10px;
 	display: block;
  	overflow: hidden;
-}
-
-.content-main {
-	@extend .content;
-	border-bottom: 2px solid $silver-blue;
-	margin-bottom: 0;
 }
 
 .content-cell { 

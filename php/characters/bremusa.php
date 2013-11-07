@@ -27,7 +27,7 @@
 	<div class="main clearfix">
 
         <div class="panel">
-            <div class="content-main">
+            <div class="content">
                 <h1>Characters</h1>
 
                 <h2>Bremusa of Stella</h2>
