@@ -59,6 +59,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "css/_selectors.scss",
+			"settings":
+			{
+				"buffer_size": 699,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass.scss",
+			"settings":
+			{
+				"buffer_size": 2108,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -92,6 +108,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/pandamore.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/dotty.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/bremusa.php",
@@ -114,7 +131,6 @@
 		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
@@ -425,8 +441,63 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "css/_selectors.scss",
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sass.scss",
+					"settings":
+					{
+						"buffer_size": 2108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1180,
+								1165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
