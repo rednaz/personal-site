@@ -9,6 +9,8 @@
 .nav {
 	@extend .left;
 
+	font-family: OratorStd; 
+
 	@media only screen and (min-width: 768px) {
 		height: 100%;
 		width: 176px;
