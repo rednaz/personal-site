@@ -60,42 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "untitled.html",
-			"settings":
-			{
-				"buffer_size": 8364,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "css/sass.scss",
 			"settings":
 			{
-				"buffer_size": 2105,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/_content.scss",
-			"settings":
-			{
-				"buffer_size": 429,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/_panels.scss",
-			"settings":
-			{
-				"buffer_size": 461,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/_mixin.scss",
-			"settings":
-			{
-				"buffer_size": 1205,
+				"buffer_size": 2126,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,18 +71,31 @@
 			"file": "css/_selectors.scss",
 			"settings":
 			{
-				"buffer_size": 441,
+				"buffer_size": 761,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "/****************************************\n\n	fonts\n\n ****************************************/\n\n\n\n@font-face\n{\n	font-family: OratorStd;\n	src:url(../personal-site/font/OratorStd.otf);\n}",
-			"file": "css/_fonts.scss",
-			"file_size": 234,
-			"file_write_time": 130280864728069917,
+			"file": "css/_panels.scss",
 			"settings":
 			{
-				"buffer_size": 183,
+				"buffer_size": 434,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_content.scss",
+			"settings":
+			{
+				"buffer_size": 834,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_tables.scss",
+			"settings":
+			{
+				"buffer_size": 216,
 				"line_ending": "Windows"
 			}
 		}
@@ -151,22 +132,39 @@
 	},
 	"file_history":
 	[
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/bremusa.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/char-template.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/dotty.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/untitled.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/nav.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/pandamore.php",
+		"/C/Users/eric.nelson946/Documents/z-test/dnd/characters.html",
+		"/C/Users/eric.nelson946/Documents/zandernelson/dnd/characters.html",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_selectors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_fonts.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panels.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_content.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/main.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/footer.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/head.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
 		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_mixin.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_selectors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media600.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media480.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/branchtest/test.txt",
 		"/C/Users/eric.nelson946/Documents/z-test/fluid-test/sass.scss",
@@ -186,9 +184,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php"
 		]
 	},
 	"find_state":
@@ -196,6 +195,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"content-main\"",
+			"\"content\"",
+			".content\"",
+			".content",
+			"Template",
+			"panel1",
+			"  ",
+			"  ",
+			"-dbl",
+			"bremusa.php",
+			"</div>",
 			".h-font",
 			"content",
 			"\\$bg-color",
@@ -312,18 +322,7 @@
 			"<div><h2>([^<]+)</h2></div>\\n<div>",
 			"<br /",
 			"</h2></div>\n<div><p>",
-			"((<p>[^<]+</p>\\n)+)",
-			"(<p>[^<]</p>\\n)",
-			"(<p>[^<]+</p>\\n)+",
-			"((<p>[^<]+</p>\\n)+)",
-			"(<p>[^<]+</p>\\n)+",
-			"(<p>[^<]*</p>\\n)*",
-			"(<p>[^<]*</p>\\n)",
-			"((<p>[^<]*</p>\\n)*)",
-			"((<p>[^>]*</p>\\n)*)",
-			"(<p>[^>]*</p>\\n)*",
-			"((<p>[^<]*</p>\\n)*)",
-			"(<h2>[^>]*</h2>)"
+			"((<p>[^<]+</p>\\n)+)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -331,6 +330,16 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\"content\"",
+			"\"content-main\"",
+			".content-main\"",
+			"Pandamore",
+			"  ",
+			" ",
+			"  ",
+			"",
+			"#",
+			"</a>",
 			".header-styles",
 			"content-cell",
 			"$deep-silver-blue",
@@ -448,17 +457,7 @@
 			"$1",
 			"<li>$1</li>",
 			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			" "
+			"</ul>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -469,30 +468,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "untitled.html",
+					"file": "css/sass.scss",
 					"settings":
 					{
-						"buffer_size": 8364,
+						"buffer_size": 2126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1143,
-								1143
+								433,
+								433
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -502,18 +500,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/sass.scss",
+					"file": "css/_selectors.scss",
 					"settings":
 					{
-						"buffer_size": 2105,
+						"buffer_size": 761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								353,
-								353
+								174,
+								148
 							]
 						],
 						"settings":
@@ -529,23 +527,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "css/_content.scss",
+					"file": "css/_panels.scss",
 					"settings":
 					{
-						"buffer_size": 429,
+						"buffer_size": 434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -555,72 +554,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "css/_panels.scss",
+					"file": "css/_content.scss",
 					"settings":
 					{
-						"buffer_size": 461,
+						"buffer_size": 834,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								159,
-								159
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/_mixin.scss",
-					"settings":
-					{
-						"buffer_size": 1205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								654,
-								654
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/_selectors.scss",
-					"settings":
-					{
-						"buffer_size": 441,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								441,
-								441
+								431,
+								431
 							]
 						],
 						"settings":
@@ -634,19 +579,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "css/_fonts.scss",
+					"buffer": 4,
+					"file": "css/_tables.scss",
 					"settings":
 					{
-						"buffer_size": 183,
+						"buffer_size": 216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								216,
+								216
 							]
 						],
 						"settings":
@@ -668,7 +613,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
