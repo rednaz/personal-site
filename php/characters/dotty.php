@@ -43,7 +43,7 @@
 
         <div class="panel1">
             <div class="content-cell">
-                <table>
+                <table class="char-table">
                     <tbody>
                         <tr>
                             <td>Player</td>
@@ -81,7 +81,9 @@
         <div class="panel1">
             <div class="content-cell">
                 <h3>Catch Phrases</h3>
-                <p>Stuff<p>
+                <blockquote class="char-quotes">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </blockquote>
             </div>
         </div>
         <div class="panel1">

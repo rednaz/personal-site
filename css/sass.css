@@ -115,6 +115,40 @@ p {
 
 /****************************************
 
+	quotes
+
+ ****************************************/
+.char-quotes {
+  background: #e9e9ff;
+  padding: 10px;
+  margin: 2%;
+  float: left;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 1px #d9d9ff, 5px 4px 10px #c9c9ff; }
+  .char-quotes p {
+    font-style: italic;
+    text-indent: 40px;
+    position: relative; }
+  .char-quotes p:before {
+    content: '\2018';
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: -15px;
+    left: -45px;
+    color: #c9c9ff;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
+  .char-quotes p:after {
+    content: '\2019';
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    right: 5px;
+    color: #c9c9ff;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
+
+/****************************************
+
 	parent classes
 
  ****************************************/

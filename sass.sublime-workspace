@@ -60,18 +60,42 @@
 	"buffers":
 	[
 		{
-			"file": "css/_selectors.scss",
+			"file": "css/sass.scss",
 			"settings":
 			{
-				"buffer_size": 699,
+				"buffer_size": 2126,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/sass.scss",
+			"file": "css/_selectors.scss",
 			"settings":
 			{
-				"buffer_size": 2108,
+				"buffer_size": 761,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_panels.scss",
+			"settings":
+			{
+				"buffer_size": 434,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_content.scss",
+			"settings":
+			{
+				"buffer_size": 834,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_tables.scss",
+			"settings":
+			{
+				"buffer_size": 216,
 				"line_ending": "Windows"
 			}
 		}
@@ -108,13 +132,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/pandamore.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/dotty.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/bremusa.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/char-template.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/dotty.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/untitled.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/nav.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/pandamore.php",
 		"/C/Users/eric.nelson946/Documents/z-test/dnd/characters.html",
 		"/C/Users/eric.nelson946/Documents/zandernelson/dnd/characters.html",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters.php",
@@ -131,7 +158,6 @@
 		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media600.scss",
@@ -158,9 +184,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php"
 		]
 	},
 	"find_state":
@@ -168,6 +195,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"content-main\"",
+			"\"content\"",
+			".content\"",
+			".content",
 			"Template",
 			"panel1",
 			"  ",
@@ -291,11 +322,7 @@
 			"<div><h2>([^<]+)</h2></div>\\n<div>",
 			"<br /",
 			"</h2></div>\n<div><p>",
-			"((<p>[^<]+</p>\\n)+)",
-			"(<p>[^<]</p>\\n)",
-			"(<p>[^<]+</p>\\n)+",
-			"((<p>[^<]+</p>\\n)+)",
-			"(<p>[^<]+</p>\\n)+"
+			"((<p>[^<]+</p>\\n)+)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -303,6 +330,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\"content\"",
+			"\"content-main\"",
+			".content-main\"",
 			"Pandamore",
 			"  ",
 			" ",
@@ -427,10 +457,7 @@
 			"$1",
 			"<li>$1</li>",
 			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>"
+			"</ul>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -441,23 +468,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/_selectors.scss",
+					"file": "css/sass.scss",
 					"settings":
 					{
-						"buffer_size": 699,
+						"buffer_size": 2126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								699,
-								699
+								433,
+								433
 							]
 						],
 						"settings":
@@ -473,18 +500,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/sass.scss",
+					"file": "css/_selectors.scss",
 					"settings":
 					{
-						"buffer_size": 2108,
+						"buffer_size": 761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1180,
-								1165
+								174,
+								148
 							]
 						],
 						"settings":
@@ -493,7 +520,86 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_panels.scss",
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/_content.scss",
+					"settings":
+					{
+						"buffer_size": 834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/_tables.scss",
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
