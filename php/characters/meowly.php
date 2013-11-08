@@ -1,9 +1,9 @@
 <!--
 
-    Template
+    Meowly Syrus
 
     created by: Eric 'Zander' Nelson
-    created on: November 6, 2013 
+    created on: November 8, 2013 
     version ##: beta.1
     
     zandernelsoninc.com
@@ -30,7 +30,7 @@
             <div class="content">
                 <h1>Characters</h1>
 
-                <h2>Template</h2>
+                <h2>Meowly Syrus</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
             
@@ -43,19 +43,19 @@
                     <tbody>
                         <tr>
                             <td>Player</td>
-                            <td></td>
+                            <td>Sean</td>
                         </tr>
                         <tr>
                             <td>Race</td>
-                            <td></td>
+                            <td>Catfolk</td>
                         </tr>
                         <tr>
                             <td>Class</td>
-                            <td></td>
+                            <td>Ranger</td>
                         </tr>
                         <tr>
                             <td>Level</td>
-                            <td></td>
+                            <td>2</td>
                         </tr>
                         <tr>
                             <td>Alignment</td>
