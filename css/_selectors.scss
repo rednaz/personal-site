@@ -28,12 +28,14 @@ h1 {
 	@extend .reset;
 	@extend .header-styles; 
 	font-size: 2.5em;
+	margin-bottom: 10px;
 }
 h2 {
 	@extend .reset;
 	@extend .header-styles; 
 	font-size: 2.0em;
 	font-style: oblique;
+	margin-bottom: 10px;
 }
 h3 {
 	@extend .reset;
@@ -50,4 +52,9 @@ p {
 	@extend .reset;
 	font-family: Georgia, serif;
 	font-size: 1.0em;
+	margin-bottom: 10px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }

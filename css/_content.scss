@@ -4,6 +4,14 @@
 
  ****************************************/
 
+ /****************************************
+
+	note: maybe add border between 
+	sections of content?
+
+ ****************************************/
+
+
 
 
 .content {
@@ -19,13 +27,17 @@
  	height: 250px; 
  	padding: 15px;
 	@include shadow-box(-1px,  1px,  2px,  0px, 185, 185, 255, 0.8, 
-						 1px, -1px,  2px,  0px, 185, 185, 255, 0.8); 
+						 1px, -1px,  2px,  0px, 185, 185, 255, 0.8);
+
+	h3 {
+		margin-bottom: 10px;
+	}
 }
 a.content-cell:hover {
- 		background-color: $dark-silver-blue;
-		@include shadow-box(-1px,  1px,  2px,  0px, 169, 169, 255, 0.8, 
-							 1px, -1px,  2px,  0px, 169, 169, 255, 0.8);
- 	}
+ 	background-color: $dark-silver-blue;
+	@include shadow-box(-1px,  1px,  2px,  0px, 169, 169, 255, 0.8, 
+						 1px, -1px,  2px,  0px, 169, 169, 255, 0.8);
+ }
 
 .content-cell-dbl	{ 
 	@extend .content-cell;

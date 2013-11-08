@@ -39,7 +39,7 @@
 
         <div class="panel1">
             <div class="content-cell">
-                <table>
+                <table class="char-table">
                     <tbody>
                         <tr>
                             <td>Player</td>
