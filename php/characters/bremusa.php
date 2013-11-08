@@ -14,7 +14,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-cell-Type" content-cell="text/html; charset=utf-8" />
-<link type="text/css" rel="stylesheet" href="/personal-site/css/sass.css" />
+<link type="text/css" rel="stylesheet" href="../../css/sass.css" />
 <title>Bremusa</title>
 </head>
 
