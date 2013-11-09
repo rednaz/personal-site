@@ -4,14 +4,6 @@
 		"selected_items":
 		[
 			[
-				"backgroun",
-				"background-color"
-			],
-			[
-				"width-",
-				"width-66-pct"
-			],
-			[
 				"backgr",
 				"background-color"
 			],
@@ -63,7 +55,7 @@
 			"file": "css/sass.scss",
 			"settings":
 			{
-				"buffer_size": 2126,
+				"buffer_size": 2144,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +63,7 @@
 			"file": "css/_selectors.scss",
 			"settings":
 			{
-				"buffer_size": 761,
+				"buffer_size": 805,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,7 +79,7 @@
 			"file": "css/_content.scss",
 			"settings":
 			{
-				"buffer_size": 834,
+				"buffer_size": 866,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +87,23 @@
 			"file": "css/_tables.scss",
 			"settings":
 			{
-				"buffer_size": 216,
+				"buffer_size": 395,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "php/characters/index.php",
+			"settings":
+			{
+				"buffer_size": 9720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "php/allies/allies-template.php",
+			"settings":
+			{
+				"buffer_size": 4106,
 				"line_ending": "Windows"
 			}
 		}
@@ -132,39 +140,27 @@
 	},
 	"file_history":
 	[
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/bremusa.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/char-template.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/dotty.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/index.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/index.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/untitled.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/nav.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/pandamore.php",
-		"/C/Users/eric.nelson946/Documents/z-test/dnd/characters.html",
-		"/C/Users/eric.nelson946/Documents/zandernelson/dnd/characters.html",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_selectors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_fonts.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_mixin.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panels.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_content.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/main.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/footer.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/head.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
-		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media600.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media480.scss",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/asuna.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/catriona.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/char-template.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/dotty.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/meowly.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/miziki.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/pandamore.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/allies/index.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/index.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/history/index.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/bremusa.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media1024.scss",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/untitled.html",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media768.scss",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/branchtest/test.txt",
 		"/C/Users/eric.nelson946/Documents/z-test/fluid-test/sass.scss",
@@ -187,7 +183,7 @@
 		"height": 90.0,
 		"where_history":
 		[
-			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php"
+			"C:\\Users\\Rednaz\\Documents\\GitHub\\personal-site\\php\\characters"
 		]
 	},
 	"find_state":
@@ -195,26 +191,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\"content-main\"",
-			"\"content\"",
-			".content\"",
-			".content",
-			"Template",
+			"/personal-site/css/sass.css",
+			"/personal-site/php",
+			"/factions/",
 			"panel1",
-			"  ",
-			"  ",
-			"-dbl",
-			"bremusa.php",
-			"</div>",
-			".h-font",
-			"content",
-			"\\$bg-color",
-			"\\$nav-color",
 			"panel",
-			"90%",
-			"panel1",
-			";\n",
-			".panel1",
 			"width: 100%",
 			"float",
 			"float:",
@@ -322,7 +303,22 @@
 			"<div><h2>([^<]+)</h2></div>\\n<div>",
 			"<br /",
 			"</h2></div>\n<div><p>",
-			"((<p>[^<]+</p>\\n)+)"
+			"((<p>[^<]+</p>\\n)+)",
+			"(<p>[^<]</p>\\n)",
+			"(<p>[^<]+</p>\\n)+",
+			"((<p>[^<]+</p>\\n)+)",
+			"(<p>[^<]+</p>\\n)+",
+			"(<p>[^<]*</p>\\n)*",
+			"(<p>[^<]*</p>\\n)",
+			"((<p>[^<]*</p>\\n)*)",
+			"((<p>[^>]*</p>\\n)*)",
+			"(<p>[^>]*</p>\\n)*",
+			"((<p>[^<]*</p>\\n)*)",
+			"(<h2>[^>]*</h2>)",
+			"(<img)",
+			"<div[^>]*>|</div>",
+			"&rsquo;",
+			"&quot;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -330,20 +326,10 @@
 		"regex": true,
 		"replace_history":
 		[
-			"\"content\"",
-			"\"content-main\"",
-			".content-main\"",
-			"Pandamore",
-			"  ",
-			" ",
-			"  ",
-			"",
-			"#",
-			"</a>",
-			".header-styles",
-			"content-cell",
-			"$deep-silver-blue",
-			"$silver-blue",
+			"../../css/sass.css",
+			"..",
+			"/allies/",
+			"panel1",
 			"	&:",
 			"center",
 			": $1",
@@ -457,7 +443,17 @@
 			"$1",
 			"<li>$1</li>",
 			"<ul>",
-			"</ul>"
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			"</ul>",
+			"<ul>",
+			" "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -468,7 +464,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -476,15 +472,15 @@
 					"file": "css/sass.scss",
 					"settings":
 					{
-						"buffer_size": 2126,
+						"buffer_size": 2144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								433,
-								433
+								0,
+								0
 							]
 						],
 						"settings":
@@ -493,7 +489,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -503,15 +499,15 @@
 					"file": "css/_selectors.scss",
 					"settings":
 					{
-						"buffer_size": 761,
+						"buffer_size": 805,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								174,
-								148
+								0,
+								0
 							]
 						],
 						"settings":
@@ -557,20 +553,21 @@
 					"file": "css/_content.scss",
 					"settings":
 					{
-						"buffer_size": 834,
+						"buffer_size": 866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								431,
-								431
+								613,
+								613
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -583,23 +580,80 @@
 					"file": "css/_tables.scss",
 					"settings":
 					{
-						"buffer_size": 216,
+						"buffer_size": 395,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								216,
-								216
+								256,
+								256
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "php/characters/index.php",
+					"settings":
+					{
+						"buffer_size": 9720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2722,
+								2722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "php/allies/allies-template.php",
+					"settings":
+					{
+						"buffer_size": 4106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2198,
+								2198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
