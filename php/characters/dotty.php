@@ -68,7 +68,7 @@
                         <tr>
                             <td>Affiliations</td>
                             <td>School<br />
-                                Military</td>
+                                Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>

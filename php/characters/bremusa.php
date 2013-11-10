@@ -68,7 +68,7 @@
                         <tr>
                             <td>Affiliations</td>
                             <td>Barbarians of Stella<br />
-                                Military</td>
+                                Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>

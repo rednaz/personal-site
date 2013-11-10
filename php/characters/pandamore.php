@@ -65,7 +65,7 @@
                         </tr>
                         <tr>
                             <td>Affiliations</td>
-                            <td>Military</td>
+                            <td>Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>
