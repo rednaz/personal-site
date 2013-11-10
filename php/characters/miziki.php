@@ -63,7 +63,7 @@
                         </tr>
                         <tr>
                             <td>Affiliations</td>
-                            <td></td>
+                            <td>Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>
