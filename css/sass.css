@@ -156,7 +156,7 @@ p {
 	parent classes
 
  ****************************************/
-.left, .nav, .head,
+.left, h1, h2, h3, h4, .nav, .head,
 .foot, .container, .panel1,
 .panel2,
 .panel3 {
@@ -319,19 +319,46 @@ p {
     max-width: 1400px; } }
 /****************************************
 
-%panels partial
+	panels partial
 
  ****************************************/
+.panel1,
+.panel2,
+.panel3 {
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background-color: #e9e9ff;
+  margin: 10px 1%;
+  padding: 15px 1.5%; }
+  .panel1 a.panel1:hover,
+  .panel2 a.panel1:hover,
+  .panel3 a.panel1:hover,
+  .panel1 a.panel2:hover,
+  .panel2 a.panel2:hover,
+  .panel3 a.panel2:hover,
+  .panel1 a.panel3:hover,
+  .panel2 a.panel3:hover,
+  .panel3 a.panel3:hover {
+    background-color: #c9c9ff;
+    -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8); }
+
 @media only screen and (min-width: 1280px) {
   .panel2 {
-    width: 66.666666%; } }
+    width: 61.66667%; } }
 
 @media only screen and (min-width: 960px) {
   .panel1 {
-    width: 50%; } }
+    width: 45%; } }
 @media only screen and (min-width: 1280px) {
   .panel1 {
-    width: 33.333333%; } }
+    width: 28.33333%; } }
 
 /****************************************
 
@@ -345,29 +372,16 @@ p {
 
  ****************************************/
 .content-cell, .content-cell-dbl {
-  margin: 10px;
   display: block;
   overflow: hidden; }
 
 .content-cell, .content-cell-dbl {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  background-color: #e9e9ff;
-  height: 250px;
-  padding: 15px;
-  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
-  -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
-  box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8); }
+  height: 250px; }
   .content-cell h3, .content-cell-dbl h3 {
+    line-height: 0.8em;
     margin-bottom: 10px; }
-
-a.content-cell:hover, a.content-cell-dbl:hover {
-  background-color: #c9c9ff;
-  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-  -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-  box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8); }
+  .content-cell p, .content-cell-dbl p {
+    text-indent: 25px; }
 
 .content-cell-dbl {
   height: 550px; }

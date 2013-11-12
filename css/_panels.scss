@@ -1,14 +1,32 @@
 /****************************************
 
-%panels partial
+	panels partial
 
  ****************************************/
 
 
 
+$panel-margin:		1%;
+$panel-padding:		1.5%;
+$third-width:		33.333333%; 
+$half-width:		50%;
+
 %panel {
 	@extend .left;
 	@extend .width-100-pct;
+	@include shadow-box(-1px,  1px,  2px,  0px, 185, 185, 255, 0.8, 
+						 1px, -1px,  2px,  0px, 185, 185, 255, 0.8);
+ 	@include transitions(all, 0.5s, ease-out);
+	background-color: $deep-silver-blue;
+	margin: 10px $panel-margin;
+	padding: 15px $panel-padding;
+
+
+	a%panel:hover {
+ 	background-color: $dark-silver-blue;
+	@include shadow-box(-1px,  1px,  2px,  0px, 169, 169, 255, 0.8, 
+						 1px, -1px,  2px,  0px, 169, 169, 255, 0.8);
+	}
 }
 
 .panel1,
@@ -19,16 +37,16 @@
 
 .panel2 {
 	@media only screen and (min-width: 1280px) {
-		width: 66.666666%;
+		width: (2 * $third-width) - (2 * ($panel-margin + $panel-padding));
 	}
 }
 
 .panel1 {
 	@media only screen and (min-width: 960px) {
-		width: 50%;
+		width: $half-width - (2 * ($panel-margin + $panel-padding));
 	}
 
 	@media only screen and (min-width: 1280px) {
-		width: 33.333333%;
+		width: $third-width - (2 * ($panel-margin + $panel-padding));
 	}
 }
