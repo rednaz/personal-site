@@ -45,10 +45,10 @@
 	base selectors
 
  ****************************************/
-.reset, body, h1, h2, h3, h4, p {
+body, h1, h2, h3, h4, p {
   margin: 0; }
 
-.header-styles, h1, h2, h3, h4 {
+h1, h2, h3, h4 {
   font-family: OratorStd;
   font-weight: normal; }
 
@@ -157,13 +157,13 @@ p {
 
  ****************************************/
 .left, .nav, .head,
-.foot, .container, .panel, .panel1,
+.foot, .container, .panel1,
 .panel2,
 .panel3 {
   float: left; }
 
 .width-100-pct, .head,
-.foot, .container, .panel, .panel1,
+.foot, .container, .panel1,
 .panel2,
 .panel3 {
   width: 100%; }
@@ -319,7 +319,7 @@ p {
     max-width: 1400px; } }
 /****************************************
 
-	panels partial
+%panels partial
 
  ****************************************/
 @media only screen and (min-width: 1280px) {
@@ -344,7 +344,7 @@ p {
 	sections of content?
 
  ****************************************/
-.content, .content-cell, .content-cell-dbl {
+.content-cell, .content-cell-dbl {
   margin: 10px;
   display: block;
   overflow: hidden; }

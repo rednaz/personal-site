@@ -1,12 +1,12 @@
 /****************************************
 
-	panels partial
+%panels partial
 
  ****************************************/
 
 
 
-.panel {
+%panel {
 	@extend .left;
 	@extend .width-100-pct;
 }
@@ -14,7 +14,7 @@
 .panel1,
 .panel2,
 .panel3 {
-	@extend .panel;
+	@extend %panel;
 }
 
 .panel2 {
