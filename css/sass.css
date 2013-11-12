@@ -92,7 +92,7 @@ p {
   text-shadow: 0 1px 1px #fff;
   line-height: 14px;
   font-size: 1.1em; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 960px) {
     .nav {
       height: 100%;
       width: 176px;
@@ -284,10 +284,10 @@ p {
 	}*/ }
 /****************************************
 
-	@media 768px partial
+	@media 960px partial
 
  ****************************************/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   .head,
   .foot {
     height: 100px; }
@@ -301,10 +301,10 @@ p {
     padding-left: 1em; } }
 /****************************************
 
-	@media 1024px partial
+	@media 1280px partial
 
  ****************************************/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .head,
   .foot {
     height: auto;
@@ -322,14 +322,14 @@ p {
 	panels partial
 
  ****************************************/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .panel2 {
     width: 66.666666%; } }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   .panel1 {
     width: 50%; } }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .panel1 {
     width: 33.333333%; } }
 
