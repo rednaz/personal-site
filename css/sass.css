@@ -92,10 +92,11 @@ p {
   text-shadow: 0 1px 1px #fff;
   line-height: 14px;
   font-size: 1.1em; }
-  @media only screen and (min-width: 960px) {
+  @media only screen and (min-width: 60em) {
     .nav {
       height: 100%;
       width: 176px;
+      position: fixed;
       margin-top: 100px; } }
 
 /****************************************
@@ -156,7 +157,7 @@ p {
 	parent classes
 
  ****************************************/
-.left, h1, h2, h3, h4, .nav, .head,
+.left, .nav, .head,
 .foot, .container, .panel1,
 .panel2,
 .panel3 {

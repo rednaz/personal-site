@@ -13,14 +13,21 @@
 	line-height: 14px;
 	font-size: 1.1em;
 
-	@media only screen and (min-width: 960px) {
+	// 640px
+	@media only screen and (min-width: 40em) {
+
+	}
+
+	// 960px
+	@media only screen and (min-width: 60em) {
 		height: 100%;
 		width: 176px;
-
+		position: fixed;
 		margin-top: 100px;
 	}
 
-	@media only screen and (min-width: 1280px) {
+	// 1280
+	@media only screen and (min-width: 80em) {
 
 	}
 }
