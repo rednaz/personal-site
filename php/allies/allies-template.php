@@ -28,7 +28,7 @@
 
         <div class="panel">
             <div class="content">
-                <h1>Characters</h1>
+                <h1>Allies</h1>
 
                 <h2>Template</h2>
 
