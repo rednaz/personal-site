@@ -1,6 +1,6 @@
 <!--
 
-    Bremusa of Stella
+    Dotty Snow
 
     created by: Eric 'Zander' Nelson
     created on: November 6, 2013 
@@ -14,7 +14,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-cell-Type" content-cell="text/html; charset=utf-8" />
-<link type="text/css" rel="stylesheet" href="/personal-site/css/sass.css" />
+<link type="text/css" rel="stylesheet" href="../../css/sass.css" />
 <title>Dotty Snow</title>
 </head>
 
@@ -68,7 +68,7 @@
                         <tr>
                             <td>Affiliations</td>
                             <td>School<br />
-                                Military</td>
+                                Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>

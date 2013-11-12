@@ -1,6 +1,6 @@
 <!--
 
-    Template
+    Miziki Star
 
     created by: Eric 'Zander' Nelson
     created on: November 6, 2013 
@@ -30,7 +30,7 @@
             <div class="content">
                 <h1>Characters</h1>
 
-                <h2>Template</h2>
+                <h2>Miziki Star</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
             
@@ -43,19 +43,19 @@
                     <tbody>
                         <tr>
                             <td>Player</td>
-                            <td></td>
+                            <td>Chico</td>
                         </tr>
                         <tr>
                             <td>Race</td>
-                            <td></td>
+                            <td>Elf</td>
                         </tr>
                         <tr>
                             <td>Class</td>
-                            <td></td>
+                            <td>Cleric</td>
                         </tr>
                         <tr>
                             <td>Level</td>
-                            <td></td>
+                            <td>3</td>
                         </tr>
                         <tr>
                             <td>Alignment</td>
@@ -63,7 +63,7 @@
                         </tr>
                         <tr>
                             <td>Affiliations</td>
-                            <td></td>
+                            <td>Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -77,7 +77,7 @@
             <div class="content-cell">
                 <h3>Catch Phrases</h3>
                 <blockquote class="char-quotes">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Guys, i've got Burning Hands.</p>
                 </blockquote>
             </div>
         </div>
