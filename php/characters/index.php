@@ -26,7 +26,7 @@
 
 	<div class="main clearfix">
 
-        <div class="panel">
+        <div class="panel-block">
             <div class="content">
                 <h1>Characters</h1>
 
@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <div class="panel">
+        <div class="panel-block">
             <div class="content">
                 <h2>Current Party Members</h2>
             </div>
@@ -79,7 +79,7 @@
             </a>
         </div>
 
-        <div class="panel">
+        <div class="panel-block">
             <div class="content">
                 <h2>Former Party Members</h2>
             </div>

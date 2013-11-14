@@ -26,7 +26,7 @@
 
 	<div class="main clearfix">
 
-        <div class="panel">
+        <div class="panel-block">
             <div class="content">
                 <h1>Essance</h1>
 

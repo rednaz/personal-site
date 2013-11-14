@@ -19,6 +19,10 @@
  	overflow: hidden;
 }
 
+.content-block {
+	@extend %content-base;
+}
+
 .content-cell { 
  	@extend %content-base; 	
  	height: 250px; 

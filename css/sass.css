@@ -158,13 +158,15 @@ p {
 
  ****************************************/
 .nav, .head,
-.foot, .container, .panel1,
+.foot, .container, .panel-block,
+.panel1,
 .panel2,
 .panel3 {
   float: left; }
 
 .width-100-pct, .head,
-.foot, .container, .panel1,
+.foot, .container, .panel-block,
+.panel1,
 .panel2,
 .panel3 {
   width: 100%; }
@@ -323,6 +325,7 @@ p {
 	panels partial
 
  ****************************************/
+.panel-block,
 .panel1,
 .panel2,
 .panel3 {
@@ -336,12 +339,19 @@ p {
   background-color: #e9e9ff;
   margin: 10px 1%;
   padding: 15px 1.5%; }
+  .panel-block a.panel-block:hover,
+  .panel1 a.panel-block:hover,
+  .panel2 a.panel-block:hover,
+  .panel3 a.panel-block:hover,
+  .panel-block a.panel1:hover,
   .panel1 a.panel1:hover,
   .panel2 a.panel1:hover,
   .panel3 a.panel1:hover,
+  .panel-block a.panel2:hover,
   .panel1 a.panel2:hover,
   .panel2 a.panel2:hover,
   .panel3 a.panel2:hover,
+  .panel-block a.panel3:hover,
   .panel1 a.panel3:hover,
   .panel2 a.panel3:hover,
   .panel3 a.panel3:hover {
@@ -372,7 +382,7 @@ p {
 	sections of content?
 
  ****************************************/
-.content-cell, .content-cell-dbl {
+.content-block, .content-cell, .content-cell-dbl {
   display: block;
   overflow: hidden; }
 
