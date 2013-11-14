@@ -10,19 +10,18 @@ $panel-margin:		1%;
 $panel-padding:		1.5%;
 $third-width:		33.333333%; 
 $half-width:		50%;
+$max-width:			100%;
 
 %panel-base {
 	@extend %left;
-	@extend .width-100-pct;
 	@include shadow-box(-1px,  1px,  2px,  0px, 185, 185, 255, 0.8, 
 						 1px, -1px,  2px,  0px, 185, 185, 255, 0.8);
  	@include transitions(all, 0.5s, ease-out);
+
 	background-color: $deep-silver-blue;
 	margin: 10px $panel-margin;
 	padding: 15px $panel-padding;
-
-
-	
+	width: $max-width - (2 * ($panel-margin + $panel-padding));
 }
 a%panel-base:hover {
  	background-color: $dark-silver-blue;
@@ -32,7 +31,7 @@ a%panel-base:hover {
 
 .panel-block {
 	@extend %left;
-	@extend .width-100-pct;
+	width: $max-width - (2 * ($panel-margin + $panel-padding));
 	margin: 10px 10px 0;
 }
 
