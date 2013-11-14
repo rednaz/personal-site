@@ -22,11 +22,12 @@ $half-width:		50%;
 	padding: 15px $panel-padding;
 
 
-	a%panel-base:hover {
+	
+}
+a%panel-base:hover {
  	background-color: $dark-silver-blue;
 	@include shadow-box(-1px,  1px,  2px,  0px, 169, 169, 255, 0.8, 
 						 1px, -1px,  2px,  0px, 169, 169, 255, 0.8);
-	}
 }
 
 .panel-block {
