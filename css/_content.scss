@@ -14,13 +14,13 @@
 
 
 
-%content {
+%content-base {
 	display: block;
  	overflow: hidden;
 }
 
 .content-cell { 
- 	@extend %content; 	
+ 	@extend %content-base; 	
  	height: 250px; 
 
 	h3 {

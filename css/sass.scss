@@ -30,7 +30,7 @@
 	parent classes
 
  ****************************************/
-.left 				{ float: left; }
+%left 				{ float: left; }
 .width-100-pct		{ width: 100%; }
 .width-90-pct		{ width: 90%; }
 .width-50-pct		{ width: 50%; }
@@ -95,13 +95,13 @@
 .head,
 .foot {
 	@extend .center;
-	@extend .left;
+	@extend %left;
 	@extend .width-100-pct;
 }
 
 
 .container {
-	@extend .left;
+	@extend %left;
 	@extend .width-100-pct;
 }
 

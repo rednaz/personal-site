@@ -11,8 +11,8 @@ $panel-padding:		1.5%;
 $third-width:		33.333333%; 
 $half-width:		50%;
 
-%panel {
-	@extend .left;
+%panel-base {
+	@extend %left;
 	@extend .width-100-pct;
 	@include shadow-box(-1px,  1px,  2px,  0px, 185, 185, 255, 0.8, 
 						 1px, -1px,  2px,  0px, 185, 185, 255, 0.8);
@@ -22,7 +22,7 @@ $half-width:		50%;
 	padding: 15px $panel-padding;
 
 
-	a%panel:hover {
+	a%panel-base:hover {
  	background-color: $dark-silver-blue;
 	@include shadow-box(-1px,  1px,  2px,  0px, 169, 169, 255, 0.8, 
 						 1px, -1px,  2px,  0px, 169, 169, 255, 0.8);
@@ -32,7 +32,7 @@ $half-width:		50%;
 .panel1,
 .panel2,
 .panel3 {
-	@extend %panel;
+	@extend %panel-base;
 }
 
 .panel2 {

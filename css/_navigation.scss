@@ -7,7 +7,7 @@
 
 	
 .nav {
-	@extend .left;
+	@extend %left;
 	font-family: OratorStd; 
 	text-shadow: 0 1px 1px #fff;
 	line-height: 14px;
