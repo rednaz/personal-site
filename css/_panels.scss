@@ -22,6 +22,11 @@ $max-width:			100%;
 	margin: 10px $panel-margin;
 	padding: 15px $panel-padding;
 	width: $max-width - (2 * ($panel-margin + $panel-padding));
+
+	& h2 {
+		border-top: 1px solid $dark-silver-blue;
+		padding-top: 5px;
+	}
 }
 a%panel-base:hover {
  	background-color: $dark-silver-blue;
@@ -31,8 +36,13 @@ a%panel-base:hover {
 
 .panel-block {
 	@extend %left;
-	width: $max-width - (2 * ($panel-margin + $panel-padding));
+	width: $max-width - (2 * $panel-margin);
 	margin: 10px 10px 0;
+
+	& h2 {
+		border-top: 1px solid $dark-silver-blue;
+		padding-top: 5px;
+	}
 }
 
 .panel1,
