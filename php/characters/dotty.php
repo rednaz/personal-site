@@ -44,11 +44,13 @@
         <div class="panel1">
             <div class="content-cell">
                 <table class="char-table">
-                    <tbody>
+                    <thead>
                         <tr>
-                            <td>Player</td>
-                            <td>Neil</td>
+                            <th>Player</th>
+                            <th>Neil</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Race</td>
                             <td>Elf</td>

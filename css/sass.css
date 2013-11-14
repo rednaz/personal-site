@@ -109,9 +109,11 @@ p {
   font-size: 1.1em;
   margin: 0 2%;
   width: 96%; }
-  .char-table tr:first-child {
+  .char-table thead tr {
     border-bottom: 2px solid #c9c9ff; }
-  .char-table tr:nth-child(2) td {
+    .char-table thead tr th {
+      text-align: left; }
+  .char-table tr td {
     padding-top: 5px; }
   .char-table td:first-child {
     width: 33.333333%; }
