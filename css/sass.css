@@ -380,23 +380,17 @@ a.panel3:hover {
 	content
 
  ****************************************/
- /****************************************
-
-	note: maybe add border between 
-	sections of content?
-
- ****************************************/
-.content-block, .content-cell, .content-cell-dbl {
+.content-cell, .content-cell-dbl {
   display: block;
   overflow: hidden; }
-
-.content-cell, .content-cell-dbl {
-  height: 250px; }
   .content-cell h3, .content-cell-dbl h3 {
     line-height: 0.8em;
     margin-bottom: 10px; }
   .content-cell p, .content-cell-dbl p {
     text-indent: 25px; }
+
+.content-cell {
+  height: 250px; }
 
 .content-cell-dbl {
   height: 550px; }

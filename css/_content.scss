@@ -4,28 +4,12 @@
 
  ****************************************/
 
- /****************************************
-
-	note: maybe add border between 
-	sections of content?
-
- ****************************************/
-
 
 
 
 %content-base {
 	display: block;
  	overflow: hidden;
-}
-
-.content-block {
-	@extend %content-base;
-}
-
-.content-cell { 
- 	@extend %content-base; 	
- 	height: 250px; 
 
 	h3 {
 		line-height: 0.8em;
@@ -36,7 +20,12 @@
 	}
 }
 
+.content-cell { 
+ 	@extend %content-base; 	
+ 	height: 250px; 
+}
+
 .content-cell-dbl	{ 
-	@extend .content-cell;
+	@extend %content-base;
  	height: 550px; 
 }
