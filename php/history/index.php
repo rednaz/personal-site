@@ -26,7 +26,7 @@
 
 	<div class="main clearfix">
 
-        <div class="panel-block">
+        <div class="panel3">
             <div class="content">
                 <h1>History</h1>
 

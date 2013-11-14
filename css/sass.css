@@ -335,19 +335,27 @@ p {
   margin: 10px 1%;
   padding: 15px 1.5%;
   width: 95%; }
-  .panel1 h2,
-  .panel2 h2,
-  .panel3 h2 {
-    border-top: 1px solid #c9c9ff;
-    padding-top: 5px; }
+  .panel1 .panel1,
+  .panel2 .panel1,
+  .panel3 .panel1,
+  .panel1 .panel2,
+  .panel2 .panel2,
+  .panel3 .panel2,
+  .panel1 .panel3,
+  .panel2 .panel3,
+  .panel3 .panel3 {
+    -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    background-color: #d9d9ff; }
 
 a.panel1:hover,
 a.panel2:hover,
 a.panel3:hover {
   background-color: #c9c9ff;
-  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-  -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-  box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8); }
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8); }
 
 .panel-block {
   width: 98%;

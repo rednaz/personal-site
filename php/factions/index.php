@@ -26,7 +26,7 @@
 
 	<div class="main clearfix">
 
-        <div class="panel-block">
+        <div class="panel3">
             <div class="content">
                 <h1>Factions</h1>
 
@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <div class="panel-block">
+        <div class="panel3">
             <div class="content">
                 <h2>Friendly Factions</h2>
             </div>
@@ -61,7 +61,7 @@
             </div>
         </a>
 
-        <a class="panel-block">
+        <a class="panel3">
             <div class="content">
                 <h2>Enemy Factions</h2>
             </div>
@@ -86,7 +86,7 @@
             </div>
         </a>
 
-        <div class="panel-block">
+        <div class="panel3">
             <div class="content">
                 <h2>Neutral Factions</h2>
             </div>
