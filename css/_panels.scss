@@ -29,7 +29,12 @@ $half-width:		50%;
 	}
 }
 
-.panel-block,
+.panel-block {
+	@extend %left;
+	@extend .width-100-pct;
+	margin: 10px 10px 0;
+}
+
 .panel1,
 .panel2,
 .panel3 {

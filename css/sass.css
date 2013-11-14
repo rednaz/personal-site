@@ -158,17 +158,15 @@ p {
 
  ****************************************/
 .nav, .head,
-.foot, .container, .panel-block,
-.panel1,
+.foot, .container, .panel1,
 .panel2,
-.panel3 {
+.panel3, .panel-block {
   float: left; }
 
 .width-100-pct, .head,
-.foot, .container, .panel-block,
-.panel1,
+.foot, .container, .panel1,
 .panel2,
-.panel3 {
+.panel3, .panel-block {
   width: 100%; }
 
 .width-90-pct {
@@ -325,7 +323,6 @@ p {
 	panels partial
 
  ****************************************/
-.panel-block,
 .panel1,
 .panel2,
 .panel3 {
@@ -339,19 +336,12 @@ p {
   background-color: #e9e9ff;
   margin: 10px 1%;
   padding: 15px 1.5%; }
-  .panel-block a.panel-block:hover,
-  .panel1 a.panel-block:hover,
-  .panel2 a.panel-block:hover,
-  .panel3 a.panel-block:hover,
-  .panel-block a.panel1:hover,
   .panel1 a.panel1:hover,
   .panel2 a.panel1:hover,
   .panel3 a.panel1:hover,
-  .panel-block a.panel2:hover,
   .panel1 a.panel2:hover,
   .panel2 a.panel2:hover,
   .panel3 a.panel2:hover,
-  .panel-block a.panel3:hover,
   .panel1 a.panel3:hover,
   .panel2 a.panel3:hover,
   .panel3 a.panel3:hover {
@@ -359,6 +349,9 @@ p {
     -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
     -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
     box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8); }
+
+.panel-block {
+  margin: 10px 10px 0; }
 
 @media only screen and (min-width: 1280px) {
   .panel2 {
