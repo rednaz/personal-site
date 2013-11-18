@@ -30,20 +30,9 @@ $max-width:			100%;
 	}
 }
 a%panel-base:hover {
- 	background-color: $dark-silver-blue;
+ 	background-color: #b9b9ff;
 	@include shadow-box(-1px,  1px,  2px,  0px, 153, 153, 255, 0.8, 
 						 1px, -1px,  2px,  0px, 153, 153, 255, 0.8);
-}
-
-.panel-block {
-	@extend %left;
-	width: $max-width - (2 * $panel-margin);
-	margin: 10px 10px 0;
-
-	& h2 {
-		border-top: 1px solid $dark-silver-blue;
-		padding-top: 5px;
-	}
 }
 
 .panel1,

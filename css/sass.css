@@ -167,7 +167,7 @@ p {
 .nav, .head,
 .foot, .container, .panel1,
 .panel2,
-.panel3, .panel-block {
+.panel3 {
   float: left; }
 
 .width-100-pct, .head,
@@ -353,17 +353,10 @@ p {
 a.panel1:hover,
 a.panel2:hover,
 a.panel3:hover {
-  background-color: #c9c9ff;
+  background-color: #b9b9ff;
   -webkit-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
   -moz-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
   box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8); }
-
-.panel-block {
-  width: 98%;
-  margin: 10px 10px 0; }
-  .panel-block h2 {
-    border-top: 1px solid #c9c9ff;
-    padding-top: 5px; }
 
 @media only screen and (min-width: 1280px) {
   .panel2 {
