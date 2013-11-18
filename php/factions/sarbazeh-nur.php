@@ -47,7 +47,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Falgir</td>
+                            <td><a href="../characters/catriona.php">Falgir</a></td>
                             <td>Commander</td>
                         </tr>
                         <tr>
