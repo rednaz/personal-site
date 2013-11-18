@@ -71,7 +71,7 @@
                         </tr>
                         <tr>
                             <td>Affiliations</td>
-                            <td>Sarbazeh Nur</td>
+                            <td>Lieutenant of the Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>

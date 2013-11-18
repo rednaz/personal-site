@@ -48,8 +48,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Stuff</td>
-                            <td>Other</td>
+                            <td>Donaidh</td>
+                            <td>Logistics Officer<br />
+                                Sarbazeh Nur Spy</td>
                         </tr>
                         <tr>
                             <td>Stuff</td>
