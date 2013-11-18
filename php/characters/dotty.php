@@ -25,10 +25,9 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
+        <h1>Characters</h1>
 
-        <div class="panel">
-            <div class="content">
-                <h1>Characters</h1>
+        <div class="panel3">
 
                 <h2>Dotty Snow</h2>
 
@@ -38,17 +37,19 @@
                 <p>When the  caravan finally arrived at the city, Dotty began his search to see if the  rumors were true.  One thing was true,  the so called son did live in the town, at least until his house was accidently  burnt down.  The only information he  could gather was that the man he was looking for was traveling south with a new  companion.</p>
                 <p>Happy to know that he may be close to some answers, he pressed on without the caravan that he had traveled with.  His gut kept telling him that traveling alone was wrong, but he kept going.  A few days of traveling led him to a clearing and he had realized that he had just stumbled upon a large Orc and Goblin camp.  He looked around and noticed that there were tons of them, and that they had captured many prisoners.  He turned around, hoping he could get away to get help when he saw two orcs standing in front of him.  He smiled at them awkwardly before they knocked him out.</p>
                 
-                </div>
+               
         </div>
 
         <div class="panel1">
             <div class="content-cell">
                 <table class="char-table">
-                    <tbody>
+                    <thead>
                         <tr>
-                            <td>Player</td>
-                            <td>Neil</td>
+                            <th>Player</th>
+                            <th>Neil</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Race</td>
                             <td>Elf</td>

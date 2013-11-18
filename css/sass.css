@@ -45,10 +45,10 @@
 	base selectors
 
  ****************************************/
-.reset, body, h1, h2, h3, h4, p {
+body, h1, h2, h3, h4, p {
   margin: 0; }
 
-.header-styles, h1, h2, h3, h4 {
+h1, h2, h3, h4 {
   font-family: OratorStd;
   font-weight: normal; }
 
@@ -58,11 +58,11 @@ a {
   cursor: pointer; }
 
 body {
-  background-color: #e9e9ff; }
+  background-color: #f0f0ff; }
 
 h1 {
   font-size: 2.5em;
-  margin-bottom: 10px; }
+  margin: 20px 30px 10px; }
 
 h2 {
   font-size: 2.0em;
@@ -91,12 +91,18 @@ p {
   font-family: OratorStd;
   text-shadow: 0 1px 1px #fff;
   line-height: 14px;
-  font-size: 1.1em; }
-  @media only screen and (min-width: 768px) {
+  font-size: 1.1em;
+  background-color: #d9d9ff; }
+  @media only screen and (min-width: 60em) {
     .nav {
+      -webkit-box-shadow: inset -2px 0px 5px 0px rgba(185, 185, 255, 0.8), inset 0px 0px 0px 0px rgba(185, 185, 255, 0.8);
+      -moz-box-shadow: inset -2px 0px 5px 0px rgba(185, 185, 255, 0.8), inset 0px 0px 0px 0px rgba(185, 185, 255, 0.8);
+      box-shadow: inset -2px 0px 5px 0px rgba(185, 185, 255, 0.8), inset 0px 0px 0px 0px rgba(185, 185, 255, 0.8);
+      border-right: 2px solid #b9b9FF;
       height: 100%;
       width: 176px;
-      margin-top: 100px; } }
+      position: fixed;
+      padding-top: 100px; } }
 
 /****************************************
 
@@ -108,9 +114,11 @@ p {
   font-size: 1.1em;
   margin: 0 2%;
   width: 96%; }
-  .char-table tr:first-child {
+  .char-table thead tr {
     border-bottom: 2px solid #c9c9ff; }
-  .char-table tr:nth-child(2) td {
+    .char-table thead tr th {
+      text-align: left; }
+  .char-table tr td {
     padding-top: 5px; }
   .char-table td:first-child {
     width: 33.333333%; }
@@ -156,16 +164,14 @@ p {
 	parent classes
 
  ****************************************/
-.left, .nav, .head,
-.foot, .container, .panel, .panel1,
+.nav, .head,
+.foot, .container, .panel1,
 .panel2,
 .panel3 {
   float: left; }
 
 .width-100-pct, .head,
-.foot, .container, .panel, .panel1,
-.panel2,
-.panel3 {
+.foot, .container {
   width: 100%; }
 
 .width-90-pct {
@@ -225,15 +231,9 @@ p {
 .clearfix {
   overflow: auto; }
 
-.container {
-  background-color: #d9d9ff; }
-
 .head,
 .foot {
   background-color: #0F0; }
-
-.main {
-  background-color: #f0f0ff; }
 
 /****************************************
 
@@ -284,10 +284,10 @@ p {
 	}*/ }
 /****************************************
 
-	@media 768px partial
+	@media 960px partial
 
  ****************************************/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   .head,
   .foot {
     height: 100px; }
@@ -301,10 +301,10 @@ p {
     padding-left: 1em; } }
 /****************************************
 
-	@media 1024px partial
+	@media 1280px partial
 
  ****************************************/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .head,
   .foot {
     height: auto;
@@ -322,52 +322,69 @@ p {
 	panels partial
 
  ****************************************/
-@media only screen and (min-width: 1024px) {
-  .panel2 {
-    width: 66.666666%; } }
+.panel1,
+.panel2,
+.panel3 {
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background-color: #e9e9ff;
+  margin: 10px 1%;
+  padding: 15px 1.5%;
+  width: 95%; }
+  .panel1 .panel1,
+  .panel2 .panel1,
+  .panel3 .panel1,
+  .panel1 .panel2,
+  .panel2 .panel2,
+  .panel3 .panel2,
+  .panel1 .panel3,
+  .panel2 .panel3,
+  .panel3 .panel3 {
+    -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    background-color: #d9d9ff; }
 
-@media only screen and (min-width: 768px) {
+a.panel1:hover,
+a.panel2:hover,
+a.panel3:hover {
+  background-color: #b9b9ff;
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8); }
+
+@media only screen and (min-width: 1280px) {
+  .panel2 {
+    width: 61.66667%; } }
+
+@media only screen and (min-width: 960px) {
   .panel1 {
-    width: 50%; } }
-@media only screen and (min-width: 1024px) {
+    width: 45%; } }
+@media only screen and (min-width: 1280px) {
   .panel1 {
-    width: 33.333333%; } }
+    width: 28.33333%; } }
 
 /****************************************
 
 	content
 
  ****************************************/
- /****************************************
-
-	note: maybe add border between 
-	sections of content?
-
- ****************************************/
-.content, .content-cell, .content-cell-dbl {
-  margin: 10px;
+.content-cell, .content-cell-dbl {
   display: block;
   overflow: hidden; }
-
-.content-cell, .content-cell-dbl {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  background-color: #e9e9ff;
-  height: 250px;
-  padding: 15px;
-  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
-  -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
-  box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8); }
   .content-cell h3, .content-cell-dbl h3 {
+    line-height: 0.8em;
     margin-bottom: 10px; }
+  .content-cell p, .content-cell-dbl p {
+    text-indent: 25px; }
 
-a.content-cell:hover, a.content-cell-dbl:hover {
-  background-color: #c9c9ff;
-  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-  -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-  box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8); }
+.content-cell {
+  height: 250px; }
 
 .content-cell-dbl {
   height: 550px; }
