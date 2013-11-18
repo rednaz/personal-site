@@ -39,7 +39,7 @@
         <div class="panel1">
             <div class="content-cell">
                 <h3>Known Members</h3>
-                <table>
+                <table class="char-table">
                     <thead>
                         <tr>
                             <th>Member</th>
