@@ -25,10 +25,10 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
+                
+        <h1>Characters</h1>
 
         <div class="panel3">
-            <div class="content">
-                <h1>Characters</h1>
 
                 <h2>Bremusa of Stella</h2>
 
@@ -38,17 +38,19 @@
                 <p>As she looked upon the mountain, she felt as though something was calling to her.  Part of her thought it was her wanting to join the others in the next life.  But the more she stared at the mountain, the more she began to see an image in the mountain.  She heard something, a women surrounded in flames, but could not understand.  The more she gazed upon the women, the more her gaze focused on the ring that she was wearing.  She became memorized by the ring, glowing red and brighter and brighter, as if it was filled with...</p>
                 <p>Startled, she turned around readying her sword.  She realized that her posture was so serene that a bird had landed on her shoulder.  She also noticed that she had moved towards the mountain and had nearly walked into the river of lava.  Back at the volcano, the image she saw was gone, but she was filled with a new sensation.  Something was calling her north.  North of the volcano, far from the home she once knew.  She began her trek, still covered in soot and ash.  Climbing the northern mountain range, villagers found out what had happened to the tribe of Setareh.  Many realized that she was the sole survivor and began calling her Bremusa, the Barbarian of Setareh.</p>
 
-                </div>
+                
         </div>
 
         <div class="panel1">
             <div class="content-cell">
                 <table class="char-table">
-                    <tbody>
+                    <thead>
                         <tr>
-                            <td>Player</td>
-                            <td>Rachel</td>
+                            <th>Player</th>
+                            <th>Rachel</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Race</td>
                             <td>Human</td>

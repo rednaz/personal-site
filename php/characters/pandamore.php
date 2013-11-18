@@ -25,10 +25,9 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
+        <h1>Characters</h1>
 
         <div class="panel3">
-            <div class="content">
-                <h1>Characters</h1>
 
                 <h2>Pandamore</h2>
 
@@ -36,17 +35,19 @@
                 <p>Each performance was a rouse.  A distraction to get the patrons used to his appearance.  He would go around afterwards, talking with the people, and steal some of their valuables.  He did it slowly in order to avoid detection.  He was beginning to make quite the profit for himself.  Of course, when you are making lots of easy money, it is very easy to bite off more than you can chew.</p>
                 <p>One of the wealthy patrons had guards that noticed what he was doing.  After he returned to his camp to look through his collection for the night, he was ambushed.  Tied up, he was thrown outside while his loot was being plundered.  He was able to easily break free.  Not wanting to be caught again, he only recovered what he thought was necessary to live and took off.  He thought it would be wise to leave town and left.  He kept his guard up for a few hours, always checking over his shoulder.  When he finally felt safe, he looked back, staring in the direction of the town.  He was depressed that he had lost nearly everything that he had stolen.  With his guard down, something knocked him out from behind.</p>
             
-            </div>
+
         </div>
 
         <div class="panel1">
             <div class="content-cell">
                 <table class="char-table">
-                    <tbody>
+                    <thead>
                         <tr>
                             <td>Player</td>
                             <td>Sean</td>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Race</td>
                             <td>Elf</td>
@@ -68,8 +69,8 @@
                             <td>Sarbazeh Nur</td>
                         </tr>
                         <tr>
-                            <td></td>
-                            <td></td>
+                            <td>Status</td>
+                            <td>KIA</td>
                         </tr>
                     </tbody>
                 </table>
