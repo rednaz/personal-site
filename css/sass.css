@@ -94,11 +94,14 @@ p {
   font-size: 1.1em; }
   @media only screen and (min-width: 60em) {
     .nav {
+      -webkit-box-shadow: inset -2px 0px 5px 0px rgba(185, 185, 255, 0.8), inset 0px 0px 0px 0px rgba(185, 185, 255, 0.8);
+      -moz-box-shadow: inset -2px 0px 5px 0px rgba(185, 185, 255, 0.8), inset 0px 0px 0px 0px rgba(185, 185, 255, 0.8);
+      box-shadow: inset -2px 0px 5px 0px rgba(185, 185, 255, 0.8), inset 0px 0px 0px 0px rgba(185, 185, 255, 0.8);
+      border-right: 2px solid #b9b9FF;
       height: 100%;
       width: 176px;
       position: fixed;
-      padding-top: 100px;
-      /*border-right: 2px solid #b9b9FF;*/ } }
+      padding-top: 100px; } }
 
 /****************************************
 
