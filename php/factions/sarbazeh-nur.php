@@ -48,13 +48,23 @@
                     <tbody>
                         <tr>
                             <td>Falgir</td>
-                            <td>Commander</td>
+                            <td>Colonel<br />
+                                Commander 4th Battalion</td>
+                        </tr>
+                        <tr>
+                            <td>Moe</td>
+                            <td>Chef</td>
+                        </tr>
+                        <tr>
+                            <td>Phil the Enchanter</td>
+                            <td>Lieutenant Colonel<br />
+                                Archmage 4th Battalion</td>
                         </tr>
                         <tr>
                             <td>Catr&iacute;ona</td>
-                            <td>First Lieutenant</td>
+                            <td>First Lieutenant
+                                Commander of Party</td>
                         </tr>
-                        <tr>
                         <tr>
                             <td>Stuff</td>
                             <td>Other</td>
