@@ -30,7 +30,7 @@
 	parent classes
 
  ****************************************/
-.left 				{ float: left; }
+%left 				{ float: left; }
 .width-100-pct		{ width: 100%; }
 .width-90-pct		{ width: 90%; }
 .width-50-pct		{ width: 50%; }
@@ -95,27 +95,19 @@
 .head,
 .foot {
 	@extend .center;
-	@extend .left;
+	@extend %left;
 	@extend .width-100-pct;
 }
 
 
 .container {
-	@extend .left;
+	@extend %left;
 	@extend .width-100-pct;
-}
-
-.container {
-	background-color: $silver-blue;
 }
 
 .head,
 .foot {
 	background-color: #0F0;
-}
-
-.main {
-	background-color: $light-silver-blue;
 }
 
 
@@ -126,8 +118,8 @@
  ****************************************/
 @import "media480";
 @import "media600";
-@import "media768";
-@import "media1024";
+@import "media960";
+@import "media1280";
 
 
 

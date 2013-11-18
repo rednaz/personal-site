@@ -25,10 +25,10 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
+        
+        <h1>Characters</h1>
 
-        <div class="panel">
-            <div class="content">
-                <h1>Characters</h1>
+        <div class="panel3">
 
                 <h2>Catr&iacute;ona</h2>
 
@@ -40,17 +40,19 @@
                 <p>Three days  into the desert was already starting to take its toll on the group. The summer heat was too much for some of the  platoon, and the entire group was unable to make as much progress as they were  hoping to. They were still a week away  from their destination, but they had already believed that if Donaidh was there  that he had left a week before they did.  The only goal was to verify if the information was true. Unfortunately, they would never make it to  their original destination.</p>
                 <p>At half  past noon, Catr&iacute;ona stopped. Something  didn&rsquo;t feel right. The wind had died  down all of a sudden, yet she could still hear it moving. Izanami, now full grown, began growling at a  stench in the air. The cleric stopped  the party, but was already too late to react.  The two leading scouts had already been taken out by arrows.</p>
                 <p>Outnumbered  by Orcs, the platoon tried to fight back.  One by one they began to fall, and Catr&iacute;ona felt that all was lost. The only thing that she could think of doing  was to save the only one that could escape the battle. She told Izanami to flee. After doing so, Catr&iacute;ona was knocked over the  head and, just before losing consciousness, saw the wolf run back towards the  forest...</p>
-            </div>
+            
         </div>
 
         <div class="panel1">
             <div class="content-cell">
                 <table class="char-table">
-                    <tbody>
+                    <thead>
                         <tr>
-                            <td>Player</td>
-                            <td>Jonathon</td>
+                            <th>Player</th>
+                            <th>Jonathon</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Race</td>
                             <td>Halfling</td>

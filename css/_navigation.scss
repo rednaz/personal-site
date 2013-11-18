@@ -7,20 +7,32 @@
 
 	
 .nav {
-	@extend .left;
+	@extend %left;
 	font-family: OratorStd; 
 	text-shadow: 0 1px 1px #fff;
 	line-height: 14px;
 	font-size: 1.1em;
+	background-color: $silver-blue;
 
-	@media only screen and (min-width: 768px) {
-		height: 100%;
-		width: 176px;
+	// 640px
+	@media only screen and (min-width: 40em) {
 
-		margin-top: 100px;
 	}
 
-	@media only screen and (min-width: 1024px) {
+	// 960px
+	@media only screen and (min-width: 60em) {
+		@include shadow-box(-2px,  0px,  5px,  0px, 185, 185, 255, 0.8, 
+						 	 0px,  0px,  0px,  0px, 185, 185, 255, 0.8);
+		
+		border-right: 2px solid #b9b9FF;
+		height: 100%;
+		width: 176px;
+		position: fixed;
+		padding-top: 100px;
+	}
+
+	// 1280
+	@media only screen and (min-width: 80em) {
 
 	}
 }

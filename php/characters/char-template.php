@@ -25,48 +25,49 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
+        <h1>Characters</h1>
 
-        <div class="panel">
-            <div class="content">
-                <h1>Characters</h1>
+        <div class="panel3">
 
                 <h2>Template</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
             
-                </div>
+              
         </div>
 
         <div class="panel1">
             <div class="content-cell">
                 <table class="char-table">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Stuff</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr>
-                            <td>Player</td>
-                            <td></td>
-                        </tr>
-                        <tr>
                             <td>Race</td>
-                            <td></td>
+                            <td>Stuff</td>
                         </tr>
                         <tr>
                             <td>Class</td>
-                            <td></td>
+                            <td>Stuff</td>
                         </tr>
                         <tr>
                             <td>Level</td>
-                            <td></td>
+                            <td>Stuff</td>
                         </tr>
                         <tr>
                             <td>Alignment</td>
-                            <td></td>
+                            <td>Stuff</td>
                         </tr>
                         <tr>
                             <td>Affiliations</td>
-                            <td></td>
+                            <td>Stuff</td>
                         </tr>
                         <tr>
-                            <td></td>
+                            <td>Status</td>
                             <td></td>
                         </tr>
                     </tbody>
