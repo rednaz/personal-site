@@ -385,6 +385,8 @@ a.panel3:hover {
 
 .content-cell {
   height: 250px; }
+  .content-cell img {
+    width: 100%; }
 
 .content-cell-dbl {
   height: 550px; }
