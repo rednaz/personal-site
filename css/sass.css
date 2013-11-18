@@ -58,7 +58,7 @@ a {
   cursor: pointer; }
 
 body {
-  background-color: #e9e9ff; }
+  background-color: #f0f0ff; }
 
 h1 {
   font-size: 2.5em;
@@ -91,7 +91,8 @@ p {
   font-family: OratorStd;
   text-shadow: 0 1px 1px #fff;
   line-height: 14px;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  background-color: #d9d9ff; }
   @media only screen and (min-width: 60em) {
     .nav {
       -webkit-box-shadow: inset -2px 0px 5px 0px rgba(185, 185, 255, 0.8), inset 0px 0px 0px 0px rgba(185, 185, 255, 0.8);
@@ -230,15 +231,9 @@ p {
 .clearfix {
   overflow: auto; }
 
-.container {
-  background-color: #d9d9ff; }
-
 .head,
 .foot {
   background-color: #0F0; }
-
-.main {
-  background-color: #f0f0ff; }
 
 /****************************************
 
