@@ -56,7 +56,7 @@
                         </tr>
                         <tr>
                             <td>Level</td>
-                            <td>13</td>
+                            <td>11</td>
                         </tr>
                         <tr>
                             <td>Alignment</td>
@@ -76,7 +76,7 @@
         </div>
         <div class="panel1">
             <div class="content-cell">
-                <h3>Catch Phrases</h3>
+                <h3>Quotes</h3>
                 <blockquote class="char-quotes">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </blockquote>

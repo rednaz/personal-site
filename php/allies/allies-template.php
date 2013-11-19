@@ -76,7 +76,7 @@
         </div>
         <div class="panel1">
             <div class="content-cell">
-                <h3>Catch Phrases</h3>
+                <h3>Quotes</h3>
                 <blockquote class="char-quotes">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </blockquote>
