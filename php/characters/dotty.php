@@ -25,11 +25,11 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
-        <h1>Characters</h1>
+        <h1>Dotty Snow</h1>
 
         <div class="panel3">
 
-                <h2>Dotty Snow</h2>
+                <h2>Background</h2>
 
                 <p>Growing up  was never easy for Dotty.  This was  mostly his own fault though.  The only  thing that was actually rough for him was growing up without a father.  Being a bastard was probably the reason why  he decided to be a smartass though.  Like  most boys in similar situations, he would act out due to the fact that he  didn&rsquo;t have a father figure.  Unlike most  boys though, he mostly stuck to harmless mischief.  After all, he was only looking for attention,  not hatred.</p>
                 <p>Dotty was  also told that he could make a great wizard one day.  Unfortunately that person didn&rsquo;t know that  Dotty would get himself kicked out of most of the wizard colleges amongst the  northern plains and the forests.  He was  smart enough that every college wanted to train him, but that number greatly  decreased when he focused more on causing antics with his newly learned spells  than actually learning.  It got to the  point that no school would accept him, which was perfectly fine in his eyes.</p>
@@ -81,7 +81,7 @@
         </div>
         <div class="panel1">
             <div class="content-cell">
-                <h3>Catch Phrases</h3>
+                <h3>Quotes</h3>
                 <blockquote class="char-quotes">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </blockquote>

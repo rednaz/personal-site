@@ -26,11 +26,11 @@
 
 	<div class="main clearfix">
         
-        <h1>Characters</h1>
+        <h1>Catr&iacute;ona</h1>
 
         <div class="panel3">
 
-                <h2>Catr&iacute;ona</h2>
+                <h2>Background</h2>
 
                 <p>Catr&iacute;ona  grew up with three brothers: one was ten years her elder, the second was eight  years her elder, and the youngest was five years younger than she. As a  consequence of this, she tended to be more of a tomboy in her attitude, yet as  the only daughter of the family she was also pampered as the little princess  which also shows through her attitude occasionally.</p>
                 <p>When Catr&iacute;ona was eleven years old  her eldest brother, Baltair was slain in combat (preferably in war, but I don't  know if that suits your world/story). Her second oldest brother, Donaidh, was  enlisted in the military two years later but has not been seen or heard for  pandamore years. Catr&iacute;ona had always been protective of her younger brother,  Luthais, but due to what happened to her elder brothers, she has been extremely  protective of him as of late. </p>
@@ -71,7 +71,7 @@
                         </tr>
                         <tr>
                             <td>Affiliations</td>
-                            <td>Sarbazeh Nur</td>
+                            <td>Lieutenant of the Sarbazeh Nur</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -83,7 +83,7 @@
         </div>
         <div class="panel1">
             <div class="content-cell">
-                <h3>Catch Phrases</h3>
+                <h3>Quotes</h3>
                 <blockquote class="char-quotes">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </blockquote>

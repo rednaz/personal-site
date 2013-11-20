@@ -36,7 +36,7 @@
         </div>
 
         <div class="panel1">
-            <div class="content-cell">
+            <div class="content-cell-dbl">
                 <h3>Known Members</h3>
                 <table class="char-table">
                     <thead>
@@ -45,31 +45,44 @@
                             <th>Role</th>
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <td><a href="../characters/catriona.php">Falgir</a></td>
-                            <td>Commander</td>
+                            <td><a href="../allies/falgir.php">Falgir</a></td>
+                            <td>Colonel<br />
+                                Commander, 4th Battalion</td>
                         </tr>
                         <tr>
-                            <td>Catr&iacute;ona</td>
-                            <td>First Lieutenant</td>
+                            <td>Moe</td>
+                            <td>Chef</td>
                         </tr>
                         <tr>
+                            <td>Phil the Enchanter</td>
+                            <td>Lieutenant Colonel<br />
+                                Archmage, 4th Battalion</td>
+                        </tr>
                         <tr>
-                            <td>Stuff</td>
-                            <td>Other</td>
+                            <td><a href="../characters/catriona.php">Catr&iacute;ona</a></td>
+                            <td>First Lieutenant
+                                Commander of Party</td>
+                        </tr>
+                        <tr>
+                            <td>Donaidh</td>
+                            <td>Master Sergeant</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        <div class="panel1">
+        <div class="panel2">
             <div class="content-cell">
+                <h3>Relations with Other Factions</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
             </div>
         </div>
-        <div class="panel1">
+        <div class="panel2">
             <div class="content-cell">
+                <h3>Useful Information</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
             </div>
         </div>
