@@ -125,10 +125,13 @@ ul {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   background-color: #e9e9ff;
-  margin: 10px 1%;
-  padding: 15px 1.5%;
+  margin: 1em 1%;
+  padding: 1em 1.5%;
   width: 95%;
-  position: relative; }
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 22em; }
   .panel1 .panel1,
   .panel2 .panel1,
   .panel3 .panel1,
@@ -142,6 +145,11 @@ ul {
     -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
     box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
     background-color: #d9d9ff; }
+  .panel1 div,
+  .panel2 div,
+  .panel3 div {
+    overflow: hidden;
+    height: 14.5em; }
 
 a.panel1:hover,
 a.panel2:hover,
@@ -156,16 +164,17 @@ a.panel2:after,
 a.panel3:after {
   content: "More \2192";
   position: absolute;
-  right: 15px;
-  bottom: 10px;
+  right: 1em;
+  bottom: 1em;
   background-color: #d9d9ff;
-  border-radius: 15px;
-  padding: 3px;
-  box-shadow: 0 0 10px 5px #c9c9ff; }
+  border-radius: 1em;
+  padding: 2px;
+  box-shadow: 0 0 10px 5px #d9d9ff; }
 
 @media only screen and (min-width: 960px) {
   .panel2 .panel1 {
-    width: 45%; } }
+    width: 45%;
+    height: 16.5em; } }
 @media only screen and (min-width: 1280px) {
   .panel2 {
     width: 61.66667%; } }
@@ -176,6 +185,11 @@ a.panel3:after {
 @media only screen and (min-width: 1280px) {
   .panel1 {
     width: 28.33333%; } }
+
+.panel-dbl {
+  height: 48em; }
+  .panel-dbl div {
+    height: 48em; }
 
 /****************************************
 
