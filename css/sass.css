@@ -163,6 +163,9 @@ a.panel3:after {
   padding: 3px;
   box-shadow: 0 0 10px 5px #c9c9ff; }
 
+@media only screen and (min-width: 960px) {
+  .panel2 .panel1 {
+    width: 45%; } }
 @media only screen and (min-width: 1280px) {
   .panel2 {
     width: 61.66667%; } }
