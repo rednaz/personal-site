@@ -26,11 +26,11 @@
 
 	<div class="main clearfix">
                 
-        <h1>Characters</h1>
+        <h1>Bremusa of Stella</h1>
 
         <div class="panel3">
 
-                <h2>Bremusa of Stella</h2>
+                <h2>Background</h2>
 
                 <p>Setareh, the land of stars.  Legends state that the mountain top used to be so high that you could reach other worlds.  The mountain range itself was even in the shape of a star.  While many different villages and towns were founded all along the ranges themselves, none were built along the center: an active volcano.  Some ventured to the volcano for the thrill or historical purposes, but only one group actually decided to live around the volcano.  Considered both brave and stupid for doing so, this group was aptly referred to as the Barbarians of Setareh.</p>
                 <p>Unfortunately after many decades, the lifestyle finally caught up with them.  Considered an unspeakable tragedy, almost the entire tribe was claimed by the mountain.  While hunting, new ruptures erupted near the base of the mountain, catching the barbarians off guard.  They attempted to escape, but it seemed as fate had them trapped as new pockets of magma appeared at every turn.  One barbarian was, ironically, lucky enough to be thrown from the path by a burst of compressed gas.  She landed dozens of feet down the mountain side, knocking her unconscious.</p>
@@ -82,7 +82,7 @@
         </div>
         <div class="panel1">
             <div class="content-cell">
-                <h3>Catch Phrases</h3>
+                <h3>Quotes</h3>
                 <p>Stuff<p>
             </div>
         </div>

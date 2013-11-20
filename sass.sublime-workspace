@@ -63,7 +63,7 @@
 			"file": "css/sass.scss",
 			"settings":
 			{
-				"buffer_size": 2144,
+				"buffer_size": 2045,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +71,7 @@
 			"file": "css/_panels.scss",
 			"settings":
 			{
-				"buffer_size": 1200,
+				"buffer_size": 1699,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "css/_content.scss",
 			"settings":
 			{
-				"buffer_size": 557,
+				"buffer_size": 398,
 				"line_ending": "Windows"
 			}
 		}
@@ -186,7 +186,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php",
@@ -472,7 +472,6 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
@@ -480,15 +479,15 @@
 					"file": "css/sass.scss",
 					"settings":
 					{
-						"buffer_size": 2144,
+						"buffer_size": 2045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2117,
-								2122
+								0,
+								0
 							]
 						],
 						"settings":
@@ -507,15 +506,15 @@
 					"file": "css/_panels.scss",
 					"settings":
 					{
-						"buffer_size": 1200,
+						"buffer_size": 1699,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								645,
-								645
+								0,
+								0
 							]
 						],
 						"settings":
@@ -534,7 +533,7 @@
 					"file": "css/_content.scss",
 					"settings":
 					{
-						"buffer_size": 557,
+						"buffer_size": 398,
 						"regions":
 						{
 						},

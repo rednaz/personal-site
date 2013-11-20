@@ -25,11 +25,11 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
-        <h1>Characters</h1>
+        <h1>Pandamore</h1>
 
         <div class="panel3">
 
-                <h2>Pandamore</h2>
+                <h2>Background</h2>
 
                 <p>Pandamore was making a name for himself.  He was a pretty good dancer, and was entertaining patrons all across Bashkoh.  He was even getting requests from rich patrons.  The only problem was that the profession wasn&rsquo;t really providing him with the income that he had desired.  Luckily for Pandamore, that was the plan.</p>
                 <p>Each performance was a rouse.  A distraction to get the patrons used to his appearance.  He would go around afterwards, talking with the people, and steal some of their valuables.  He did it slowly in order to avoid detection.  He was beginning to make quite the profit for himself.  Of course, when you are making lots of easy money, it is very easy to bite off more than you can chew.</p>
@@ -78,7 +78,7 @@
         </div>
         <div class="panel1">
             <div class="content-cell">
-                <h3>Catch Phrases</h3>
+                <h3>Quotes</h3>
                 <blockquote class="char-quotes">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </blockquote>
