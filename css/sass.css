@@ -127,7 +127,8 @@ ul {
   background-color: #e9e9ff;
   margin: 10px 1%;
   padding: 15px 1.5%;
-  width: 95%; }
+  width: 95%;
+  position: relative; }
   .panel1 .panel1,
   .panel2 .panel1,
   .panel3 .panel1,
@@ -149,6 +150,18 @@ a.panel3:hover {
   -webkit-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
   -moz-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
   box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8); }
+
+a.panel1:after,
+a.panel2:after,
+a.panel3:after {
+  content: "More \2192";
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  background-color: #d9d9ff;
+  border-radius: 15px;
+  padding: 3px;
+  box-shadow: 0 0 10px 5px #c9c9ff; }
 
 @media only screen and (min-width: 1280px) {
   .panel2 {
