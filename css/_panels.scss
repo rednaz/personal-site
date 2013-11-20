@@ -25,7 +25,7 @@ $max-width:			100%;
 	position: relative;
 	display: block;
  	overflow: hidden;
- 	height: 20em;
+ 	height: 22em;
 
 	%panel-base {
 		@include shadow-box(-1px,  1px,  2px,  0px, 169, 169, 255, 0.8, 
@@ -51,8 +51,8 @@ a%panel-base:after {
 	bottom: 1em;
 	background-color: $silver-blue;
 	border-radius: 1em;
-	padding: 3px;
-	box-shadow: 0 0 10px 5px $dark-silver-blue;
+	padding: 2px;
+	box-shadow: 0 0 10px 5px $silver-blue;
 }
 
 .panel1,
@@ -65,7 +65,7 @@ a%panel-base:after {
 	@media only screen and (min-width: 960px) {
 		& .panel1 {
 			width: $half-width - (2 * ($panel-margin + $panel-padding));
-			height: 20em - 2em - 2em - 1.5em;
+			height: 22em - 2em - 2em - 1.5em;
 		}
 	}
 
@@ -85,9 +85,9 @@ a%panel-base:after {
 }
 
 .panel-dbl { 
-	height: 44em;
+	height: 48em;
 
 	& div {
-		height: 44em;
+		height: 48em;
 	}
 }

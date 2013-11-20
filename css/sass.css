@@ -131,7 +131,7 @@ ul {
   position: relative;
   display: block;
   overflow: hidden;
-  height: 20em; }
+  height: 22em; }
   .panel1 .panel1,
   .panel2 .panel1,
   .panel3 .panel1,
@@ -168,13 +168,13 @@ a.panel3:after {
   bottom: 1em;
   background-color: #d9d9ff;
   border-radius: 1em;
-  padding: 3px;
-  box-shadow: 0 0 10px 5px #c9c9ff; }
+  padding: 2px;
+  box-shadow: 0 0 10px 5px #d9d9ff; }
 
 @media only screen and (min-width: 960px) {
   .panel2 .panel1 {
     width: 45%;
-    height: 14.5em; } }
+    height: 16.5em; } }
 @media only screen and (min-width: 1280px) {
   .panel2 {
     width: 61.66667%; } }
@@ -187,9 +187,9 @@ a.panel3:after {
     width: 28.33333%; } }
 
 .panel-dbl {
-  height: 44em; }
+  height: 48em; }
   .panel-dbl div {
-    height: 44em; }
+    height: 48em; }
 
 /****************************************
 
