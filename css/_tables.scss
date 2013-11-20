@@ -20,7 +20,7 @@
 		}
 	}
 	
-	& tr td {
+	& td {
 		padding-top: 5px;
 	}
 
@@ -29,5 +29,12 @@
 	}
 	& td:last-child {
 		width: 66.666666%;
+	}
+
+	& td a {
+		border-bottom: 2px dotted $dark-silver-blue;
+	}
+	& td a:hover {
+		color: #00b;
 	}
 }

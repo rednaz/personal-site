@@ -45,7 +45,7 @@
 	base selectors
 
  ****************************************/
-body, h1, h2, h3, h4, p {
+body, h1, h2, h3, h4, p, ul {
   margin: 0; }
 
 h1, h2, h3, h4 {
@@ -82,6 +82,11 @@ p {
   p:last-child {
     margin-bottom: 0; }
 
+ul {
+  padding-left: 0; }
+  ul li {
+    list-style: none; }
+
 /****************************************
 
 	navigation partial
@@ -106,6 +111,110 @@ p {
 
 /****************************************
 
+	panels partial
+
+ ****************************************/
+.panel1,
+.panel2,
+.panel3 {
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background-color: #e9e9ff;
+  margin: 1em 1%;
+  padding: 1em 1.5%;
+  width: 95%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 22em; }
+  .panel1 .panel1,
+  .panel2 .panel1,
+  .panel3 .panel1,
+  .panel1 .panel2,
+  .panel2 .panel2,
+  .panel3 .panel2,
+  .panel1 .panel3,
+  .panel2 .panel3,
+  .panel3 .panel3 {
+    -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    background-color: #d9d9ff; }
+  .panel1 div,
+  .panel2 div,
+  .panel3 div {
+    overflow: hidden;
+    height: 14.5em; }
+
+a.panel1:hover,
+a.panel2:hover,
+a.panel3:hover {
+  background-color: #b9b9ff;
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8); }
+
+a.panel1:after,
+a.panel2:after,
+a.panel3:after {
+  content: "More \2192";
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  background-color: #d9d9ff;
+  border-radius: 1em;
+  padding: 2px;
+  box-shadow: 0 0 10px 5px #d9d9ff; }
+
+@media only screen and (min-width: 960px) {
+  .panel2 .panel1 {
+    width: 45%;
+    height: 16.5em; } }
+@media only screen and (min-width: 1280px) {
+  .panel2 {
+    width: 61.66667%; } }
+
+@media only screen and (min-width: 960px) {
+  .panel1 {
+    width: 45%; } }
+@media only screen and (min-width: 1280px) {
+  .panel1 {
+    width: 28.33333%; } }
+
+.panel-dbl {
+  height: 48em; }
+  .panel-dbl div {
+    height: 48em; }
+
+/****************************************
+
+	content
+
+ ****************************************/
+.content-cell, .content-cell-dbl {
+  display: block;
+  overflow: hidden; }
+  .content-cell h3, .content-cell-dbl h3 {
+    line-height: 0.8em;
+    margin-bottom: 10px; }
+  .content-cell p, .content-cell-dbl p {
+    text-indent: 25px; }
+
+.content-cell {
+  height: 250px; }
+  .content-cell img {
+    width: 100%; }
+
+.content-cell-dbl {
+  height: 550px; }
+
+/****************************************
+
 	tables
 
  ****************************************/
@@ -118,12 +227,16 @@ p {
     border-bottom: 2px solid #c9c9ff; }
     .char-table thead tr th {
       text-align: left; }
-  .char-table tr td {
+  .char-table td {
     padding-top: 5px; }
   .char-table td:first-child {
     width: 33.333333%; }
   .char-table td:last-child {
     width: 66.666666%; }
+  .char-table td a {
+    border-bottom: 2px dotted #c9c9ff; }
+  .char-table td a:hover {
+    color: #00b; }
 
 /****************************************
 
@@ -139,35 +252,35 @@ p {
   box-shadow: inset 2px 2px 1px #d9d9ff, 5px 4px 10px #c9c9ff; }
   .char-quotes p {
     font-style: italic;
-    text-indent: 40px;
+    text-indent: 50px;
     position: relative; }
   .char-quotes p:before {
-    content: '\2018';
-    font-size: 50px;
+    content: '\201C';
+    font-size: 75px;
     font-weight: 700;
     position: absolute;
-    top: -15px;
-    left: -45px;
-    color: #c9c9ff;
+    top: -30px;
+    left: -50px;
+    color: #9f9fff;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
   .char-quotes p:after {
-    content: '\2019';
+    /*content: '\2019';
     font-size: 50px;
     font-weight: 700;
     position: absolute;
     right: 5px;
-    color: #c9c9ff;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
+    color: $dark-silver-blue;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.2);*/ }
 
 /****************************************
 
 	parent classes
 
  ****************************************/
-.nav, .head,
-.foot, .container, .panel1,
+.nav, .panel1,
 .panel2,
-.panel3 {
+.panel3, .head,
+.foot, .container {
   float: left; }
 
 .width-100-pct, .head,
@@ -317,74 +430,3 @@ p {
 
   .container {
     max-width: 1400px; } }
-/****************************************
-
-	panels partial
-
- ****************************************/
-.panel1,
-.panel2,
-.panel3 {
-  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
-  -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
-  box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  background-color: #e9e9ff;
-  margin: 10px 1%;
-  padding: 15px 1.5%;
-  width: 95%; }
-  .panel1 .panel1,
-  .panel2 .panel1,
-  .panel3 .panel1,
-  .panel1 .panel2,
-  .panel2 .panel2,
-  .panel3 .panel2,
-  .panel1 .panel3,
-  .panel2 .panel3,
-  .panel3 .panel3 {
-    -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-    -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-    box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
-    background-color: #d9d9ff; }
-
-a.panel1:hover,
-a.panel2:hover,
-a.panel3:hover {
-  background-color: #b9b9ff;
-  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
-  -moz-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
-  box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8); }
-
-@media only screen and (min-width: 1280px) {
-  .panel2 {
-    width: 61.66667%; } }
-
-@media only screen and (min-width: 960px) {
-  .panel1 {
-    width: 45%; } }
-@media only screen and (min-width: 1280px) {
-  .panel1 {
-    width: 28.33333%; } }
-
-/****************************************
-
-	content
-
- ****************************************/
-.content-cell, .content-cell-dbl {
-  display: block;
-  overflow: hidden; }
-  .content-cell h3, .content-cell-dbl h3 {
-    line-height: 0.8em;
-    margin-bottom: 10px; }
-  .content-cell p, .content-cell-dbl p {
-    text-indent: 25px; }
-
-.content-cell {
-  height: 250px; }
-
-.content-cell-dbl {
-  height: 550px; }
