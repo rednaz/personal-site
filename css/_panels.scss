@@ -35,6 +35,7 @@ $max-width:			100%;
 
 	& div {
 		overflow: hidden;
+		height: 14.5em;
 	}
 }
 a%panel-base:hover {
@@ -83,4 +84,10 @@ a%panel-base:after {
 	}
 }
 
-.panel-dbl 			{ height: 44em };
+.panel-dbl { 
+	height: 44em;
+
+	& div {
+		height: 44em;
+	}
+}

@@ -148,7 +148,8 @@ ul {
   .panel1 div,
   .panel2 div,
   .panel3 div {
-    overflow: hidden; }
+    overflow: hidden;
+    height: 14.5em; }
 
 a.panel1:hover,
 a.panel2:hover,
@@ -187,6 +188,8 @@ a.panel3:after {
 
 .panel-dbl {
   height: 44em; }
+  .panel-dbl div {
+    height: 44em; }
 
 /****************************************
 
