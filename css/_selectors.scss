@@ -57,3 +57,12 @@ p {
 		margin-bottom: 0;
 	}
 }
+
+ul {
+	@extend %reset;
+	padding-left: 0;
+
+	li {
+		list-style: none;
+	}
+}

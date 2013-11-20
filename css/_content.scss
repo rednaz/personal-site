@@ -23,6 +23,10 @@
 .content-cell { 
  	@extend %content-base; 	
  	height: 250px; 
+
+ 	img {
+ 		width: 100%;
+ 	}
 }
 
 .content-cell-dbl	{ 
