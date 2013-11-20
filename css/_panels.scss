@@ -32,6 +32,10 @@ $max-width:			100%;
 							 1px, -1px,  2px,  0px, 169, 169, 255, 0.8);
 		background-color: $silver-blue;
 	}
+
+	& div {
+		overflow: hidden;
+	}
 }
 a%panel-base:hover {
  	background-color: #b9b9ff;
