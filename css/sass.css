@@ -160,6 +160,10 @@ ul {
   .panel3 div {
     overflow: hidden;
     height: 14.5em; }
+    .panel1 div p,
+    .panel2 div p,
+    .panel3 div p {
+      margin-top: 10px; }
 
 a.panel1:hover,
 a.panel2:hover,
@@ -195,6 +199,11 @@ a.panel3:after {
 @media only screen and (min-width: 1280px) {
   .panel1 {
     width: 28.33333%; } }
+
+.panel-auto {
+  height: auto; }
+  .panel-auto div {
+    height: auto; }
 
 @media only screen and (min-width: 60em) {
   .panel-dbl {

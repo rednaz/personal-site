@@ -41,6 +41,10 @@ $max-width:			100%;
 	& div {
 		overflow: hidden;
 		height: 14.5em;
+
+		& p {
+			margin-top: 10px;
+		}
 	}
 }
 a%panel-base:hover {
@@ -86,6 +90,14 @@ a%panel-base:after {
 
 	@media only screen and (min-width: 1280px) {
 		width: $third-width - (2 * ($panel-margin + $panel-padding));
+	}
+}
+
+.panel-auto {
+	height: auto;
+
+	& div {
+		height: auto;
 	}
 }
 
