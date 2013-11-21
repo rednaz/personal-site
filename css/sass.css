@@ -175,7 +175,7 @@ a.panel3:after {
   content: "More \2192";
   position: absolute;
   right: 1em;
-  bottom: 1em;
+  bottom: .75em;
   background-color: #d9d9ff;
   border-radius: 1em;
   padding: 2px;
