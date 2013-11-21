@@ -33,9 +33,23 @@ $max-width:			100%;
 		background-color: $silver-blue;
 	}
 
+	h2 {
+		margin: 0;
+		line-height: 1em;
+	}
+
+	h3 {
+		line-height: 1em;
+	}
+
 	& div {
 		overflow: hidden;
 		height: 14.5em;
+
+		& p {
+			margin-top: 10px;
+			text-indent: 25px;
+		}
 	}
 }
 a%panel-base:hover {
@@ -48,7 +62,7 @@ a%panel-base:after {
 	content: "More \2192";
 	position: absolute;
 	right: 1em;
-	bottom: 1em;
+	bottom: .75em;
 	background-color: $silver-blue;
 	border-radius: 1em;
 	padding: 2px;
@@ -61,11 +75,19 @@ a%panel-base:after {
 	@extend %panel-base;
 }
 
+.panel3 {
+	@media only screen and (min-width: 960px) {
+		& .panel1 {
+			height: 16em;
+		}
+	}
+}
+
 .panel2 {
 	@media only screen and (min-width: 960px) {
 		& .panel1 {
 			width: $half-width - (2 * ($panel-margin + $panel-padding));
-			height: 22em - 2em - 2em - 1.5em;
+			height: 16em;
 		}
 	}
 
@@ -84,10 +106,21 @@ a%panel-base:after {
 	}
 }
 
-.panel-dbl { 
-	height: 48em;
+.panel-auto {
+	height: auto;
 
-	& div {
+	& > div {
+		height: auto;
+	}
+}
+
+.panel-dbl { 
+
+	@media only screen and (min-width: 60em) {
 		height: 48em;
+
+		& div {
+			height: 48em;
+		}
 	}
 }
