@@ -218,6 +218,18 @@ a.panel3:after {
   .panel-auto > div {
     height: auto; }
 
+/****************************************
+
+	WARNING
+	TEMP CLASS ONLY TO PUSH SITE OUT
+	MUST FIX AT A FURTHER DATE
+
+ ****************************************/
+.panel-temp {
+  height: auto; }
+  .panel-temp div {
+    height: 22em; }
+
 @media only screen and (min-width: 60em) {
   .panel-dbl {
     height: 48em; }
