@@ -70,6 +70,14 @@ a%panel-base:after {
 	@extend %panel-base;
 }
 
+.panel3 {
+	@media only screen and (min-width: 960px) {
+		& .panel1 {
+			height: 16em;
+		}
+	}
+}
+
 .panel2 {
 	@media only screen and (min-width: 960px) {
 		& .panel1 {
@@ -96,7 +104,7 @@ a%panel-base:after {
 .panel-auto {
 	height: auto;
 
-	& div {
+	& > div {
 		height: auto;
 	}
 }

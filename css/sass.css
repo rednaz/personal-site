@@ -186,6 +186,10 @@ a.panel3:after {
   box-shadow: 0 0 10px 5px #d9d9ff; }
 
 @media only screen and (min-width: 960px) {
+  .panel3 .panel1 {
+    height: 16em; } }
+
+@media only screen and (min-width: 960px) {
   .panel2 .panel1 {
     width: 45%;
     height: 16em; } }
@@ -202,7 +206,7 @@ a.panel3:after {
 
 .panel-auto {
   height: auto; }
-  .panel-auto div {
+  .panel-auto > div {
     height: auto; }
 
 @media only screen and (min-width: 60em) {
