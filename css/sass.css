@@ -107,7 +107,12 @@ ul {
       height: 100%;
       width: 176px;
       position: fixed;
-      padding-top: 100px; } }
+      padding-top: 100px; }
+      .nav li {
+        height: 25px;
+        overflow: hidden; }
+      .nav li.active {
+        height: auto; } }
 
 /****************************************
 
@@ -145,6 +150,11 @@ ul {
     -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
     box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
     background-color: #d9d9ff; }
+  .panel1 h2,
+  .panel2 h2,
+  .panel3 h2 {
+    margin: 0;
+    line-height: 1em; }
   .panel1 div,
   .panel2 div,
   .panel3 div {
@@ -174,7 +184,7 @@ a.panel3:after {
 @media only screen and (min-width: 960px) {
   .panel2 .panel1 {
     width: 45%;
-    height: 16.5em; } }
+    height: 16em; } }
 @media only screen and (min-width: 1280px) {
   .panel2 {
     width: 61.66667%; } }
@@ -186,10 +196,11 @@ a.panel3:after {
   .panel1 {
     width: 28.33333%; } }
 
-.panel-dbl {
-  height: 48em; }
-  .panel-dbl div {
+@media only screen and (min-width: 60em) {
+  .panel-dbl {
     height: 48em; }
+    .panel-dbl div {
+      height: 48em; } }
 
 /****************************************
 

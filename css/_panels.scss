@@ -33,6 +33,11 @@ $max-width:			100%;
 		background-color: $silver-blue;
 	}
 
+	h2 {
+		margin: 0;
+		line-height: 1em;
+	}
+
 	& div {
 		overflow: hidden;
 		height: 14.5em;
@@ -65,7 +70,7 @@ a%panel-base:after {
 	@media only screen and (min-width: 960px) {
 		& .panel1 {
 			width: $half-width - (2 * ($panel-margin + $panel-padding));
-			height: 22em - 2em - 2em - 1.5em;
+			height: 16em;
 		}
 	}
 
@@ -85,9 +90,12 @@ a%panel-base:after {
 }
 
 .panel-dbl { 
-	height: 48em;
 
-	& div {
+	@media only screen and (min-width: 60em) {
 		height: 48em;
+
+		& div {
+			height: 48em;
+		}
 	}
 }
