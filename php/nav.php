@@ -27,7 +27,7 @@
         <div class='button'>
             <a href='/personal-site/php/characters/index.php'>Characters</a>
         </div>
-        <ul>
+        <ul class='nav-secondary'>
             <li class='button'>
                 <a href='/personal-site/php/characters/asuna.php'>Asuna</a>
             </li>
