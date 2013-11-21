@@ -159,6 +159,10 @@ ul {
   .panel3 h2 {
     margin: 0;
     line-height: 1em; }
+  .panel1 h3,
+  .panel2 h3,
+  .panel3 h3 {
+    line-height: 1em; }
   .panel1 div,
   .panel2 div,
   .panel3 div {
@@ -167,7 +171,8 @@ ul {
     .panel1 div p,
     .panel2 div p,
     .panel3 div p {
-      margin-top: 10px; }
+      margin-top: 10px;
+      text-indent: 25px; }
 
 a.panel1:hover,
 a.panel2:hover,
