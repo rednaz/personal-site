@@ -171,8 +171,8 @@ ul {
     .panel1 div p,
     .panel2 div p,
     .panel3 div p {
-      margin-top: 10px;
-      text-indent: 25px; }
+      margin-top: 0.75em;
+      text-indent: 1.5em; }
 
 a.panel1:hover,
 a.panel2:hover,
@@ -188,7 +188,7 @@ a.panel3:after {
   content: "More \2192";
   position: absolute;
   right: 1em;
-  bottom: .75em;
+  bottom: 0.75em;
   background-color: #d9d9ff;
   border-radius: 1em;
   padding: 2px;
