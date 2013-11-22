@@ -159,6 +159,10 @@ ul {
   .panel3 h2 {
     margin: 0;
     line-height: 1em; }
+    .panel1 h2 + p,
+    .panel2 h2 + p,
+    .panel3 h2 + p {
+      margin-top: 0.75em; }
   .panel1 h3,
   .panel2 h3,
   .panel3 h3 {

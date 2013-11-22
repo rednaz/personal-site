@@ -36,6 +36,12 @@ $max-width:			100%;
 	h2 {
 		margin: 0;
 		line-height: 1em;
+
+
+
+		& + p {
+			margin-top: 0.75em;
+		}
 	}
 
 	h3 {
