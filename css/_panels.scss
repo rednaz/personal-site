@@ -36,6 +36,12 @@ $max-width:			100%;
 	h2 {
 		margin: 0;
 		line-height: 1em;
+
+
+
+		& + p {
+			margin-top: 0.75em;
+		}
 	}
 
 	h3 {
@@ -47,8 +53,12 @@ $max-width:			100%;
 		height: 14.5em;
 
 		& p {
-			margin-top: 10px;
-			text-indent: 25px;
+			margin-top: 0.75em;
+			text-indent: 1.5em;
+		}
+
+		& img {
+			width: 100%;
 		}
 	}
 }
@@ -62,7 +72,7 @@ a%panel-base:after {
 	content: "More \2192";
 	position: absolute;
 	right: 1em;
-	bottom: .75em;
+	bottom: 0.75em;
 	background-color: $silver-blue;
 	border-radius: 1em;
 	padding: 2px;
@@ -111,6 +121,21 @@ a%panel-base:after {
 
 	& > div {
 		height: auto;
+	}
+}
+
+/****************************************
+
+	WARNING
+	TEMP CLASS ONLY TO PUSH SITE OUT
+	MUST FIX AT A FURTHER DATE
+
+ ****************************************/
+.panel-temp {
+	height: auto;
+
+	& div {
+		height: 22em;
 	}
 }
 

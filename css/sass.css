@@ -159,6 +159,10 @@ ul {
   .panel3 h2 {
     margin: 0;
     line-height: 1em; }
+    .panel1 h2 + p,
+    .panel2 h2 + p,
+    .panel3 h2 + p {
+      margin-top: 0.75em; }
   .panel1 h3,
   .panel2 h3,
   .panel3 h3 {
@@ -171,8 +175,12 @@ ul {
     .panel1 div p,
     .panel2 div p,
     .panel3 div p {
-      margin-top: 10px;
-      text-indent: 25px; }
+      margin-top: 0.75em;
+      text-indent: 1.5em; }
+    .panel1 div img,
+    .panel2 div img,
+    .panel3 div img {
+      width: 100%; }
 
 a.panel1:hover,
 a.panel2:hover,
@@ -188,7 +196,7 @@ a.panel3:after {
   content: "More \2192";
   position: absolute;
   right: 1em;
-  bottom: .75em;
+  bottom: 0.75em;
   background-color: #d9d9ff;
   border-radius: 1em;
   padding: 2px;
@@ -217,6 +225,18 @@ a.panel3:after {
   height: auto; }
   .panel-auto > div {
     height: auto; }
+
+/****************************************
+
+	WARNING
+	TEMP CLASS ONLY TO PUSH SITE OUT
+	MUST FIX AT A FURTHER DATE
+
+ ****************************************/
+.panel-temp {
+  height: auto; }
+  .panel-temp div {
+    height: 22em; }
 
 @media only screen and (min-width: 60em) {
   .panel-dbl {
@@ -292,8 +312,8 @@ a.panel3:after {
     font-size: 75px;
     font-weight: 700;
     position: absolute;
-    top: -30px;
-    left: -50px;
+    top: -38px;
+    left: -48px;
     color: #9f9fff;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); }
   .char-quotes p:after {
