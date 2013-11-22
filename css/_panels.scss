@@ -50,6 +50,10 @@ $max-width:			100%;
 			margin-top: 0.75em;
 			text-indent: 1.5em;
 		}
+
+		& img {
+			width: 100%;
+		}
 	}
 }
 a%panel-base:hover {
