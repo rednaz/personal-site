@@ -28,7 +28,7 @@
                 
         <h1>Bremusa of Stella</h1>
 
-        <div class="panel3">
+        <div class="panel3 panel-auto">
 
                 <h2>Background</h2>
 
@@ -41,8 +41,8 @@
                 
         </div>
 
-        <div class="panel1">
-            <div class="content-cell">
+        <div class="panel1 panel-temp">
+            <div>
                 <table class="char-table">
                     <thead>
                         <tr>
@@ -72,22 +72,18 @@
                             <td>Barbarians of Stella<br />
                                 Sarbazeh Nur</td>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        <div class="panel1">
-            <div class="content-cell">
+        <div class="panel1 panel-temp">
+            <div>
                 <h3>Quotes</h3>
                 <p>Stuff<p>
             </div>
         </div>
-        <div class="panel1">
-            <div class="content-cell">
+        <div class="panel1 panel-temp">
+            <div>
                 <h3>Portrait</h3>
                 <img src="http://dummyimage.com/600x400/000/fff" />
             </div>
