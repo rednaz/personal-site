@@ -27,7 +27,7 @@
 	<div class="main clearfix">
         <h1>Dotty Snow</h1>
 
-        <div class="panel3">
+        <div class="panel3 panel-auto">
 
                 <h2>Background</h2>
 
@@ -40,8 +40,8 @@
                
         </div>
 
-        <div class="panel1">
-            <div class="content-cell">
+        <div class="panel1 panel-temp">
+            <div>
                 <table class="char-table">
                     <thead>
                         <tr>
@@ -79,17 +79,18 @@
                 </table>
             </div>
         </div>
-        <div class="panel1">
-            <div class="content-cell">
+        <div class="panel1 panel-temp">
+            <div>
                 <h3>Quotes</h3>
                 <blockquote class="char-quotes">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </blockquote>
             </div>
         </div>
-        <div class="panel1">
-            <div class="content-cell">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
+        <div class="panel1 panel-temp">
+            <div>
+                <h3>Portrait</h3>
+                <img src="http://dummyimage.com/600x400/000/fff" />
             </div>
         </div>
 	</div>
