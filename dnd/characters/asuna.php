@@ -4,7 +4,7 @@
 
     created by: Eric 'Zander' Nelson
     created on: November 6, 2013 
-    version ##: beta.1
+    version ##: 1.0 release
     
     zandernelsoninc.com
 

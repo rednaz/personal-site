@@ -2,13 +2,16 @@
 
     navigation
     
+    created on: November 6, 2013 
+    version ##: 1.0 release
+    
     zandernelsoninc.com
 
                                         -->
 
 <ul class='nav clearfix'>
     <li class='button'>
-        <a href='../index.php'>Home</a>
+        <a href='/dnd/index.php'>Home</a>
     </li>
 
     <?php 
@@ -25,26 +28,26 @@
         }
     ?>
         <div class='button'>
-            <a href='../characters/index.php'>Characters</a>
+            <a href='/dnd/characters/index.php'>Characters</a>
         </div>
         <ul class='nav-secondary'>
             <li class='button'>
-                <a href='../characters/asuna.php'>Asuna</a>
+                <a href='/dnd/characters/asuna.php'>Asuna</a>
             </li>
             <li class='button'>
-                <a href='../characters/bremusa.php'>Bremusa</a>
+                <a href='/dnd/characters/bremusa.php'>Bremusa</a>
             </li>
             <li class='button'>
-                <a href='../characters/catriona.php'>Catr&iacute;ona</a>
+                <a href='/dnd/characters/catriona.php'>Catr&iacute;ona</a>
             </li>
             <li class='button'>
-                <a href='../characters/dotty.php'>Dotty Snow</a>
+                <a href='/dnd/characters/dotty.php'>Dotty Snow</a>
             </li>
             <li class='button'>
-                <a href='../characters/meowly.php'>Meowly</a>
+                <a href='/dnd/characters/meowly.php'>Meowly</a>
             </li>
             <li class='button'>
-                <a href='../characters/miziki.php'>Miziki</a>
+                <a href='/dnd/characters/miziki.php'>Miziki</a>
             </li>
         </ul>
 
@@ -64,16 +67,16 @@
         }
     ?>
         <div class='button'>
-            <a href='../factions/index.php'>Factions</a>
+            <a href='/dnd/factions/index.php'>Factions</a>
         </div><ul class='nav-secondary'>
             <li class='button'>
-                <a href='../factions/sarbazeh-nur.php'>The Sarbazeh Nur</a>
+                <a href='/dnd/factions/sarbazeh-nur.php'>The Sarbazeh Nur</a>
             </li>
             <li class='button'>
-                <a href='../factions/bardegi.php'>The Bardegi</a>
+                <a href='/dnd/factions/bardegi.php'>The Bardegi</a>
             </li>
             <li class='button'>
-                <a href='../factions/#.php'>Barbarians of Stella</a>
+                <a href='/dnd/factions/#.php'>Barbarians of Stella</a>
         </ul>
     </li>
     
@@ -100,7 +103,7 @@
         }
     ?>
         <div class='button'>
-            <a href='../allies/index.php'>Allies</a>
+            <a href='/dnd/allies/index.php'>Allies</a>
         </div>
     </li>*/?>
     
@@ -127,7 +130,7 @@
         }
     ?>
         <div class='button'>
-            <a href='../countries/index.php'>Countries</a>
+            <a href='/dnd/countries/index.php'>Countries</a>
         </div>
     </li>*/?>
     
@@ -154,7 +157,7 @@
         }
     ?>
         <div class='button'>
-            <a href='../history/index.php'>History</a>
+            <a href='/dnd/history/index.php'>History</a>
         </div>
     </li>*/?>
     
@@ -181,7 +184,7 @@
         }
     ?>
         <div class='button'>
-            <a href='../villains/index.php'>Villains</a>
+            <a href='/dnd/villains/index.php'>Villains</a>
         </div>
     </li>*/?>
 </ul>
