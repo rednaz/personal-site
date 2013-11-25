@@ -76,7 +76,7 @@
                 <a href='/dnd/factions/bardegi.php'>The Bardegi</a>
             </li>
             <li class='button'>
-                <a href='/dnd/factions/#.php'>Barbarians of Stella</a>
+                <a href='/dnd/factions/barbarians-stella.php'>Barbarians of Stella</a>
         </ul>
     </li>
     

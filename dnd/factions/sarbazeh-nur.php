@@ -57,7 +57,7 @@
                             <td>Chef</td>
                         </tr>
                         <tr>
-                            <td>Phil the Enchanter</td>
+                            <td>Tim the Enchanter</td>
                             <td>Lieutenant Colonel<br />
                                 Archmage, 4th Battalion</td>
                         </tr>

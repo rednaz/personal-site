@@ -3,8 +3,8 @@
     Template
 
     created by: Eric 'Zander' Nelson
-    created on: November 10, 2013 
-    version ##: beta.1
+    created on: November 25, 2013 
+    version ##: 1.0 release
     
     zandernelsoninc.com
 

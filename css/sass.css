@@ -89,6 +89,22 @@ ul {
 
 /****************************************
 
+	lists
+
+ ****************************************/
+.arc-list {
+  margin: 15px 0 0 35px; }
+  .arc-list > li {
+    font-size: 1.2em;
+    list-style-type: upper-roman; }
+  .arc-list ol {
+    padding-left: 20px; }
+    .arc-list ol li {
+      font-size: 0.9em;
+      list-style-type: lower-roman; }
+
+/****************************************
+
 	navigation partial
 
  ****************************************/
