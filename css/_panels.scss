@@ -136,6 +136,10 @@ a%panel-base:after {
 
 	& div {
 		height: 22em;
+
+		& p {
+			margin-top: 0.75em;
+		}
 	}
 }
 
