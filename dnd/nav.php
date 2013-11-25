@@ -8,7 +8,7 @@
 
 <ul class='nav clearfix'>
     <li class='button'>
-        <a href='/personal-site/php/index.php'>Home</a>
+        <a href='../index.php'>Home</a>
     </li>
 
     <?php 
@@ -25,26 +25,26 @@
         }
     ?>
         <div class='button'>
-            <a href='/personal-site/php/characters/index.php'>Characters</a>
+            <a href='../characters/index.php'>Characters</a>
         </div>
         <ul class='nav-secondary'>
             <li class='button'>
-                <a href='/personal-site/php/characters/asuna.php'>Asuna</a>
+                <a href='../characters/asuna.php'>Asuna</a>
             </li>
             <li class='button'>
-                <a href='/personal-site/php/characters/bremusa.php'>Bremusa</a>
+                <a href='../characters/bremusa.php'>Bremusa</a>
             </li>
             <li class='button'>
-                <a href='/personal-site/php/characters/catriona.php'>Catr&iacute;ona</a>
+                <a href='../characters/catriona.php'>Catr&iacute;ona</a>
             </li>
             <li class='button'>
-                <a href='/personal-site/php/characters/dotty.php'>Dotty Snow</a>
+                <a href='../characters/dotty.php'>Dotty Snow</a>
             </li>
             <li class='button'>
-                <a href='/personal-site/php/characters/meowly.php'>Meowly</a>
+                <a href='../characters/meowly.php'>Meowly</a>
             </li>
             <li class='button'>
-                <a href='/personal-site/php/characters/miziki.php'>Miziki</a>
+                <a href='../characters/miziki.php'>Miziki</a>
             </li>
         </ul>
 
@@ -64,7 +64,7 @@
         }
     ?>
         <div class='button'>
-            <a href='/personal-site/php/factions/index.php'>Factions</a>
+            <a href='../factions/index.php'>Factions</a>
         </div>
     </li>
 
@@ -82,7 +82,7 @@
         }
     ?>
         <div class='button'>
-            <a href='/personal-site/php/allies/index.php'>Allies</a>
+            <a href='../allies/index.php'>Allies</a>
         </div>
     </li>
     
@@ -100,7 +100,7 @@
         }
     ?>
         <div class='button'>
-            <a href='/personal-site/php/countries/index.php'>Countries</a>
+            <a href='../countries/index.php'>Countries</a>
         </div>
     </li>
     
@@ -118,7 +118,7 @@
         }
     ?>
         <div class='button'>
-            <a href='/personal-site/php/history/index.php'>History</a>
+            <a href='../history/index.php'>History</a>
         </div>
     </li>
     
@@ -136,7 +136,7 @@
         }
     ?>
         <div class='button'>
-            <a href='/personal-site/php/villains/index.php'>Villains</a>
+            <a href='../villains/index.php'>Villains</a>
         </div>
     </li>
 </ul>
