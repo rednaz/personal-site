@@ -42,7 +42,9 @@
             <div>
                 <h2>Updates</h2>
                 <ul>
-                    <li></li>
+                    <li>Site Released!
+                        <p></p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -66,12 +68,12 @@
                 <h2>Campaign Arc</h2>
                 <ul>
                     <li>Act One
-                        <ul>
+                        <ol>
                             <li>Breakout</li>
                             <li>Distress</li>
                             <li>Rumors</li>
                             <li>The Book of the Dead</li>
-                        </ul>
+                        </ol>
                     </li>
                     <li>Act Two
                     </li>
