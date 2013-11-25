@@ -243,7 +243,7 @@ a.panel3:after {
 @media only screen and (min-width: 60em) {
   .panel-dbl {
     height: 48em; }
-    .panel-dbl div {
+    .panel-dbl > div {
       height: 48em; } }
 
 /****************************************
