@@ -13,7 +13,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-cell-Type" content-cell="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content-cell="text/html; charset=utf-8" />
 <link type="text/css" rel="stylesheet" href="../../css/sass.css" />
 <title>Template</title>
 </head>
@@ -50,7 +50,7 @@
                         <tr>
                             <td>Donaidh</td>
                             <td>Logistics Officer<br />
-                                Sarbazeh Nur Spy</td>
+                                <a href="../factions/sarbazeh-nur.php">Sarbazeh Nur</a> Spy</td>
                         </tr>
                         <tr>
                             <td>Stuff</td>
