@@ -71,7 +71,7 @@
 			"file": "css/_panels.scss",
 			"settings":
 			{
-				"buffer_size": 2213,
+				"buffer_size": 2544,
 				"line_ending": "Windows"
 			}
 		},
@@ -322,10 +322,13 @@
 			}
 		},
 		{
+			"contents": "",
 			"file": "php/villains/index.php",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 7428,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -432,7 +435,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php",
@@ -753,15 +756,15 @@
 					"file": "css/_panels.scss",
 					"settings":
 					{
-						"buffer_size": 2213,
+						"buffer_size": 2544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1517,
-								1517
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1757,7 +1760,7 @@
 					"file": "php/villains/index.php",
 					"settings":
 					{
-						"buffer_size": 7428,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
