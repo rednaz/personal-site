@@ -65,8 +65,26 @@
     ?>
         <div class='button'>
             <a href='../factions/index.php'>Factions</a>
-        </div>
+        </div><ul class='nav-secondary'>
+            <li class='button'>
+                <a href='../factions/sarbazeh-nur.php'>The Sarbazeh Nur</a>
+            </li>
+            <li class='button'>
+                <a href='../factions/bardegi.php'>The Bardegi</a>
+            </li>
+            <li class='button'>
+                <a href='../factions/#.php'>Barbarians of Stella</a>
+        </ul>
     </li>
+    
+    <?php 
+
+    /****************************************
+
+        not current
+        
+    ****************************************
+
 
     <?php 
         $url = $_SERVER['REQUEST_URI'];
@@ -84,7 +102,16 @@
         <div class='button'>
             <a href='../allies/index.php'>Allies</a>
         </div>
-    </li>
+    </li>*/?>
+    
+    <?php 
+
+    /****************************************
+
+        not current
+        
+    ****************************************
+
     
     <?php 
         $url = $_SERVER['REQUEST_URI'];
@@ -102,7 +129,16 @@
         <div class='button'>
             <a href='../countries/index.php'>Countries</a>
         </div>
-    </li>
+    </li>*/?>
+    
+    <?php 
+
+    /****************************************
+
+        not current
+        
+    ****************************************
+
     
     <?php 
         $url = $_SERVER['REQUEST_URI'];
@@ -120,8 +156,17 @@
         <div class='button'>
             <a href='../history/index.php'>History</a>
         </div>
-    </li>
+    </li>*/?>
     
+    <?php 
+
+    /****************************************
+
+        not current
+        
+    ****************************************
+
+
     <?php 
         $url = $_SERVER['REQUEST_URI'];
         $parts = explode('/', $url);
@@ -138,5 +183,5 @@
         <div class='button'>
             <a href='../villains/index.php'>Villains</a>
         </div>
-    </li>
+    </li>*/?>
 </ul>
