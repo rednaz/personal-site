@@ -1,0 +1,24 @@
+/****************************************
+
+	@media 1280px partial
+
+ ****************************************/
+
+@media only screen and (min-width: 1280px)
+{
+	.head,
+	.foot { 
+		height: auto;
+		max-width: 1400px;
+	}
+	
+	.head img,
+	.foot img {
+		display: block;
+		margin: 0 auto;	
+	}
+
+	.container {
+		max-width: 1400px;
+	}
+}

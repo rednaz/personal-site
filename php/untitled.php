@@ -1,7 +1,6 @@
-
 <!--
 
-    html test document
+    php test document
 
     created by: Eric 'Zander' Nelson
     created on: October 30, 2013 
@@ -15,35 +14,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-cell-Type" content-cell="text/html; charset=utf-8" />
-<link type="text/css" rel="stylesheet" href="../personal-site/css/sass.css" />
+<link type="text/css" rel="stylesheet" href="../css/sass.css" />
 <title>test</title>
 </head>
 
 <body>
 
-<div class="head"><img src="http://dummyimage.com/1000x100/000/fff" /></div>
-
 <div class="container clearfix">
 
-	<div class="nav clearfix">
-        <div class="button">
-            <a href="#">Test1</a>
-        </div>
-        <div class="button">
-            <a href="#">Test2</a>
-        </div>
-        <div class="button">
-            <a href="#">Test3</a>
-        </div>
-        <div class="button">
-            <a href="#">Test4</a>
-        </div>
-    </div>
+	<?php include "nav.php"; ?>
 
 	<div class="main clearfix">
 
-        <div class="panel">
-            <div class="content">
+        <div class="panel3">
+            <div class="content-cell">
                 <h1>Essance</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.
@@ -85,8 +69,6 @@
 	</div>
     
 </div>
-
-<div class="foot"><img src="http://dummyimage.com/1000x100/000/fff" /></div>
 
 </body>
 </html>

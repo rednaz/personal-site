@@ -1,0 +1,28 @@
+/****************************************
+
+	@media 960px partial
+
+ ****************************************/
+
+@media only screen and (min-width: 960px)
+{
+
+	.head,
+	.foot {
+		height: 100px;
+	}
+	
+	.head img,
+	.foot img {
+		display: none;
+	}
+	
+	.main {
+		margin-left: 11em;
+		padding-left: 1em;
+	}
+	
+	.container {
+		
+	}
+}
