@@ -68,9 +68,9 @@
         <div class="panel1 panel-temp">
             <div>
                 <h2>Updates</h2>
-                <ul>
-                    <li>Site Released!
-                        <p></p>
+                <ul class="update-list">
+                    <li>12/25/13 - Site Released!
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </li>
                 </ul>
             </div>
