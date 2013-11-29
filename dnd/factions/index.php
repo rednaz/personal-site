@@ -56,20 +56,6 @@
                 </div>
             </a>
         </div>
-
-        
-
-        <div class="panel3 panel-auto">
-            <h2>Neutral Factions</h2>
-
-            <a class="panel1" href="../factions/barbarians-stella.php">
-                <div>
-                    <h3>Barbarians of Stella</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
-                </div>
-            </a>
-        </div>
-
 	</div>
     
 </div>

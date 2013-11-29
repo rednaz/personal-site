@@ -10,7 +10,7 @@
 
     created by: Eric 'Zander' Nelson
     created on: November 10, 2013 
-    version ##: beta.1
+    version ##: 1.0 release
     
     zandernelsoninc.com
 
@@ -56,7 +56,7 @@
                         </tr>
                         <tr>
                             <td>Moe</td>
-                            <td>Chef</td>
+                            <td>Chef, 4th Battalion</td>
                         </tr>
                         <tr>
                             <td>Tim the Enchanter</td>

@@ -10,7 +10,7 @@
 
     created by: Eric 'Zander' Nelson
     created on: November 6, 2013 
-    version ##: 1.0
+    version ##: 1.0 release
     
     zandernelsoninc.com
 
