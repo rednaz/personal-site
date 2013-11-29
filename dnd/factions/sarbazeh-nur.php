@@ -25,13 +25,14 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
-        <h1>Factions</h1>
+        <h1>Sarbazeh Nur</h1>
 
         <div class="panel3">
-                <h2>Sarbazeh Nur</h2>
+            <div>
+                <h2>Background</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
-            
+            </div>
                 
         </div>
 
@@ -48,7 +49,7 @@
 
                     <tbody>
                         <tr>
-                            <td><!--<a href="../allies/falgir.php">-->Falgir</a></td>
+                            <td><?php //<a href="../allies/falgir.php">?>Falgir</a></td>
                             <td>Colonel<br />
                                 Commander, 4th Battalion</td>
                         </tr>
