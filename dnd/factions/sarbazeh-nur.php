@@ -1,3 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content-cell="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="../../css/sass.css" />
+
 <!--
 
     Template
@@ -10,11 +16,6 @@
 
                                         -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content-cell="text/html; charset=utf-8" />
-<link type="text/css" rel="stylesheet" href="../../css/sass.css" />
 <title>Sarbazeh Nur</title>
 </head>
 
@@ -49,7 +50,7 @@
 
                     <tbody>
                         <tr>
-                            <td><?php //<a href="../allies/falgir.php">?>Falgir</a></td>
+                            <td><!--<a href="../allies/falgir.php">-->Falgir</a></td>
                             <td>Colonel<br />
                                 Commander, 4th Battalion</td>
                         </tr>
