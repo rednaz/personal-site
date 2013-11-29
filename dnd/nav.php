@@ -73,7 +73,7 @@
                 <a href='/dnd/factions/sarbazeh-nur.php'>The Sarbazeh Nur</a>
             </li>
             <li class='button'>
-                <a href='/dnd/factions/bardegi.php'>The Bardegi</a>
+                <a href='/dnd/factions/bardeghi.php'>The Bardegi</a>
             </li>
             <li class='button'>
                 <a href='/dnd/factions/barbarians-stella.php'>Barbarians of Stella</a>
