@@ -43,13 +43,13 @@
                 <a class="panel1" href="../dnd/factions/bardeghi.php">
                     <div>
                         <h3>The Bardegi</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
+                        <p>Very Little is known about the Bardeghi and their goal.  All that has been confirmed is that they have been kidnapping civilians for months.  It is currently assumed that due to a run-in with the Sarbazeh Nur's 7th Division that the Bardeghi are accelerating their plans.</p>
                     </div>
                 </a>
                 <a class="panel1" href="../dnd/factions/sarbazeh-nur.php">
                     <div>
-                        <h3>Sarbazeh Nur</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta, ipsum sed viverra auctor, dolor est varius magna, quis sodales lectus felis eu arcu. Nulla non luctus libero, venenatis vestibulum purus. Nunc erat augue, sagittis vitae odio eget, feugiat commodo mi. Donec nisl lacus, tincidunt in erat ac, luctus ultricies nibh. Mauris odio sapien, porta ac molestie vel, mattis eget leo. Phasellus ultricies egestas tellus, at posuere neque fermentum non. Cras in molestie neque. Donec ac vehicula mi, non commodo velit. Nam blandit eleifend lectus a vestibulum. Phasellus ut tortor et dui adipiscing vehicula. Maecenas lectus elit, sollicitudin quis ligula non, tempus consequat erat. Quisque laoreet urna eu nisi scelerisque, eget pulvinar mi fringilla. Donec nec dignissim augue.</p>
+                        <h3>Sarbazeh Nur</h3> 
+                        <p>The Sarbazeh Nur is the longest and largest standing military force in recent history.  Formed in 784 E.o.C., they have attempted to keep the peace across the world.</p>
                     </div>
                 </a>
                 <a class="panel1" href="../dnd/characters/lochrauna.php">

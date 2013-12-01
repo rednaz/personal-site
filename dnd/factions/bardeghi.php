@@ -53,10 +53,6 @@
                             <td>Logistics Officer<br />
                                 <a href="../factions/sarbazeh-nur.php">Sarbazeh Nur</a> Spy</td>
                         </tr>
-                        <tr>
-                            <td>Stuff</td>
-                            <td>Other</td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
