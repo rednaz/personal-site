@@ -111,15 +111,26 @@
         <div class="panel1 panel-temp">
             <div>
                 <h3>Quotes</h3>
-                <blockquote class="char-quotes">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </blockquote>
+
+                <?php
+
+                    $quotes = $chars[$i]->quotes->quote;
+                    $qcount = count($quotes);
+
+                    for ($j = 0; $j < $qcount; $j++)
+                    {
+                        echo "<blockquote class='char-quotes'>
+                                <p>".$quotes[$j]."</p>
+                             </blockquote>";
+                    }
+
+                ?>
             </div>
         </div>
         <div class="panel1 panel-temp">
             <div>
                 <h3>Portrait</h3>
-                <img src="http://dummyimage.com/600x400/000/fff" />
+                <?php echo "<img src='".$chars[$i]->portrait."' />"; ?>
             </div>
         </div>
 	</div>
