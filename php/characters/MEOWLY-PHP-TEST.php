@@ -65,33 +65,40 @@
 
         <div class="panel1 panel-temp">
             <div>
+
+                <?php
+
+                    $details = $chars[$i]->details;
+
+                ?>
+
                 <table class="char-table">
                     <thead>
                         <tr>
                             <th>Player</th>
-                            <th>Sean</th>
+                            <th><?php echo $details->player; ?></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Race</td>
-                            <td>Catfolk</td>
+                            <td><?php echo $details->race; ?></td>
                         </tr>
                         <tr>
                             <td>Class</td>
-                            <td>Ranger</td>
+                            <td><?php echo $details->class; ?></td>
                         </tr>
                         <tr>
                             <td>Level</td>
-                            <td>2</td>
+                            <td><?php echo $details->level; ?></td>
                         </tr>
                         <tr>
                             <td>Alignment</td>
-                            <td></td>
+                            <td><?php echo $details->alignment; ?></td>
                         </tr>
                         <tr>
                             <td>Affiliations</td>
-                            <td></td>
+                            <td><?php echo $details->affiliations; ?></td>
                         </tr>
                         <tr>
                             <td></td>
