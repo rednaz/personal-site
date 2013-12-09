@@ -107,4 +107,26 @@
         </quotes>
         <portrait>http://dummyimage.com/600x400/000/fff</portrait>
     </character>
+    <character>
+        <name>Pandamore</name>
+        <type>former</type>
+        <url>pandamore</url>
+        <background>
+            <p>Stuff</p>
+            <p>StuffStuff</p>
+            <p>Stuff</p>
+        </background>
+        <details>
+            <player>Sean</player>
+            <race>Elf</race>
+            <class>Rogue</class>
+            <level>3</level>
+            <alignment>Chaotic</alignment>
+            <affiliations>None</affiliations>
+        </details>
+        <quotes>
+            <quote>Lorem Ipsum</quote>
+        </quotes>
+        <portrait>http://dummyimage.com/600x400/000/fff</portrait>
+    </character>
 </characters>
