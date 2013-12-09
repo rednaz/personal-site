@@ -33,7 +33,7 @@
                 <h2>Background</h2>
 
                 <p>The Sarbazeh Nur is the longest and largest standing military force in recent history.  Formed in 784 E.o.C., they have attempted to keep the peace across the world.</p>
-                <p></p>
+                <p>With rumors of war with Setareh on the horizon, The 4th Battalion was tasked with monitoring activity along the borders of Setareh, Mordeghy, and Bisheh.</p>
             </div>
                 
         </div>
