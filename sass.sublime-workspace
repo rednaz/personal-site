@@ -52,42 +52,42 @@
 	"buffers":
 	[
 		{
-			"file": "php/factions/sarbazeh-nur.php",
+			"file": "php/characters/MEOWLY-PHP-TEST.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3723,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "php/factions/factions-template.php",
+			"file": "php/characters/INDEX-PHP-TEST.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3774,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "php/index.php",
+			"file": "php/characters/index.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 9126,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "php/factions/index.php",
+			"contents": "<?xml version=\"1.0\" ?>\n\n<!--\n		Characters XML Document\n		Created on:	12/01/13\n		Version ##:	beta\n								-->\n\n<characters>\n	<character>\n		<name>Meowly Cyrus</name>\n		<type>current</type>\n		<url>meowly</url>\n		<background>\n			<p>Stuff</p>\n			<p>StuffStuff</p>\n			<p>Stuff</p>\n		</background>\n		<details>\n			<player>Sean</player>\n			<race>Catfolk</race>\n			<class>Ranger</class>\n			<level>2</level>\n			<alignment>Chaotic</alignment>\n			<affiliations>None</affiliations>\n		</details>\n		<quotes>\n			<quote>Lorem Ipsum</quote>\n		</quotes>\n		<portrait>http://dummyimage.com/600x400/000/fff</portrait>\n	</character>\n	<character>\n    	<name>Bremusa of Stella</name>\n		<type>current</type>\n		<url>bremusa</url>\n        <background>\n            <p>Setareh, the land of stars.  Legends state that the mountain top used to be so high that you could reach other worlds.  The mountain range itself was even in the shape of a star.  While many different villages and towns were founded all along the ranges themselves, none were built along the center: an active volcano.  Some ventured to the volcano for the thrill or historical purposes, but only one group actually decided to live around the volcano.  Considered both brave and stupid for doing so, this group was aptly referred to as the Barbarians of Setareh.</p>\n            <p>Unfortunately after many decades, the lifestyle finally caught up with them.  Considered an unspeakable tragedy, almost the entire tribe was claimed by the mountain.  While hunting, new ruptures erupted near the base of the mountain, catching the barbarians off guard.  They attempted to escape, but it seemed as fate had them trapped as new pockets of magma appeared at every turn.  One barbarian was, ironically, lucky enough to be thrown from the path by a burst of compressed gas.  She landed dozens of feet down the mountain side, knocking her unconscious.</p>\n            <p>She awoke from the ordeal hours later, laying upon a hill that was high enough to keep her from streams of cool lava that were still flowing down the mountain.  She looked at the ravage hillside to survey the damage.  The dozens of new pockets had already been sealed by cooled magma.  Sadly, there were no other survivors.</p>\n            <p>As she looked upon the mountain, she felt as though something was calling to her.  Part of her thought it was her wanting to join the others in the next life.  But the more she stared at the mountain, the more she began to see an image in the mountain.  She heard something, a women surrounded in flames, but could not understand.  The more she gazed upon the women, the more her gaze focused on the ring that she was wearing.  She became memorized by the ring, glowing red and brighter and brighter, as if it was filled with...</p>\n            <p>Startled, she turned around readying her sword.  She realized that her posture was so serene that a bird had landed on her shoulder.  She also noticed that she had moved towards the mountain and had nearly walked into the river of lava.  Back at the volcano, the image she saw was gone, but she was filled with a new sensation.  Something was calling her north.  North of the volcano, far from the home she once knew.  She began her trek, still covered in soot and ash.  Climbing the northern mountain range, villagers found out what had happened to the tribe of Setareh.  Many realized that she was the sole survivor and began calling her Bremusa, the Barbarian of Setareh.</p>\n        </background>\n        <details>\n            <Player>Rachel</Player>\n            <Race>Human</Race>\n            <Class>Barbarian</Class>\n            <Level>3</Level>\n            <Alignment>Chaotic</Alignment>\n            <Affiliations>Barbarians of Stella<br />\n                Sarbazeh Nur</Affiliations>\n        </details>\n        <quotes>\n            <quote>Lorem Ipsum</quote>\n        </quotes>\n        <portrait>http://dummyimage.com/600x400/000/fff</portrait>\n    </character>\n    <character>\n        <name>Catríona</name>\n        <type>current</type>\n        <url>catriona</url>\n        <background>\n            <p>Catríona  grew up with three brothers: one was ten years her elder, the second was eight  years her elder, and the youngest was five years younger than she. As a  consequence of this, she tended to be more of a tomboy in her attitude, yet as  the only daughter of the family she was also pampered as the little princess  which also shows through her attitude occasionally.</p>\n            <p>When Catríona was eleven years old  her eldest brother, Baltair was slain in combat (preferably in war, but I don't  know if that suits your world/story). Her second oldest brother, Donaidh, was  enlisted in the military two years later but has not been seen or heard for  pandamore years. Catríona had always been protective of her younger brother,  Luthais, but due to what happened to her elder brothers, she has been extremely  protective of him as of late. </p>\n            <p>Her family has lived among the  wilderness for several decades, so she often found herself wandering around the  local forests, so she gained an appreciation for nature at an early age. She was even able to take a sick pup into her  care and nursed it back to help. This  lead to her being discovered as a natural druid, and both Catríona and her wolf  companion Izanami joined the Bashkoh military. </p>\n            <p>Catríona was assigned to a unit at a  liaison post between the western borders of Esraag and the forests of Bashkoh. The assignment was mostly boring. Some patrols, but no aggression ever  happened. One day, a rumor started going  around camp about a possible sighting of an AWOL soldier. The camp began to take life, as Catríona's  leaders began arguing about what to do about the rumor. The rumor became so important that her  platoon prepared to leave immediately. Before  heading out, she was summoned by her commander.  It turned out that most of arguing about the rumor was about her. Apparantly, it was about Donaidh. After pandamore years it seemed that there was  information that he had turned up.</p>\n            <p>Catríona insisted that she'd be  part of the search. Canthalion, didn't  trust that she wouldn't, and said that it would be best that she'd be left out  due to her personal relationship with the rumor. However, the cleric deemed that if she would  follow her orders to the letter and not let her emotions take control of the  situation, then she could come. With  that agreement, they all traveled south into the desert…</p>\n            <p>Three days  into the desert was already starting to take its toll on the group. The summer heat was too much for some of the  platoon, and the entire group was unable to make as much progress as they were  hoping to. They were still a week away  from their destination, but they had already believed that if Donaidh was there  that he had left a week before they did.  The only goal was to verify if the information was true. Unfortunately, they would never make it to  their original destination.</p>\n            <p>At half  past noon, Catríona stopped. Something  didn't feel right. The wind had died  down all of a sudden, yet she could still hear it moving. Izanami, now full grown, began growling at a  stench in the air. The cleric stopped  the party, but was already too late to react.  The two leading scouts had already been taken out by arrows.</p>\n            <p>Outnumbered  by Orcs, the platoon tried to fight back.  One by one they began to fall, and Catríona felt that all was lost. The only thing that she could think of doing  was to save the only one that could escape the battle. She told Izanami to flee. After doing so, Catríona was knocked over the  head and, just before losing consciousness, saw the wolf run back towards the  forest...</p>\n        </background>\n        <details>\n            <Player>Jonathon</Player>\n            <Race>Halfling</Race>\n            <Class>Druid</Class>\n            <Level>3</Level>\n            <Alignment></Alignment>\n            <Affiliations>Lieutenant of the Sarbazeh Nur</Affiliations>\n        </details>\n        <quotes>\n            <quote>Lorem Ipsum</quote>\n        </quotes>\n        <portrait>http://dummyimage.com/600x400/000/fff</portrait>\n    </character>\n        <character>\n        <name>Dotty Snow</name>\n        <type>current</type>\n        <url>dotty</url>\n\n        <background>\n            <p>Growing up  was never easy for Dotty.  This was  mostly his own fault though.  The only  thing that was actually rough for him was growing up without a father.  Being a bastard was probably the reason why  he decided to be a smartass though.  Like  most boys in similar situations, he would act out due to the fact that he  didn't have a father figure.  Unlike most  boys though, he mostly stuck to harmless mischief.  After all, he was only looking for attention,  not hatred.</p>\n            <p>Dotty was  also told that he could make a great wizard one day.  Unfortunately that person didn't know that  Dotty would get himself kicked out of most of the wizard colleges amongst the  northern plains and the forests.  He was  smart enough that every college wanted to train him, but that number greatly  decreased when he focused more on causing antics with his newly learned spells  than actually learning.  It got to the  point that no school would accept him, which was perfectly fine in his eyes.</p>\n            <p>It was  around this time that he had heard rumors about his father.  His late father as it turned out.  A story came around that he had another son  that was living in a town on the far side of the forest.  Intrigued, he joined a group of traders who  were selling various items all over the continent and were also heading in his  direction.  While he would never actually  meet him, Dotty was glad that he may finally know who his father was.</p>\n            <p>When the  caravan finally arrived at the city, Dotty began his search to see if the  rumors were true.  One thing was true,  the so called son did live in the town, at least until his house was accidently  burnt down.  The only information he  could gather was that the man he was looking for was traveling south with a new  companion.</p>\n            <p>Happy to know that he may be close to some answers, he pressed on without the caravan that he had traveled with.  His gut kept telling him that traveling alone was wrong, but he kept going.  A few days of traveling led him to a clearing and he had realized that he had just stumbled upon a large Orc and Goblin camp.  He looked around and noticed that there were tons of them, and that they had captured many prisoners.  He turned around, hoping he could get away to get help when he saw two orcs standing in front of him.  He smiled at them awkwardly before they knocked him out.</p>\n        </background>\n        <details>\n            <Player>Neil</Player>\n            <Race>Elf</Race>\n            <Class>Wizard</Class>\n            <Level>3</Level>\n            <Alignment>Chaotic</Alignment>\n            <Affiliations>School<br />\n                    Sarbazeh Nur</Affiliations>\n        </details>\n        <quotes>\n            <quote>Lorem Ipsum</quote>\n        </quotes>\n        <portrait>http://dummyimage.com/600x400/000/fff</portrait>\n    </character>\n    <character>\n        <name>Pandamore</name>\n        <type>former</type>\n        <url>pandamore</url>\n        <background>\n            <p>Stuff</p>\n            <p>StuffStuff</p>\n            <p>Stuff</p>\n        </background>\n        <details>\n            <player>Sean</player>\n            <race>Elf</race>\n            <class>Rogue</class>\n            <level>3</level>\n            <alignment>Chaotic</alignment>\n            <affiliations>None</affiliations>\n        </details>\n        <quotes>\n            <quote>Lorem Ipsum</quote>\n        </quotes>\n        <portrait>http://dummyimage.com/600x400/000/fff</portrait>\n    </character>\n</characters>",
+			"file": "xml/characters.xml",
+			"file_size": 12119,
+			"file_write_time": 130310448896525371,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 11975,
 				"line_ending": "Windows"
 			}
 		},
 		{
 			"contents": "",
-			"file": "php/factions/bardegi.php",
-			"file_size": -1,
-			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -95,19 +95,12 @@
 			}
 		},
 		{
-			"file": "dnd/index.php",
+			"file": "xml/XML regex creations",
 			"settings":
 			{
-				"buffer_size": 7657,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dnd/characters/index.php",
-			"settings":
-			{
-				"buffer_size": 7567,
-				"line_ending": "Windows"
+				"buffer_size": 156,
+				"line_ending": "Windows",
+				"name": "XML regex creations"
 			}
 		}
 	],
@@ -143,8 +136,15 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/dotty.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/bremusa.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/sarbazeh-nur.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/factions-template.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/index.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/index.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/bardegi.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/dnd/index.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/dnd/characters/index.php",
+		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/dotty.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/asuna.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/catriona.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/char-template.php",
@@ -154,13 +154,10 @@
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/pandamore.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_panels.scss",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_content.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/bardegi.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/nav.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_tables.scss",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_selectors.scss",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/sass.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/index.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/sarbazeh-nur.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/allies/allies-template.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/allies/index.php",
 		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/history/index.php",
@@ -204,6 +201,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&rsquo;",
+			"Catr&iacute;ona",
+			"<tr>\\n[^<]*(<th>|<td>)([^<]*)(</th>|</td>)\\n[^<]+(<th>|<td>)([^<]*(<br />\\n[^<]*)*)(</th>|</td>)\\n[^<]*</tr>",
+			"(<tr>\\n[^<]*(<th>|<td>)([^<]*)(</th>|</td>)\\n[^<]+(<th>|<td>)([^<]*(<br />\\n[^<]*)*)(</th>|</td>)\\n[^<]*</tr>\\n[^<]*)*",
+			"(<th>|<td>)([^<]+)(</th>|</td>)\\n[^<]+(<th>|<td>)([^<]+(<br />\\n[^<]+)*)(</th>|</td>)",
+			"<h1>([^<]+)</h1>",
 			" class=\"content-cell\"",
 			"div",
 			"		\n",
@@ -325,13 +328,7 @@
 			"((<p>[^<]+</p>\\n)+)",
 			"(<p>[^<]</p>\\n)",
 			"(<p>[^<]+</p>\\n)+",
-			"((<p>[^<]+</p>\\n)+)",
-			"(<p>[^<]+</p>\\n)+",
-			"(<p>[^<]*</p>\\n)*",
-			"(<p>[^<]*</p>\\n)",
-			"((<p>[^<]*</p>\\n)*)",
-			"((<p>[^>]*</p>\\n)*)",
-			"(<p>[^>]*</p>\\n)*"
+			"((<p>[^<]+</p>\\n)+)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -339,6 +336,11 @@
 		"regex": true,
 		"replace_history":
 		[
+			"'",
+			"Catríona",
+			"<$2>$5</$2>",
+			"<$2>$4</$2>",
+			"<name>$1</name>",
 			"",
 			"li",
 			"..",
@@ -461,12 +463,7 @@
 			"<li>$1</li>",
 			"<ul>",
 			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>"
+			"<ul>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -477,23 +474,23 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "php/factions/sarbazeh-nur.php",
+					"file": "php/characters/MEOWLY-PHP-TEST.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								811,
+								811
 							]
 						],
 						"settings":
@@ -503,25 +500,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "php/factions/factions-template.php",
+					"file": "php/characters/INDEX-PHP-TEST.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2989,
+								2989
 							]
 						],
 						"settings":
@@ -538,46 +535,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "php/index.php",
+					"file": "php/characters/index.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 9126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 273.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "php/factions/index.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								426,
+								425
 							]
 						],
 						"settings":
@@ -593,8 +562,35 @@
 					"type": "text"
 				},
 				{
+					"buffer": 3,
+					"file": "xml/characters.xml",
+					"settings":
+					{
+						"buffer_size": 11975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11167,
+								11167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
 					"buffer": 4,
-					"file": "php/factions/bardegi.php",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -622,56 +618,27 @@
 				},
 				{
 					"buffer": 5,
-					"file": "dnd/index.php",
+					"file": "xml/XML regex creations",
 					"settings":
 					{
-						"buffer_size": 7657,
+						"buffer_size": 156,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
+								140,
+								140
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "XML regex creations",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "dnd/characters/index.php",
-					"settings":
-					{
-						"buffer_size": 7567,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4384,
-								4384
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

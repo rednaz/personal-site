@@ -66,7 +66,7 @@
                         </tr>
                         <tr>
                             <td><a href="../characters/catriona.php">Catr&iacute;ona</a></td>
-                            <td>First Lieutenant
+                            <td>First Lieutenant<br />
                                 Commander of Party</td>
                         </tr>
                         <tr>
@@ -86,7 +86,7 @@
         <div class="panel2">
             <div>
                 <h3>Useful Information</h3>
-                <p>Sarbazeh Nur is Persian for Soldier of Light</p>
+                <p>Sarbazeh Nur is Persian for 'Soldier of Light'</p>
             </div>
         </div>
 	</div>

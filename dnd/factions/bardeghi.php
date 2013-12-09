@@ -16,7 +16,7 @@
 
                                         -->
 
-<title>Template</title>
+<title>The Bardeghi</title>
 </head>
 
 <body>
@@ -26,15 +26,15 @@
 	<?php include "../nav.php"; ?>
 
 	<div class="main clearfix">
-        <h1>Factions</h1>
+        <h1>The Bardeghi</h1>
 
-        <div class="panel3">
-
-                <h2>The Bardeghi</h2>
+        <div class="panel3 panel-auto">
+            <div>
+                <h2>Background</h2>
 
                 <p>Very Little is known about the Bardeghi and their goal.  All that has been confirmed is that they have been kidnapping civilians for months.  It is currently assumed that due to a run-in with the Sarbazeh Nur's 7th Division that the Bardeghi are accelerating their plans.</p>
             
-                
+            </div>
         </div>
 
         <div class="panel1 panel-dbl">
