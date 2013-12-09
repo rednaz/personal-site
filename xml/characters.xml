@@ -1,3 +1,5 @@
+<?xml version="1.0" ?>
+
 <!--
 		Characters XML Document
 		Created on:	12/01/13
@@ -7,7 +9,7 @@
 <characters>
 	<character>
 		<name>Meowly Cyrus</name>
-		<type>Current</type>
+		<type>current</type>
 		<url>meowly</url>
 		<background>
 			<p>Stuff</p>
@@ -29,7 +31,7 @@
 	</character>
 	<character>
     	<name>Bremusa of Stella</name>
-		<type>Current</type>
+		<type>current</type>
 		<url>bremusa</url>
         <background>
             <p>Setareh, the land of stars.  Legends state that the mountain top used to be so high that you could reach other worlds.  The mountain range itself was even in the shape of a star.  While many different villages and towns were founded all along the ranges themselves, none were built along the center: an active volcano.  Some ventured to the volcano for the thrill or historical purposes, but only one group actually decided to live around the volcano.  Considered both brave and stupid for doing so, this group was aptly referred to as the Barbarians of Setareh.</p>
@@ -46,6 +48,59 @@
             <Alignment>Chaotic</Alignment>
             <Affiliations>Barbarians of Stella<br />
                 Sarbazeh Nur</Affiliations>
+        </details>
+        <quotes>
+            <quote>Lorem Ipsum</quote>
+        </quotes>
+        <portrait>http://dummyimage.com/600x400/000/fff</portrait>
+    </character>
+    <character>
+        <name>Catríona</name>
+        <type>current</type>
+        <url>catriona</url>
+        <background>
+            <p>Catríona  grew up with three brothers: one was ten years her elder, the second was eight  years her elder, and the youngest was five years younger than she. As a  consequence of this, she tended to be more of a tomboy in her attitude, yet as  the only daughter of the family she was also pampered as the little princess  which also shows through her attitude occasionally.</p>
+            <p>When Catríona was eleven years old  her eldest brother, Baltair was slain in combat (preferably in war, but I don't  know if that suits your world/story). Her second oldest brother, Donaidh, was  enlisted in the military two years later but has not been seen or heard for  pandamore years. Catríona had always been protective of her younger brother,  Luthais, but due to what happened to her elder brothers, she has been extremely  protective of him as of late. </p>
+            <p>Her family has lived among the  wilderness for several decades, so she often found herself wandering around the  local forests, so she gained an appreciation for nature at an early age. She was even able to take a sick pup into her  care and nursed it back to help. This  lead to her being discovered as a natural druid, and both Catríona and her wolf  companion Izanami joined the Bashkoh military. </p>
+            <p>Catríona was assigned to a unit at a  liaison post between the western borders of Esraag and the forests of Bashkoh. The assignment was mostly boring. Some patrols, but no aggression ever  happened. One day, a rumor started going  around camp about a possible sighting of an AWOL soldier. The camp began to take life, as Catríona's  leaders began arguing about what to do about the rumor. The rumor became so important that her  platoon prepared to leave immediately. Before  heading out, she was summoned by her commander.  It turned out that most of arguing about the rumor was about her. Apparantly, it was about Donaidh. After pandamore years it seemed that there was  information that he had turned up.</p>
+            <p>Catríona insisted that she'd be  part of the search. Canthalion, didn't  trust that she wouldn't, and said that it would be best that she'd be left out  due to her personal relationship with the rumor. However, the cleric deemed that if she would  follow her orders to the letter and not let her emotions take control of the  situation, then she could come. With  that agreement, they all traveled south into the desert…</p>
+            <p>Three days  into the desert was already starting to take its toll on the group. The summer heat was too much for some of the  platoon, and the entire group was unable to make as much progress as they were  hoping to. They were still a week away  from their destination, but they had already believed that if Donaidh was there  that he had left a week before they did.  The only goal was to verify if the information was true. Unfortunately, they would never make it to  their original destination.</p>
+            <p>At half  past noon, Catríona stopped. Something  didn't feel right. The wind had died  down all of a sudden, yet she could still hear it moving. Izanami, now full grown, began growling at a  stench in the air. The cleric stopped  the party, but was already too late to react.  The two leading scouts had already been taken out by arrows.</p>
+            <p>Outnumbered  by Orcs, the platoon tried to fight back.  One by one they began to fall, and Catríona felt that all was lost. The only thing that she could think of doing  was to save the only one that could escape the battle. She told Izanami to flee. After doing so, Catríona was knocked over the  head and, just before losing consciousness, saw the wolf run back towards the  forest...</p>
+        </background>
+        <details>
+            <Player>Jonathon</Player>
+            <Race>Halfling</Race>
+            <Class>Druid</Class>
+            <Level>3</Level>
+            <Alignment></Alignment>
+            <Affiliations>Lieutenant of the Sarbazeh Nur</Affiliations>
+        </details>
+        <quotes>
+            <quote>Lorem Ipsum</quote>
+        </quotes>
+        <portrait>http://dummyimage.com/600x400/000/fff</portrait>
+    </character>
+        <character>
+        <name>Dotty Snow</name>
+        <type>current</type>
+        <url>dotty</url>
+
+        <background>
+            <p>Growing up  was never easy for Dotty.  This was  mostly his own fault though.  The only  thing that was actually rough for him was growing up without a father.  Being a bastard was probably the reason why  he decided to be a smartass though.  Like  most boys in similar situations, he would act out due to the fact that he  didn't have a father figure.  Unlike most  boys though, he mostly stuck to harmless mischief.  After all, he was only looking for attention,  not hatred.</p>
+            <p>Dotty was  also told that he could make a great wizard one day.  Unfortunately that person didn't know that  Dotty would get himself kicked out of most of the wizard colleges amongst the  northern plains and the forests.  He was  smart enough that every college wanted to train him, but that number greatly  decreased when he focused more on causing antics with his newly learned spells  than actually learning.  It got to the  point that no school would accept him, which was perfectly fine in his eyes.</p>
+            <p>It was  around this time that he had heard rumors about his father.  His late father as it turned out.  A story came around that he had another son  that was living in a town on the far side of the forest.  Intrigued, he joined a group of traders who  were selling various items all over the continent and were also heading in his  direction.  While he would never actually  meet him, Dotty was glad that he may finally know who his father was.</p>
+            <p>When the  caravan finally arrived at the city, Dotty began his search to see if the  rumors were true.  One thing was true,  the so called son did live in the town, at least until his house was accidently  burnt down.  The only information he  could gather was that the man he was looking for was traveling south with a new  companion.</p>
+            <p>Happy to know that he may be close to some answers, he pressed on without the caravan that he had traveled with.  His gut kept telling him that traveling alone was wrong, but he kept going.  A few days of traveling led him to a clearing and he had realized that he had just stumbled upon a large Orc and Goblin camp.  He looked around and noticed that there were tons of them, and that they had captured many prisoners.  He turned around, hoping he could get away to get help when he saw two orcs standing in front of him.  He smiled at them awkwardly before they knocked him out.</p>
+        </background>
+        <details>
+            <Player>Neil</Player>
+            <Race>Elf</Race>
+            <Class>Wizard</Class>
+            <Level>3</Level>
+            <Alignment>Chaotic</Alignment>
+            <Affiliations>School<br />
+                    Sarbazeh Nur</Affiliations>
         </details>
         <quotes>
             <quote>Lorem Ipsum</quote>
