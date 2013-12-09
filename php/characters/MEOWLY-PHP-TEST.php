@@ -26,7 +26,7 @@
 
 	
 
-    <?php $character = "Meowly Cyrus"; ?>
+    <?php $character = "Bremusa of Stella"; ?>
 
     <?php
 
