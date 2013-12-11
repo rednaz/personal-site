@@ -1,3 +1,7 @@
+<?php $character = "Meowly Cyrus"; ?>
+
+<?php include "character.php"; ?>
+
 <!--
 
     Meowly Syrus
@@ -9,9 +13,4 @@
     version ##: beta.1
     
     zandernelsoninc.com
-
                                         -->
-
-<?php $character = "Bremusa of Stella"; ?>
-
-<?php include "character.php"; ?>

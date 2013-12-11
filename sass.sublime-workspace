@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"width-",
+				"width-66-pct"
+			],
+			[
 				"backgr",
 				"background-color"
 			],
@@ -52,42 +60,26 @@
 	"buffers":
 	[
 		{
-			"file": "php/factions/sarbazeh-nur.php",
+			"file": "php/characters/MEOWLY-PHP-TEST.php",
 			"settings":
 			{
-				"buffer_size": 5015,
+				"buffer_size": 288,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "php/factions/factions-template.php",
+			"file": "php/characters/character.php",
 			"settings":
 			{
-				"buffer_size": 4260,
+				"buffer_size": 3685,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "php/index.php",
+			"file": "xml/characters.xml",
 			"settings":
 			{
-				"buffer_size": 11858,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "php/factions/index.php",
-			"settings":
-			{
-				"buffer_size": 11692,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "php/factions/bardegi.php",
-			"settings":
-			{
-				"buffer_size": 4333,
+				"buffer_size": 3950,
 				"line_ending": "Windows"
 			}
 		}
@@ -124,39 +116,59 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/dnd/index.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/dnd/characters/index.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/dotty.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/bremusa.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/asuna.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/catriona.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/char-template.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/meowly.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/miziki.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/index.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/characters/pandamore.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_panels.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_content.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/bardegi.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/nav.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_tables.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_selectors.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/sass.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/index.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/factions/sarbazeh-nur.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/allies/allies-template.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/allies/index.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/php/history/index.php",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media1024.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/untitled.html",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_media768.scss",
-		"/C/Users/Rednaz/Documents/GitHub/personal-site/css/_colors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/history/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/factions/sarbazeh-nur.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/factions/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/factions/factions-template.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/factions/bardegi.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/countries/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/pandamore.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/miziki.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/meowly.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/dotty.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/char-template.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/catriona.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/untitled.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/bremusa.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/asuna.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/moe.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/falgir.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/allies-template.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_quotes.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_content.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panels.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/villains/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/nav.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_selectors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.min.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media960.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1280.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_tables.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/z-test/dnd/characters.html",
+		"/C/Users/eric.nelson946/Documents/zandernelson/dnd/characters.html",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_fonts.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/main.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/footer.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/head.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
+		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media600.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media480.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/branchtest/test.txt",
 		"/C/Users/eric.nelson946/Documents/z-test/fluid-test/sass.scss",
@@ -179,7 +191,9 @@
 		"height": 0.0,
 		"where_history":
 		[
-			"C:\\Users\\Rednaz\\Documents\\GitHub\\personal-site\\php\\characters"
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php",
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\css",
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php"
 		]
 	},
 	"find_state":
@@ -188,16 +202,47 @@
 		"find_history":
 		[
 			" class=\"content-cell\"",
-			"div",
-			"		\n",
-			"/personal-site/php",
-			"Military<",
-			"Military",
-			"/personal-site/css/sass.css",
-			"/personal-site/php",
-			"/factions/",
 			"panel1",
+			"class=\"panel\"",
+			"\\%width",
+			"\\.width",
+			"\\.left",
+			".left",
+			"%panel",
+			"%content",
+			".content( |;)",
+			".panel([^0-9])",
+			".header-styles",
+			".reset",
+			"768",
+			"1024",
+			"/[^/\\.]+\\.php",
+			"characters",
+			"  ",
+			"she was",
+			"  ",
+			"í",
+			"blockquote",
+			"\"content-main\"",
+			"\"content\"",
+			".content\"",
+			".content",
+			"Template",
+			"panel1",
+			"  ",
+			"  ",
+			"-dbl",
+			"bremusa.php",
+			"</div>",
+			".h-font",
+			"content",
+			"\\$bg-color",
+			"\\$nav-color",
 			"panel",
+			"90%",
+			"panel1",
+			";\n",
+			".panel1",
 			"width: 100%",
 			"float",
 			"float:",
@@ -283,38 +328,7 @@
 			"<p>• ",
 			"rss",
 			"asi",
-			"http://www.csuci.edu",
-			"<span[^>]+>|</span>",
-			"<u>([^<]+)</u>",
-			"<u> </u>",
-			"href=\"http://www.csuci.edu/studenthealth/health-services.htm#([^\"]+)",
-			"href=\"http://www.csuci.edu/studenthealth/healthylifestyles/",
-			"href=\"[^/]*//([^/\"]+/)+",
-			"href=\"http://www.csuci.edu/studenthealth/healthylifestyles/",
-			"href=\"[^/]*//([^/\"]+/)+",
-			"healthy\\-lifestyles.htm#([^\"]+)",
-			"healthy-lifestyles.htm#nutrition",
-			"healthy\\-lifestyles.htm#([^\"]+)",
-			"healthy-lifestyles.htm#nutrition",
-			"healthy\\-lifestyles.htm#([^\"]+)",
-			"alt+shift",
-			"alt+shift+",
-			"alt+shift",
-			"<h2>",
-			"(<img[^>]+>)",
-			"<div><h2>([^<]+)</h2></div>\\n<div>",
-			"<br /",
-			"</h2></div>\n<div><p>",
-			"((<p>[^<]+</p>\\n)+)",
-			"(<p>[^<]</p>\\n)",
-			"(<p>[^<]+</p>\\n)+",
-			"((<p>[^<]+</p>\\n)+)",
-			"(<p>[^<]+</p>\\n)+",
-			"(<p>[^<]*</p>\\n)*",
-			"(<p>[^<]*</p>\\n)",
-			"((<p>[^<]*</p>\\n)*)",
-			"((<p>[^>]*</p>\\n)*)",
-			"(<p>[^>]*</p>\\n)*"
+			"http://www.csuci.edu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -322,14 +336,38 @@
 		"regex": true,
 		"replace_history":
 		[
+			"class=\"panel-block\"",
+			".width",
+			"%width",
+			"%left",
+			"%panel-base",
+			"%content-base",
+			"%content$1",
+			"%panel$1",
+			"%header-styles",
+			"%reset",
+			"960",
+			"1280",
+			"/#.php",
+			"#.php",
+			"factions",
+			" ",
+			"&iacute;",
+			".char-quotes",
+			"\"content\"",
+			"\"content-main\"",
+			".content-main\"",
+			"Pandamore",
+			"  ",
+			" ",
+			"  ",
 			"",
-			"li",
-			"..",
-			"Sarbazeh Nur<",
-			"../../css/sass.css",
-			"..",
-			"/allies/",
-			"panel1",
+			"#",
+			"</a>",
+			".header-styles",
+			"content-cell",
+			"$deep-silver-blue",
+			"$silver-blue",
 			"	&:",
 			"center",
 			": $1",
@@ -425,30 +463,6 @@
 			"<a href=\"#\">$1</a>",
 			"",
 			"<a href=\"#\">$1</a>",
-			"</ul>",
-			"<ul>",
-			"<a href=\"#\">$1</a>",
-			" - ",
-			"",
-			"<a href=\"#\">$1</a>",
-			"</ul>",
-			"<ul>",
-			" - ",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			" - ",
-			"'",
-			"$1",
-			"<li>$1</li>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
-			"</ul>",
-			"<ul>",
 			"</ul>"
 		],
 		"reverse": false,
@@ -460,22 +474,23 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "php/factions/sarbazeh-nur.php",
+					"file": "php/characters/MEOWLY-PHP-TEST.php",
 					"settings":
 					{
-						"buffer_size": 5015,
+						"buffer_size": 288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								288,
+								288
 							]
 						],
 						"settings":
@@ -485,116 +500,60 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "php/factions/factions-template.php",
+					"file": "php/characters/character.php",
 					"settings":
 					{
-						"buffer_size": 4260,
+						"buffer_size": 3685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								324,
+								123
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "php/index.php",
+					"file": "xml/characters.xml",
 					"settings":
 					{
-						"buffer_size": 11858,
+						"buffer_size": 3950,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								479,
+								479
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 273.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "php/factions/index.php",
-					"settings":
-					{
-						"buffer_size": 11692,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "php/factions/bardegi.php",
-					"settings":
-					{
-						"buffer_size": 4333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2355,
-								2355
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
