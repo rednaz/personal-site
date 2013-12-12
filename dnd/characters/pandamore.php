@@ -81,7 +81,8 @@
             <div>
                 <h3>Quotes</h3>
                 <blockquote class="char-quotes">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Why are you covered in goblin blood?</p>
+                    <p>an Observer</p>
                 </blockquote>
             </div>
         </div>

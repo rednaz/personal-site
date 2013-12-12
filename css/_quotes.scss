@@ -16,20 +16,35 @@
 	box-shadow: inset 2px 2px 1px $silver-blue, 5px 4px 10px $dark-silver-blue;
 
 	& p {
-		font-style: italic;
-		text-indent: 50px;
 		position: relative;
 	}
 
-	& p:before {
-		content: '\201C';
-		font-size: 75px;
-		font-weight: 700;
-		position:absolute;
-		top: -38px;
-		left: -48px;
-		color: #9f9fff;
-		text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+	& p:first-child {
+		@extend %italics;
+		
+		text-indent: 50px;
+
+		&:before {
+			content: '\201C';
+			font-size: 75px;
+			font-weight: 700;
+			position:absolute;
+			top: -38px;
+			left: -48px;
+			color: #9f9fff;
+			text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+		}
+	}
+
+	& p:last-child {
+		@extend %font-reset;
+
+		font-size: 0.8em;
+
+		&:before {
+			content: '- ';
+			padding-left: 90px;
+		}
 	}
 
 	& p:after {

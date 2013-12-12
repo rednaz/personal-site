@@ -40,6 +40,13 @@
 .width-33-pct		{ width: 33.333333%; }
 .width-66-pct		{ width: 66.666666%; }
 
+%italics			{ font-style: italic; }
+%bold				{ font-weight: bold; }
+%font-reset	{ 
+	font-style: normal;
+	font-weight: normal;
+}
+
 .center {
 	display: block;
 	margin: 0 auto;

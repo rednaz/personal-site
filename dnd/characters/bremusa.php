@@ -71,7 +71,8 @@
                         <tr>
                             <td>Affiliations</td>
                             <td><a href="../factions/#">Barbarians of Stella</a><br />
-                                <a href="../factions/sarbazeh-nur.php">Sarbazeh Nur</a></td>
+                                <a href="../factions/sarbazeh-nur.php">Sarbazeh Nur</a><br />
+                                Remmy the Rhino</td>
                         </tr>
                     </tbody>
                 </table>
