@@ -92,6 +92,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/dnd/characters/bremusa.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/dnd/characters/pandamore.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/dnd/characters/lochrauna.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/dnd/allies/remmy.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_quotes.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_tables.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_buttons.scss",
@@ -121,7 +126,6 @@
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/falgir.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/allies-template.php",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_quotes.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/villains/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/nav.php",
@@ -171,6 +175,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\dnd",
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php",
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\css",
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php",
