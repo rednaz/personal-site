@@ -14,6 +14,11 @@
                                         -->
 <meta http-equiv="content-cell-Type" content-cell="text/html; charset=utf-8" />
 <link type="text/css" rel="stylesheet" href="../../css/sass.css" />
+
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="../../css/ie8.css" />
+<![endif]-->
+
 <title>Characters</title>
 </head>
 
