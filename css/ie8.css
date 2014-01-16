@@ -174,3 +174,11 @@ a.panel1:hover:after {
 .main {
   margin-left: 11em;
   padding-left: 1em; }
+
+.button a {
+  padding: 7px 0 7px 10px; }
+.button:hover a {
+  background-color: #b9b9FF;
+  padding: 7px 0 7px 10px; }
+.button:active a {
+  padding: 7px 0 7px 10px; }
