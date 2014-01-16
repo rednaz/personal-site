@@ -22,3 +22,25 @@ a.panel1:after {
 a.panel1:hover:after {
 	border: 0.1em solid $dark-silver-blue;
 }
+
+.nav {
+	border-right: 2px solid #b9b9FF;
+	height: 100%;
+	width: 176px;
+	position: fixed;
+	padding-top: 100px;
+
+	li {
+		height: 25px;
+		overflow: hidden;
+	}
+
+	li.active {
+		height: auto;
+	}
+}
+
+.main {
+	margin-left: 11em;
+	padding-left: 1em;
+}

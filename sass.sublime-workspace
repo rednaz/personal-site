@@ -59,6 +59,39 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "php/characters/index.php",
+			"settings":
+			{
+				"buffer_size": 9222,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_panels.scss",
+			"settings":
+			{
+				"buffer_size": 2544,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/_mixin.scss",
+			"settings":
+			{
+				"buffer_size": 1205,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/ie8.scss",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Windows",
+				"name": ".panel1,"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -189,6 +222,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"14.5",
+			"border",
 			"panel-temp",
 			"overflow",
 			"\\.clearfix",
@@ -314,9 +349,7 @@
 			"style=\"[^\"]+\"",
 			"<div[^>]*>&nbsp;</div>",
 			"&nbsp;",
-			"ctrl\\+shift",
-			"<strong>|</strong>",
-			"&nbsp;"
+			"ctrl\\+shift"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -462,8 +495,118 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "php/characters/index.php",
+					"settings":
+					{
+						"buffer_size": 9222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/_panels.scss",
+					"settings":
+					{
+						"buffer_size": 2544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1335,
+								1335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 98.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_mixin.scss",
+					"settings":
+					{
+						"buffer_size": 1205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/ie8.scss",
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".panel1,",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
