@@ -6,6 +6,12 @@
 		},
 		{
 			"path": "php"
+		},
+		{
+			"path": "dnd"
+		},
+		{
+			"path": "xml"
 		}
 	]
 }

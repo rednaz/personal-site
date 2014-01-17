@@ -88,6 +88,7 @@
             </div>
         </div>
         <div class="panel1 panel-temp">
+            <div>
                 <h3>Portrait</h3>
                 <img src="http://dummyimage.com/600x400/000/fff" />
             </div>
