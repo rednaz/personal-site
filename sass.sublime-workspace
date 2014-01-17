@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"width-",
+				"width-66-pct"
+			],
+			[
 				"backgr",
 				"background-color"
 			],
@@ -53,6 +61,7 @@
 	[
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"file": "php/characters/index.php",
 			"settings":
 			{
@@ -79,10 +88,17 @@
 			{
 				"buffer_size": 9126,
 >>>>>>> origin/development
+=======
+			"file": "php/characters/MEOWLY-PHP-TEST.php",
+			"settings":
+			{
+				"buffer_size": 288,
+>>>>>>> php
 				"line_ending": "Windows"
 			}
 		},
 		{
+<<<<<<< HEAD
 <<<<<<< HEAD
 			"file": "css/_panels.scss",
 			"settings":
@@ -97,10 +113,17 @@
 			{
 				"buffer_size": 11387,
 >>>>>>> origin/development
+=======
+			"file": "php/characters/character.php",
+			"settings":
+			{
+				"buffer_size": 3685,
+>>>>>>> php
 				"line_ending": "Windows"
 			}
 		},
 		{
+<<<<<<< HEAD
 <<<<<<< HEAD
 			"file": "css/_mixin.scss",
 			"settings":
@@ -112,6 +135,12 @@
 			{
 				"buffer_size": 0,
 >>>>>>> origin/development
+=======
+			"file": "xml/characters.xml",
+			"settings":
+			{
+				"buffer_size": 3950,
+>>>>>>> php
 				"line_ending": "Windows"
 			}
 		},
@@ -167,6 +196,7 @@
 	"file_history":
 	[
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"/C/Users/eric.nelson946/Desktop/PDFs/copier docs/rename.py",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/dnd/characters/bremusa.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/dnd/characters/pandamore.php",
@@ -182,6 +212,8 @@
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/MEOWLY-PHP-TEST.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters/character.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/xml/characters.xml",
+=======
+>>>>>>> php
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/history/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/factions/sarbazeh-nur.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/factions/index.php",
@@ -202,6 +234,7 @@
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/falgir.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/allies/allies-template.php",
+<<<<<<< HEAD
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/villains/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/index.php",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/nav.php",
@@ -243,10 +276,41 @@
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
 >>>>>>> origin/development
+=======
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_quotes.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_content.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panels.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/villains/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/index.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/nav.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_selectors.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_navigation.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/sass.min.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media960.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1280.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_tables.scss",
+>>>>>>> php
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_colors.scss",
+		"/C/Users/eric.nelson946/Documents/z-test/dnd/characters.html",
+		"/C/Users/eric.nelson946/Documents/zandernelson/dnd/characters.html",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/characters.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_fonts.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_mixin.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/main.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/footer.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/php/head.php",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
+		"/C/Users/eric.nelson946/Documents/z-test/css/dnd.css",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media768.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media1024.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_panel.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media600.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/css/_media480.scss",
+		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_mixin.scss",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/_colors.scss",
-		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/untitled.html",
 		"/C/Users/eric.nelson946/Documents/GitHub/personal-site/sass.css",
 		"/C/Users/eric.nelson946/Documents/GitHub/branchtest/test.txt",
 		"/C/Users/eric.nelson946/Documents/z-test/fluid-test/sass.scss",
@@ -270,6 +334,7 @@
 		"where_history":
 		[
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\dnd",
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php",
 			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\css",
@@ -279,6 +344,11 @@
 =======
 			"C:\\Users\\Rednaz\\Documents\\GitHub\\personal-site\\php\\characters"
 >>>>>>> origin/development
+=======
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php",
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\css",
+			"C:\\Users\\eric.nelson946\\Documents\\GitHub\\personal-site\\php"
+>>>>>>> php
 		]
 	},
 	"find_state":
@@ -303,16 +373,47 @@
 			"<h1>([^<]+)</h1>",
 >>>>>>> origin/development
 			" class=\"content-cell\"",
-			"div",
-			"		\n",
-			"/personal-site/php",
-			"Military<",
-			"Military",
-			"/personal-site/css/sass.css",
-			"/personal-site/php",
-			"/factions/",
 			"panel1",
+			"class=\"panel\"",
+			"\\%width",
+			"\\.width",
+			"\\.left",
+			".left",
+			"%panel",
+			"%content",
+			".content( |;)",
+			".panel([^0-9])",
+			".header-styles",
+			".reset",
+			"768",
+			"1024",
+			"/[^/\\.]+\\.php",
+			"characters",
+			"  ",
+			"she was",
+			"  ",
+			"í",
+			"blockquote",
+			"\"content-main\"",
+			"\"content\"",
+			".content\"",
+			".content",
+			"Template",
+			"panel1",
+			"  ",
+			"  ",
+			"-dbl",
+			"bremusa.php",
+			"</div>",
+			".h-font",
+			"content",
+			"\\$bg-color",
+			"\\$nav-color",
 			"panel",
+			"90%",
+			"panel1",
+			";\n",
+			".panel1",
 			"width: 100%",
 			"float",
 			"float:",
@@ -401,6 +502,7 @@
 			"<p>• ",
 			"rss",
 			"asi",
+<<<<<<< HEAD
 			"http://www.csuci.edu",
 			"<span[^>]+>|</span>",
 			"<u>([^<]+)</u>",
@@ -428,6 +530,9 @@
 			"(<p>[^<]+</p>\\n)+",
 			"((<p>[^<]+</p>\\n)+)"
 >>>>>>> origin/development
+=======
+			"http://www.csuci.edu"
+>>>>>>> php
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -436,8 +541,11 @@
 		"replace_history":
 		[
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"%center",
 			"%width",
+=======
+>>>>>>> php
 			"class=\"panel-block\"",
 			".width",
 			"%width",
@@ -463,6 +571,7 @@
 			"  ",
 			" ",
 			"  ",
+<<<<<<< HEAD
 =======
 			"'",
 			"Catríona",
@@ -470,14 +579,15 @@
 			"<$2>$4</$2>",
 			"<name>$1</name>",
 >>>>>>> origin/development
+=======
+>>>>>>> php
 			"",
-			"li",
-			"..",
-			"Sarbazeh Nur<",
-			"../../css/sass.css",
-			"..",
-			"/allies/",
-			"panel1",
+			"#",
+			"</a>",
+			".header-styles",
+			"content-cell",
+			"$deep-silver-blue",
+			"$silver-blue",
 			"	&:",
 			"center",
 			": $1",
@@ -576,6 +686,7 @@
 =======
 			"",
 			"<a href=\"#\">$1</a>",
+<<<<<<< HEAD
 			"</ul>",
 			"<ul>",
 			"<a href=\"#\">$1</a>",
@@ -597,6 +708,9 @@
 			"</ul>",
 			"<ul>"
 >>>>>>> origin/development
+=======
+			"</ul>"
+>>>>>>> php
 		],
 		"reverse": false,
 		"show_context": true,
@@ -607,11 +721,16 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 3,
+=======
+			"selected": 0,
+>>>>>>> php
 			"sheets":
 			[
 				{
 					"buffer": 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"file": "php/characters/index.php",
 					"settings":
@@ -623,6 +742,12 @@
 					{
 						"buffer_size": 3723,
 >>>>>>> origin/development
+=======
+					"file": "php/characters/MEOWLY-PHP-TEST.php",
+					"settings":
+					{
+						"buffer_size": 288,
+>>>>>>> php
 						"regions":
 						{
 						},
@@ -630,12 +755,17 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								610,
 								610
 =======
 								1041,
 								1041
 >>>>>>> origin/development
+=======
+								288,
+								288
+>>>>>>> php
 							]
 						],
 						"settings":
@@ -646,16 +776,21 @@
 						},
 						"translation.x": 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"translation.y": 0.0,
 =======
 						"translation.y": 45.0,
 >>>>>>> origin/development
+=======
+						"translation.y": 0.0,
+>>>>>>> php
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+<<<<<<< HEAD
 					"file": "php/characters/INDEX-PHP-TEST.php",
 					"settings":
 					{
@@ -664,6 +799,12 @@
 =======
 						"buffer_size": 3774,
 >>>>>>> origin/development
+=======
+					"file": "php/characters/character.php",
+					"settings":
+					{
+						"buffer_size": 3685,
+>>>>>>> php
 						"regions":
 						{
 						},
@@ -671,32 +812,43 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								1335,
 								1335
 =======
 								2989,
 								2989
 >>>>>>> origin/development
+=======
+								324,
+								123
+>>>>>>> php
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"translation.y": 98.0,
 =======
 						"translation.y": 225.0,
 >>>>>>> origin/development
+=======
+						"translation.y": 0.0,
+>>>>>>> php
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"file": "css/_mixin.scss",
 					"settings":
@@ -735,6 +887,12 @@
 					{
 						"buffer_size": 9126,
 >>>>>>> origin/development
+=======
+					"file": "xml/characters.xml",
+					"settings":
+					{
+						"buffer_size": 3950,
+>>>>>>> php
 						"regions":
 						{
 						},
@@ -742,16 +900,22 @@
 						[
 							[
 <<<<<<< HEAD
+<<<<<<< HEAD
 								283,
 								283
 =======
 								426,
 								425
 >>>>>>> origin/development
+=======
+								479,
+								479
+>>>>>>> php
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 <<<<<<< HEAD
 							"auto_name": ".panel1,",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
@@ -813,6 +977,10 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+=======
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+>>>>>>> php
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
