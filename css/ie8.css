@@ -1,0 +1,184 @@
+/****************************************
+
+	colors
+
+ ****************************************/
+/****************************************
+
+	@mix-ins
+
+ ****************************************/
+/****************************************
+
+	creates an effect that makes it seem 
+	that the box is popping in/out of 
+	the page
+
+ ****************************************/
+/****************************************
+
+	panels partial
+
+ ****************************************/
+.panel1,
+.panel2,
+.panel3 {
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(185, 185, 255, 0.8), inset 1px -1px 2px 0px rgba(185, 185, 255, 0.8);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background-color: #e9e9ff;
+  margin: 1em 1%;
+  padding: 1em 1.5%;
+  width: 95%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 22em; }
+  .panel1 .panel1,
+  .panel2 .panel1,
+  .panel3 .panel1,
+  .panel1 .panel2,
+  .panel2 .panel2,
+  .panel3 .panel2,
+  .panel1 .panel3,
+  .panel2 .panel3,
+  .panel3 .panel3 {
+    -webkit-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    -moz-box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    box-shadow: inset -1px 1px 2px 0px rgba(169, 169, 255, 0.8), inset 1px -1px 2px 0px rgba(169, 169, 255, 0.8);
+    background-color: #d9d9ff; }
+  .panel1 h2,
+  .panel2 h2,
+  .panel3 h2 {
+    margin: 0;
+    line-height: 1em; }
+    .panel1 h2 + p,
+    .panel2 h2 + p,
+    .panel3 h2 + p {
+      margin-top: 0.75em; }
+  .panel1 h3,
+  .panel2 h3,
+  .panel3 h3 {
+    line-height: 1em; }
+  .panel1 div,
+  .panel2 div,
+  .panel3 div {
+    overflow: hidden;
+    height: 14.5em; }
+    .panel1 div p,
+    .panel2 div p,
+    .panel3 div p {
+      margin-top: 0.625em;
+      text-indent: 1.5em; }
+    .panel1 div img,
+    .panel2 div img,
+    .panel3 div img {
+      width: 100%; }
+
+a.panel1:hover,
+a.panel2:hover,
+a.panel3:hover {
+  background-color: #b9b9ff;
+  -webkit-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  -moz-box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8);
+  box-shadow: inset -1px 1px 2px 0px rgba(153, 153, 255, 0.8), inset 1px -1px 2px 0px rgba(153, 153, 255, 0.8); }
+
+a.panel1:after,
+a.panel2:after,
+a.panel3:after {
+  content: "More \2192";
+  position: absolute;
+  right: 1em;
+  bottom: 0.75em;
+  background-color: #d9d9ff;
+  border-radius: 1em;
+  padding: 2px;
+  box-shadow: 0 0 10px 5px #d9d9ff; }
+
+@media only screen and (min-width: 960px) {
+  .panel3 .panel1 {
+    height: 16em; } }
+
+@media only screen and (min-width: 960px) {
+  .panel2 .panel1 {
+    width: 45%;
+    height: 16em; } }
+@media only screen and (min-width: 1280px) {
+  .panel2 {
+    width: 61.66667%; } }
+
+@media only screen and (min-width: 960px) {
+  .panel1 {
+    width: 45%; } }
+@media only screen and (min-width: 1280px) {
+  .panel1 {
+    width: 28.33333%; } }
+
+.panel-auto {
+  height: auto; }
+  .panel-auto > div {
+    height: auto; }
+
+/****************************************
+
+	WARNING
+	TEMP CLASS ONLY TO PUSH SITE OUT
+	MUST FIX AT A FURTHER DATE
+
+ ****************************************/
+.panel-temp {
+  height: auto; }
+  .panel-temp div {
+    height: 22em; }
+    .panel-temp div p {
+      margin-top: 0.75em; }
+
+@media only screen and (min-width: 60em) {
+  .panel-dbl {
+    height: 48em; }
+    .panel-dbl div {
+      height: 48em; } }
+
+.panel1,
+.panel2,
+.panel3 {
+  border: 0.1em solid #c9c9ff; }
+
+.panel1 {
+  width: 27.73333%; }
+  .panel1 div {
+    height: 19.4em; }
+
+a.panel1:after {
+  border: 0.1em solid #d9d9ff; }
+
+a.panel1:hover:after {
+  border: 0.1em solid #c9c9ff; }
+
+.nav {
+  border-right: 2px solid #b9b9FF;
+  height: 100%;
+  width: 176px;
+  position: fixed;
+  padding-top: 100px; }
+  .nav li {
+    height: 25px;
+    overflow: hidden; }
+  .nav li.active {
+    height: auto; }
+
+.main {
+  margin-left: 11em;
+  padding-left: 1em; }
+
+.button a {
+  padding: 7px 0 7px 10px; }
+.button:hover a {
+  background-color: #b9b9FF;
+  padding: 7px 0 7px 10px; }
+.button:active a {
+  padding: 7px 0 7px 10px; }

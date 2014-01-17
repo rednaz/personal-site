@@ -1,0 +1,61 @@
+@import "colors";
+@import "mixin";
+@import "panels";
+
+.panel1,
+.panel2,
+.panel3 {
+	border: 0.1em solid $dark-silver-blue;
+}
+
+.panel1 { 
+	width: $third-width - (2 * ($panel-margin + $panel-padding)) - 0.1% * 6;
+
+	& div {
+		height: 19.4em;
+	}
+}
+
+a.panel1:after {
+	border: 0.1em solid $silver-blue;
+}
+a.panel1:hover:after {
+	border: 0.1em solid $dark-silver-blue;
+}
+
+.nav {
+	border-right: 2px solid #b9b9FF;
+	height: 100%;
+	width: 176px;
+	position: fixed;
+	padding-top: 100px;
+
+	li {
+		height: 25px;
+		overflow: hidden;
+	}
+
+	li.active {
+		height: auto;
+	}
+}
+
+.main {
+	margin-left: 11em;
+	padding-left: 1em;
+}
+
+.button {
+	a {
+		padding: 7px 0 7px 10px;
+	}
+
+	&:hover a {
+		background-color: #b9b9FF;
+		padding: 7px 0 7px 10px;
+	}
+
+	&:active a {
+		padding: 7px 0 7px 10px;
+	}
+}

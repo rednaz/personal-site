@@ -25,7 +25,7 @@
  	height: 250px; 
 
  	img {
- 		width: 100%;
+ 		@extend %width-100-pct;
  	}
 }
 
