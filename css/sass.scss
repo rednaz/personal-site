@@ -20,8 +20,9 @@
 @import "fonts";
 @import "mixin";
 @import "selectors";
-@import "navigation";
 @import "panels";
+@import "lists";
+@import "navigation";
 @import "content";
 @import "tables";
 @import "quotes";
@@ -39,6 +40,14 @@
 %width-50-pct		{ width: 50%; }
 %width-33-pct		{ width: 33.333333%; }
 %width-66-pct		{ width: 66.666666%; }
+
+%italics			{ font-style: italic; }
+%bold				{ font-weight: bold; }
+%font-reset	{ 
+	font-style: normal;
+	font-weight: normal;
+}
+
 
 %center {
 	display: block;

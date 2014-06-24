@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content-cell="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="../../css/sass.css" />
+
+<!--
+
+    Template
+
+    created by: Eric 'Zander' Nelson
+    created on: November 10, 2013 
+    version ##: 1.0 release
+    
+    zandernelsoninc.com
+
+                                        -->
+
+<title>Sarbazeh Nur</title>
+</head>
+
+<body>
+
+<div class="container clearfix">
+
+	<?php include "../nav.php"; ?>
+
+	<div class="main clearfix">
+        <h1>Sarbazeh Nur</h1>
+
+        <div class="panel3">
+            <div>
+                <h2>Background</h2>
+
+                <p>The Sarbazeh Nur is the longest and largest standing military force in recent history.  Formed in 784 E.o.C., they have attempted to keep the peace across the world.</p>
+                <p>With rumors of war with Setareh on the horizon, The 4th Battalion was tasked with monitoring activity along the borders of Setareh, Mordeghy, and Bisheh.</p>
+            </div>
+                
+        </div>
+
+        <div class="panel1 panel-dbl">
+            <div>
+                <h3>Known Members</h3>
+                <table class="char-table">
+                    <thead>
+                        <tr>
+                            <th>Member</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><!--<a href="../allies/falgir.php">-->Falgir</a></td>
+                            <td>Colonel<br />
+                                Commander, 4th Battalion</td>
+                        </tr>
+                        <tr>
+                            <td>Moe</td>
+                            <td>Chef, 4th Battalion</td>
+                        </tr>
+                        <tr>
+                            <td>Tim the Enchanter</td>
+                            <td>Lieutenant Colonel<br />
+                                Archmage, 4th Battalion</td>
+                        </tr>
+                        <tr>
+                            <td><a href="../characters/catriona.php">Catr&iacute;ona</a></td>
+                            <td>First Lieutenant<br />
+                                Commander of Party</td>
+                        </tr>
+                        <tr>
+                            <td>Donaidh</td>
+                            <td>Master Sergeant</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="panel2">
+            <div>
+                <h3>Relations with Other Factions and Countries</h3>
+                <p>With the Countries of Nur and Bisheh having the longest alliance in recent years, the Sarbazeh Nur consists of soldiers from both countries.  The majority of the forces come from Nur, as Bisheh does not have a traditional hierchy with its leadership in a more fluid state.  Still, most of the Sarbazeh Nur's druidic forces come from Bisheh.
+            </div>
+        </div>
+        <div class="panel2">
+            <div>
+                <h3>Useful Information</h3>
+                <p>Sarbazeh Nur is Persian for 'Soldier of Light'</p>
+            </div>
+        </div>
+	</div>
+    
+</div>
+
+</body>
+</html>

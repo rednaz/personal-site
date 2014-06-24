@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content-cell="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/sass.css" />
+
+<!--
+
+    Lochrauna
+
+    created by: Eric 'Zander' Nelson
+    created on: November 25, 2013 
+    version ##: 1.0 release
+    
+    zandernelsoninc.com
+
+                                        -->
+                                        
+<title>Lochrauna</title>
+</head>
+
+<body>
+
+<div class="container clearfix">
+
+	<?php include "../nav.php"; ?>
+
+	<div class="main clearfix">
+        <h1>Lochrauna</h1>
+
+        <div class="panel3 panel-auto">
+
+                <h2>Background</h2>
+
+                <p>As an avid researcher, Lochrauna kept the historical records kept in the Library of Alexandria in good order. </p>
+                <p>One day, Lochrauna found evidance that this may not have been the case.  This new information hinted at the possbility of going into seclusion in order to provide something for the betterment</p>
+                
+        </div>
+
+        <div class="panel1 panel-temp">
+            <div>
+                <table class="char-table">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Branden</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Race</td>
+                            <td>Half-Elf</td>
+                        </tr>
+                        <tr>
+                            <td>Class</td>
+                            <td>Cleric</td>
+                        </tr>
+                        <tr>
+                            <td>Level</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Alignment</td>
+                            <td>Stuff</td>
+                        </tr>
+                        <tr>
+                            <td>Affiliations</td>
+                            <td>Unknown</td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td>Active</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="panel1 panel-temp">
+            <div>
+                <h3>Quotes</h3>
+                <blockquote class="char-quotes">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="panel1 panel-temp">
+            <div>
+                <h3>Portrait</h3>
+                <img src="http://dummyimage.com/600x400/000/fff" />
+            </div>
+        </div>
+	</div>
+    
+</div>
+
+</body>
+</html>

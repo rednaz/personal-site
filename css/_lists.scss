@@ -1,0 +1,39 @@
+/****************************************
+
+	lists
+
+ ****************************************/
+
+
+
+.arc-list {
+ 	margin: 15px 0 0 35px;
+
+ 	& > li {
+ 		font-size: 1.2em;
+ 		list-style-type: upper-roman;
+ 	}
+
+ 	& ol {
+ 		padding-left: 20px;
+
+ 		& li {
+ 		font-size: 0.9em;
+ 		list-style-type: lower-roman;
+ 		}
+ 	}
+ }
+
+ .update-list {
+ 	margin: 15px 0 0 15px;
+
+ 	& > li {
+ 		font-size: 1.1em;
+
+ 		& p {
+ 			font-size: 0.9em;
+ 			text-indent: 0;
+ 			margin: 5px 20px;
+ 		}
+ 	}
+ }
