@@ -17,6 +17,12 @@
                                         -->
 
 <title>Meowly Syrus</title>
+
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="../../css/ie8.css" />
+<![endif]-->
+
+<title>Template</title>
 </head>
 
 <body>

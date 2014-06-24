@@ -26,6 +26,7 @@
 @import "content";
 @import "tables";
 @import "quotes";
+@import "buttons";
 
 
 /****************************************
@@ -34,11 +35,11 @@
 
  ****************************************/
 %left 				{ float: left; }
-.width-100-pct		{ width: 100%; }
-.width-90-pct		{ width: 90%; }
-.width-50-pct		{ width: 50%; }
-.width-33-pct		{ width: 33.333333%; }
-.width-66-pct		{ width: 66.666666%; }
+%width-100-pct		{ width: 100%; }
+%width-90-pct		{ width: 90%; }
+%width-50-pct		{ width: 50%; }
+%width-33-pct		{ width: 33.333333%; }
+%width-66-pct		{ width: 66.666666%; }
 
 %italics			{ font-style: italic; }
 %bold				{ font-weight: bold; }
@@ -47,55 +48,12 @@
 	font-weight: normal;
 }
 
-.center {
+
+%center {
 	display: block;
 	margin: 0 auto;
+
 	text-align: center;
-}
-
-
-/****************************************
-
-	site button
-
- ****************************************/
-.button {
-
-	height: 25px;
-	cursor: pointer;
-	margin: 0 10px;
-	padding-right: 10px;
- 	@include transitions(all, 0.1s, ease-out);
-
-	a {
-		text-decoration: none;
-		text-shadow: 0 1px 1px #fff;
-		display: block;
-		line-height: 14px;
-		padding: 5px 0 5px 10px;
-		margin-right: 5px;
-		color: #000;
-	}
-
-	&:hover {
-		@include shadow-box(-3px,  3px,  2px,  0px, 255, 255, 255, 0.7, 
-							 2px, -2px,  2px,  0px,  50,  50,  50, 0.7);
-
-		border-radius: 2px;
-	}
-
-	&:hover a {
-		padding: 4px 0 6px 10px;
-	}
-
-	&:active {
-		@include shadow-box(-2px,  2px,  2px, 0,  50,  50,  50, 0.7, 
-							 2px, -2px,  2px, 0, 255, 255, 255, 0.7);
-	}
-
-	&:active a {
-		padding: 6px 0 4px 10px;
-	}
 }
 
 .clearfix {
@@ -104,15 +62,15 @@
 
 .head,
 .foot {
-	@extend .center;
+	@extend %center;
 	@extend %left;
-	@extend .width-100-pct;
+	@extend %width-100-pct;
 }
 
 
 .container {
 	@extend %left;
-	@extend .width-100-pct;
+	@extend %width-100-pct;
 }
 
 .head,
